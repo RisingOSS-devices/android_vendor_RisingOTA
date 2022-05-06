@@ -7,7 +7,7 @@ maintainer="Name (nickname)" #ex: Lup Gabriel (gwolfu)
 oem="OEM" #ex: OnePlus
 device="device codename" #ex: guacamole
 devicename="name of device" #ex: OnePlus 7 Pro
-zip="crdroid zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<crdroid version>.zip
+zip="ricedroid zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<ricedroid version>.zip
 buildtype="type" #choose from Testing/Alpha/Beta/Weekly/Monthly
 forum="" #https link (mandatory)
 gapps="" #https link (leave empty if unused)
@@ -17,9 +17,9 @@ bootloader="" #https link (leave empty if unused)
 recovery="" #https link (leave empty if unused)
 paypal="" #https link (leave empty if unused)
 telegram="" #https link (leave empty if unused)
-dt="" #https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
-commondt="" #https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
-kernel="" #https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>
+dt="" #https://github.com/ricedroidandroid/android_device_<oem>_<device_codename>
+commondt="" #https://github.com/ricedroidandroid/android_device_<orm>_<SOC>-common
+kernel="" #https://github.com/ricedroidandroid/android_kernel_<oem>_<SOC>
 
 
 #don't modify from here
@@ -49,7 +49,7 @@ echo '{
         "oem": "'$oem'",
         "device": "'$devicename'",
         "filename": "'$zip_only'",
-        "download": "https://sourceforge.net/projects/crdroid/files/'$device'/'$v_max'.x/'$zip_only'/download",
+        "download": "https://sourceforge.net/projects/ricedroid/files/'$device'/'$v_max'.x/'$zip_only'/download",
         "timestamp": '$timestamp',
         "md5": "'$md5'",
         "sha256": "'$sha256'",
