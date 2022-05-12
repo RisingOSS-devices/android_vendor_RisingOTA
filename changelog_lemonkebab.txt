@@ -13,9 +13,21 @@ Device maintainers: Lia
 - OTA updates ready
 - misc device side changes
 
+==== 12 May, 2022 ====
+- allowed Dolby codecs to be loaded - credits to @HELLBOY17 for the fix
+- switched to meteoric kernel - credits to @ziasam for the kernel
+- updated some Icons and stuffs
+- imported some Google wallpapers
+- Drop Optimized Charging
+- reserved partition space for flashable gapps/addons/vanced etc,
+- misc stability improvements
+
+
+
 ==== Credits ====
 - @chandu078 - commits, tree and vendor
 - @HELLBOY017 - dolby blobs and patches
 - @Blaster4385 - IllusionX kernel
+- @ziasam - meteoric kernel
 - @Pyrtle93 - exfat patches and tips
 _ @soumyo19 - for tips and posting this update
