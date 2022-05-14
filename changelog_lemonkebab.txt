@@ -22,6 +22,11 @@ Device maintainers: Lia
 - reserved partition space for flashable gapps/addons/vanced etc,
 - misc stability improvements
 
+==== 14 May, 2022 ====
+- fixed alert/volume slider
+- fixed dt2w on non-prebuilt kernels
+- prevent possible data corruption
+- sync with the latest source changes
 
 
 ==== Credits ====
