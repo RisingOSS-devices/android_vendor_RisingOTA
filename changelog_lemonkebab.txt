@@ -1,38 +1,27 @@
 Highlights & Device Specific Changes:
-Build type: Initial
+Build type: Monthly
 Device: Oneplus 8T/9R
 Device maintainers: Lia
 
-==== 11 May, 2022 ====
-- initial bringup for riceDroid
-- adapted oneplus camera and fingerprint to lineage
-- fix lags, performance regressions and maybe some rendering glitches
-- touch gestures works fine
-- enabled dynamic refresh rate - flickering/color distortion is normal (probably because of 60-120hz amoled stuffs or idk happens on realme GT ME RUI 3.0 too, set min/max refresh rate to same HZ incase you find it disturbing) 
-- dolby, codecs, blobs, oneplus settings and wifi improvements credits and thanks to @chandu078 and @HELLBOY017
-- OTA updates ready
-- misc device side changes
+==== 21 May, 2022 ====
+- riceDroid v1.5 Update
+- fixed lags when switching apps
+- switched to qcom audio effects for maybe better audio idk
+- resolved battery saver denials
+- resolved application denials for better user experience
+- Wifi Improvements?
+- fixed haptic feedback strength
+- enabled multiple vibration intesities
+- Fix media codecs, video lags are gone at least for me
+- Performance enhancements from google
+- Misc system runtime changes (DRM, GPS,F2FS, media, Display)
 
-==== 12 May, 2022 ====
-- allowed Dolby codecs to be loaded - credits to @HELLBOY17 for the fix
-- switched to meteoric kernel - credits to @ziasam for the kernel
-- updated some Icons and stuffs
-- imported some Google wallpapers
-- Drop Optimized Charging
-- reserved partition space for flashable gapps/addons/vanced etc,
-- misc stability improvements
-
-==== 14 May, 2022 ====
-- fixed alert/volume slider
-- fixed dt2w on non-prebuilt kernels
-- prevent possible data corruption
-- sync with the latest source changes
-
-
-==== Credits ====
+==== All Credits goes to the following ====
 - @chandu078 - commits, tree and vendor
-- @HELLBOY017 - dolby blobs and patches
+- @HELLBOY017 - dolby blobs and patches, suggestions and tips
 - @Blaster4385 - IllusionX kernel
-- @ziasam - meteoric kernel
+- @ziasam - meteoric kernel, suggestions and tips
 - @Pyrtle93 - exfat patches and tips
 _ @soumyo19 - for tips and posting this update
+- @manid_reddy - for tips, introducing me 9R
+- @everyone who made this update possible
