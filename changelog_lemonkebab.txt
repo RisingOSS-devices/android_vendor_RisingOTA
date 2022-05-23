@@ -3,18 +3,8 @@ Build type: Monthly
 Device: Oneplus 8T/9R
 Device maintainers: Lia
 
-==== 21 May, 2022 ====
-- riceDroid v1.5 Update
-- fixed lags when switching apps
-- switched to qcom audio effects for maybe better audio idk
-- resolved battery saver denials
-- resolved application denials for better user experience
-- Wifi Improvements?
-- fixed haptic feedback strength
-- enabled multiple vibration intesities
-- Fix media codecs, video lags are gone at least for me
-- Performance enhancements from google
-- Misc system runtime changes (DRM, GPS,F2FS, media, Display)
+==== 14 June, 2022 ====
+- Resolved misc issues on reported on TG group.
 
 ==== All Credits goes to the following ====
 - @chandu078 - commits, tree and vendor

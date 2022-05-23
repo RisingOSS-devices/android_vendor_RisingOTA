@@ -4,12 +4,12 @@
         "maintainer": "Lia",
         "oem": "Oneplus",
         "device": "Oneplus 8T/9R",
-        "filename": "riceDroid-12.1-202205211821-lemonkebab-v1.5-GAPPS.zip",
-        "download": "https://sourceforge.net/projects/dlwlrma-stuffs/files/lemonkebab/riceDroid-12.1-202205211821-lemonkebab-v1.5-GAPPS.zip/download",
-        "timestamp": 1653137391,
-        "md5": "d25da4e4bff9bf5081b814245a4fde73",
-        "sha256": "009fd370c0fa0cb53aae399fa34f4a01aa2fe3bcd4b5b64797639993496245d2",
-        "size": 1686651450,
+        "filename": "riceDroid-12.1-202205270423-lemonkebab-v1.5-GAPPS.zip",
+        "download": "https://sourceforge.net/projects/dlwlrma-stuffs/files/lemonkebab/riceDroid-12.1-202205270423-lemonkebab-v1.5-GAPPS.zip/download",
+        "timestamp": 1653605568,
+        "md5": "6b9f36c8151908160771c129d636f8f5",
+        "sha256": "0d9b4a04146adbcfc34cd116aec86b13d31a88b8a115b418209b4a1c91107c1f",
+        "size": 1694685080,
         "version": "1.5",
         "buildtype": "Monthly",
         "forum": "",
@@ -20,9 +20,9 @@
         "recovery": "",
         "paypal": "",
         "telegram": "https://t.me/riceDroidsupport",
-        "dt": "https://github.com/minarypenguin/android_device_oneplus_lemonkebab",
+        "dt": "https://github.com/minaripenguin/android_device_oneplus_lemonkebab",
         "common-dt": "",
-        "kernel": "https://github.com/minarypenguin/meteoric_kernel"
+        "kernel": "https://github.com/minaripenguin/meteoric_kernel"
     }
   ]
 }
