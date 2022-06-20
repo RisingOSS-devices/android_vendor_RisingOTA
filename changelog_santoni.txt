@@ -1,0 +1,20 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi 4/4X (santoni)
+Device maintainer: Ansh Singh
+Required firmware: v45 or higher
+
+===== 2022.06.20 =====
+• Initial Official Build
+• Updated to June security patch
+• Updated Graphics and WFD blobs from LA.UM.10.6.2.r1-01600-89xx.0
+• Updated many blobs from LA.UM.9.6.3.r1-06200-89xx.0
+• Updated GPS configs from LA.UM.9.6.3.r1-06200-89xx.0
+• Updated DRM and Widevine from Coral
+• Updated perf properties for better performance
+• Updated WiFi configuration
+• Added Moto Dolby support (Settings -> Sound -> Dolby Atmos)
+• Removed ZRAM Writeback feature
+• Removed XiaomiParts
+• Kernel: 4.9.318 
+• Misc. Fixes and Improvements
