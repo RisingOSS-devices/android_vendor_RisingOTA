@@ -4,6 +4,14 @@ Device: Redmi 4/4X (santoni)
 Device maintainer: Ansh Singh
 Required firmware: v45 or higher
 
+===== 2022.06.22 =====
+• Synced Latest riceDroid v2.5 changes
+• Inherit Several Android Go configurations
+• Kernel: 4.9.319
+• (Due to some schedule conflicts we are going to skip 3.0. But fret not,
+here's an early update for RiceDroid 2.5!) 
+• Misc. Fixes and Improvements
+
 ===== 2022.06.20 =====
 • Initial Official Build
 • Updated to June security patch
