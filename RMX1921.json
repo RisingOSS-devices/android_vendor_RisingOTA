@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "Dhruvesh (dhruvesh_23)",
+        "oem": "Realme",
+        "device": "Realme XT",
+        "filename": "riceDroid-12.1-202206222319-RMX1921-v2.5-GAPPS.zip",
+        "download": "https://drive.google.com/uc?id=1Gy6Dv8glai8OaNxRonlGwd8SUFkQ0rRo&export=download",
+        "timestamp": 1655920103,
+        "md5": "51693096cd71bd3c20eea7f9b312ff7e",
+        "sha256": "70c73cbc8790494f0a2285c70cdb02c0517b2e3beef407d2ae2391beb7f11542",
+        "size": 1742677950,
+        "version": "2.5",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "",
+        "dt": "https://github.com/Dhruvesh16/device_realme_RMX1921/tree/ricedroid",
+        "common-dt": "",
+        "kernel": "https://github.com/Dhruvesh16/android_kernel_realme_RMX1921/tree/11"
+    }
+  ]
+}
