@@ -1,0 +1,14 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Realme 5 Pro 
+Device maintainers: KSSRAO
+
+==== 24 June, 2022 ====
+
+* Initial Official Build based on June Security Patch
+
+* Update brightness configs from aosp
+
+* Improved overall smoothness
+
+* Upstreamed Kharame kernel to latest 4.9.319
