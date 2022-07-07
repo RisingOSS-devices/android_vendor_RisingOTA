@@ -3,6 +3,12 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+====07 July, 2022 ====
+* Bumped to Raven July fp
+* Added more presets to Kharame Dirac (Bass booster, Balanced, Live, Bass Reduction, Treble Reduction, Soft Bass, Soft Treble)
+* Upstreamed Kharame kernel to latest 4.9.321
+* Set GPU idle timeout to 64 ms
+
 ==== 24 June, 2022 ====
 
 * Initial Official Build based on June Security Patch
