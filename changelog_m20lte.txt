@@ -1,0 +1,16 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Samsung Galaxy M20
+Device maintainer: eun0115
+
+====08 July, 2022 ====
+* Initial OFFICIAL Build
+* Introducing Simple Low Memory Killer 
+* Use HintManager for HWUI 
+* Switch to skiaglthreaded renderthread backend
+* Compiled using Proton Clang 13
+* Use ro.vendor.perf.scroll_opt
+* Enable config_avoidGfxAccel
+* Safetynet Passed by default
+* Debloated gapps
+* Decrypted
