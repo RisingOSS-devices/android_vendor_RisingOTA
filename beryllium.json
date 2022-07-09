@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "Zisan (xisan)",
+        "oem": "Xiaomi",
+        "device": "Poco F1",
+        "filename": "riceDroid-12.1-2022070908-beryllium-v3.0-PIXEL.zip",
+        "download": "https://drive2.mistus.workers.dev/0:/riceDroid-12.1-2022070908-beryllium-v3.0-PIXEL.zip",
+        "timestamp": 1657353520,
+        "md5": "5703ef6fe7658dc263934cdff3906b40",
+        "sha256": "28e933cb2bab8911e1ab5d9a770b6adb66739f9e717fe464495d475b5f0a0a74",
+        "size": 1654655662,
+        "version": "3.0",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/arcana_beryllium",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/xisan",
+        "dt": "https://github.com/Xeesan/device_xiaomi_beryllium",
+        "common-dt": "https://github.com/Xeesan/device_xiaomi_sdm845-common",
+        "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sdm845"
+    }
+  ]
+}
