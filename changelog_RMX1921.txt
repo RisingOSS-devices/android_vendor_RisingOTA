@@ -3,5 +3,7 @@ Build type: Monthly
 Device: Realme XT 
 Device maintainers: Dhruvesh
 
-==== 23 June, 2022 ====
-- Initial release 
+==== 13 July, 2022 ====
+- Kernel upstream to 4.9.322
+- Merged latest caf tag LA.UM.9.8.r1-05000-SDM710.0 in kernel
+- Merged qcacld-3.0, fw-api, qca-wifi-host-cmn wifi drivers from LA.UM.9.8.r1-05000-SDM710.0
