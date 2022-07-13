@@ -3,6 +3,15 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 13 July, 2022 ====
+- Added Restart System UI option under Advanced Restart in Power Menu (neglect the old power menu that shows up)
+- Upstreamed Kharame kernel to 4.9.323
+- Disabled iorapd (for better ram management and speed) 
+- Added secondary interface for wlan
+- Disable Qcom system deamon (for performance improvement) 
+- Nuked certain useless kernel flags 
+- Nuked unnecessary/unused QTI logkit directories
+
 ====07 July, 2022 ====
 * Bumped to Raven July fp
 * Added more presets to Kharame Dirac (Bass booster, Balanced, Live, Bass Reduction, Treble Reduction, Soft Bass, Soft Treble)
