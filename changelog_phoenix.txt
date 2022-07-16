@@ -3,10 +3,14 @@ Build type: Monthly
 Device: POCO X2 (phoenix)
 Device maintainer: Sharma G
 
+===== 15th July 2022 =====
+- Synced with Latest riceDroid v3.5 changes
+- phoenix: WhatsApp fp location fixed, thanks to Chiru Sir
+
 ===== 09th July 2022 ===== 
-Synced Latest riceDroid v3.0 changes
-Updated to July security patch
-pheonix: Add Blur props  
-phoenix: overlay: Enable peak refresh rate(min/max)
-Nothing else
+- Synced Latest riceDroid v3.0 changes
+- July security patch update
+- phoenix: Add Blur props  
+- phoenix: overlay: Enable peak refresh rate(min/max)
+- Nothing else
 
