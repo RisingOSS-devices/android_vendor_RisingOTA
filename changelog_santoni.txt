@@ -4,6 +4,13 @@ Device: Redmi 4/4X (santoni)
 Device maintainer: Ansh Singh
 Required firmware: v45 or higher
 
+===== 2022.07.17 =====
+• Synced Latest riceDroid v3.5 changes
+• Updated to July security patch
+• Switched to threaded GLES render engine
+• Kernel: 4.9.227 (CAF) - LA.UM.10.6.2.r1-02200-89xx.0 (Clang 14.0.2)
+• Misc. Fixes and Improvements
+
 ===== 2022.07.09 =====
 • Synced Latest riceDroid v3.0 changes
 • Updated to July security patch
