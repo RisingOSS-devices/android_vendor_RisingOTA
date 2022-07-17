@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "_.rasend",
+        "oem": "Xioami",
+        "device": "Redmi Note 8",
+        "filename": "riceDroid-12.1-2022071707-ginkgo-v3.5-PIXEL.zip",
+        "download": "https://sourceforge.net/projects/gudang-rom34/files/RiceDroid/riceDroid-12.1-2022071707-ginkgo-v3.5-PIXEL.zip/download",
+        "timestamp": 1658016236,
+        "md5": "372e86d5ed26520d34e063923a5e6733",
+        "sha256": "ae848e443fece5a4010dcbce09635ea0a6452a2b2de15d1c5d7ef126fdc80ae1",
+        "size": 1548907246,
+        "version": "3.5",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "https://www.paypal.me/RasenKhansa",
+        "telegram": "https://t.me/Razs_19",
+        "dt": "https://github.com/rasenss/android_device_xiaomi_ginkgo",
+        "common-dt": "",
+        "kernel": "https://github.com/rasenss/android_kernel_xiaomi_ginkgo"
+    }
+  ]
+}
