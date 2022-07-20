@@ -4,7 +4,8 @@ Device: Redmi Note 8/8T (ginkgo/willow)
 Device maintainer: Rasend 
 Required firmware: Last Global Firmware R
 
-===== 2022.07.18 =====
+===== 2022.07.19 =====
 -  Synced Latest riceDroid v3.5 changes
 - upstreamed kernel to 288
 - fixed issue in previous build
+- fixed booting issue
