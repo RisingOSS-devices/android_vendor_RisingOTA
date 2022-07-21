@@ -1,0 +1,13 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: POCO X4 PRO 5G (veux/peux)
+Device maintainer: Sharma G
+
+===== 20th July 2022 =====
+- Synced with Latest riceDroid v3.5 changes
+- veux: Aod fixed
+- veux: Updated devicesettings
+- veux: overlay: Enable min/max refresh rate in display settings
+- veux: overlay: Enable multi-user
+- veux: tweak adaptive color mode props
+- veux: overlay: Define OEM fast charge sysfs node
