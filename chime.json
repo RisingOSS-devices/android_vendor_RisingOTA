@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Λｙａｎ",
+			"oem": "Xiaomi",
+			"device": "Redmi 9T",
+			"filename": "riceDroid-12.1-2022072312-chime-v3.5-PIXEL.zip",
+			"download": "https://sourceforge.net/projects/ricedroid/files/riceDroid-12.1-2022072312-chime-v3.5-PIXEL.zip/download",
+			"timestamp": 1658490643,
+			"md5": "a8c24fb43c3301fcc3667593eb7cfd06",
+			"sha256": "65f73b179a08bcaf8f36eb2b1db29f125d83ab6598ae86a0ee785b47753511cb",
+			"size": 1619984455,
+			"version": "3.5",
+			"buildtype": "Monthly",
+			"forum": "https://t.me/ayanot69",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/not_ayan",
+			"dt": "https://github.com/herobuxx/android_device_xiaomi_chime",
+			"common-dt": "",
+			"kernel": "https://github.com/chimeOSS/kernel_xiaomi_chime"
+		}
+	]
+}

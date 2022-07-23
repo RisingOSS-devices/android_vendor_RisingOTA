@@ -1,0 +1,11 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi 9T (Chime/Juice)
+Device maintainer: Λｙａｎ
+Required firmware: Last Global Firmware 
+
+===== 2022.07.23 =====
+- Initial build
+- Synced Latest riceDroid v3.5 changes
+- fixed lag issue
+- Shipped with Storm breaker kernel 
