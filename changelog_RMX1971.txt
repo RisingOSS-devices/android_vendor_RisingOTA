@@ -3,6 +3,14 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 23 July, 2022 ====
+- Fixed green tint issue on Instagram video playback
+- Fixed Game restarting on switching apps
+- Upstreamed Kharame kernel to latest 4.9.324
+- Some improvements to wifi (added support for dual wifi, implementation of smart selection of 2/5GHz)
+- Switched to SkiaGL threaded
+- Miscellaneous changes to make rom smoother and improve performance
+
 ==== 18 July, 2022 ====
 - Fixed an issue where Discord app was crashing on Watch Stream
 - Nuked Graphene Camera
