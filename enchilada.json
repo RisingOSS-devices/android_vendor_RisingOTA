@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "vikas (optimusprime)",
+        "oem": "OnePlus",
+        "device": "OnePlus 6",
+        "filename": "riceDroid-12.1-2022080117-enchilada-v3.5-PIXEL.zip",
+        "download": "https://sourceforge.net/projects/ricedroid-oneplus-6-t/files/enchilada/riceDroid-12.1-2022080117-enchilada-v3.5-PIXEL.zip/download",
+        "timestamp": 1659357127,
+        "md5": "6fb87ee156647e902643ba53a1c75d30",
+        "sha256": "a291f421725e817a01276fd5cfb15a0a0aecb3b59592bc14a78235b6178162b6",
+        "size": 1283384455,
+        "version": "3.5",
+        "buildtype": "Weekly",
+        "forum": "https://t.me/op6serieshub",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "http://www.paypal.me/vikasyaduvanshii",
+        "telegram": "https://t.me/OptimussPriime",
+        "dt": "https://github.com/rice-droid/device_oneplus_enchilada",
+        "common-dt": "",
+        "kernel": "https://github.com/rice-droid/kernel_oneplus_sdm845"
+    }
+  ]
+}

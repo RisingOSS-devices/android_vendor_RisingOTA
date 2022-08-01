@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "vikas (optimusprime)",
+        "oem": "OnePlus",
+        "device": "OnePlus 6T",
+        "filename": "riceDroid-12.1-2022080117-fajita-v3.5-PIXEL.zip",
+        "download": "https://sourceforge.net/projects/ricedroid-oneplus-6-t/files/fajita/riceDroid-12.1-2022080117-fajita-v3.5-PIXEL.zip/download",
+        "timestamp": 1659356557,
+        "md5": "7e65aeb66ad385fc2ca5fc9e5c52f507",
+        "sha256": "3904613b38b5c6938f27604366fac0fc434fe541b7588daa37430f2b2ecc3ff0",
+        "size": 1448286260,
+        "version": "3.5",
+        "buildtype": "Weekly",
+        "forum": "https://t.me/op6serieshub",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "http://www.paypal.me/vikasyaduvanshii",
+        "telegram": "https://t.me/OptimussPriime",
+        "dt": "https://github.com/rice-droid/device_oneplus_fajita",
+        "common-dt": "",
+        "kernel": "https://github.com/rice-droid/kernel_oneplus_sdm845"
+    }
+  ]
+}
