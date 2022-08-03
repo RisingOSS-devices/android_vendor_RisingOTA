@@ -1,0 +1,7 @@
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: OnePlus 6
+Device maintainer: vikas(optimusprime)
+
+====01 August, 2022 ====
+* Initial OFFICIAL Build
