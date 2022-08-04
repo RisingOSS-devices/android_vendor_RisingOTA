@@ -3,6 +3,16 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 04 August, 2022 ====
+- Fixed an issue where phone was not showing up when connected to PC
+- Fixed an issue where otg (USB drive) was not detected when connected to Mobile
+- Fixed issue with Google voice recorder
+- Upstreamed Kharame kernel to latest 4.9.325
+- Picked usb configurations from qcom
+- Disabled wifi BSS Flush (removes delay) 
+- Enabled usb fast charge (Force FastCharge upto 900 mA) 
+- Miscellaneous changes to make rom smoother and improve performance
+
 ==== 23 July, 2022 ====
 - Fixed green tint issue on Instagram video playback
 - Fixed Game restarting on switching apps
