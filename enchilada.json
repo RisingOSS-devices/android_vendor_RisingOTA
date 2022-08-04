@@ -1,28 +1,28 @@
 {
-  "response": [
-    {
-        "maintainer": "vikas (optimusprime)",
-        "oem": "OnePlus",
-        "device": "OnePlus 6",
-        "filename": "riceDroid-12.1-2022080117-enchilada-v3.5-PIXEL.zip",
-        "download": "https://sourceforge.net/projects/ricedroid-oneplus-6-t/files/enchilada/riceDroid-12.1-2022080117-enchilada-v3.5-PIXEL.zip/download",
-        "timestamp": 1659357127,
-        "md5": "6fb87ee156647e902643ba53a1c75d30",
-        "sha256": "a291f421725e817a01276fd5cfb15a0a0aecb3b59592bc14a78235b6178162b6",
-        "size": 1283384455,
-        "version": "3.5",
-        "buildtype": "Weekly",
-        "forum": "https://t.me/op6serieshub",
-        "gapps": "",
-        "firmware": "",
-        "modem": "",
-        "bootloader": "",
-        "recovery": "",
-        "paypal": "http://www.paypal.me/vikasyaduvanshii",
-        "telegram": "https://t.me/OptimussPriime",
-        "dt": "https://github.com/rice-droid/device_oneplus_enchilada",
-        "common-dt": "",
-        "kernel": "https://github.com/rice-droid/kernel_oneplus_sdm845"
-    }
-  ]
+	"response": [
+		{
+			"maintainer": "vikas (optimusprime)",
+			"oem": "OnePlus",
+			"device": "OnePlus 6",
+			"filename": "riceDroid-12.1-2022080416-enchilada-v4.0-PIXEL.zip",
+			"download": "https://sourceforge.net/projects/ricedroid-oneplus-6-t/files/enchilada/riceDroid-12.1-2022080416-enchilada-v4.0-PIXEL.zip/download",
+			"timestamp": 1659611968,
+			"md5": "03c63006995a34d4041246f6a6332d3d",
+			"sha256": "4fee345e2cda09831ec5136f4963636176060a3657d6c55c870ac96031741ecd",
+			"size": 1283278377,
+			"version": "4.0",
+			"buildtype": "Weekly",
+			"forum": "https://t.me/op6serieshub",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://www.paypal.me/vikasyaduvanshii",
+			"telegram": "https://t.me/OptimussPriime",
+			"dt": "https://github.com/rice-droid/device_oneplus_enchilada",
+			"common-dt": "",
+			"kernel": "https://github.com/rice-droid/kernel_oneplus_sdm845"
+		}
+	]
 }
