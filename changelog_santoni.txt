@@ -4,11 +4,11 @@ Device: Redmi 4/4X (santoni)
 Device maintainer: Ansh Singh
 Required firmware: v45 or higher
 
-===== 2022.08.04 =====
+===== 2022.08.05 =====
 • Synced Latest riceDroid 4.0 changes
 • Updated to July security patch
 • Fixed VoLTE issue on before july release
-• Kernel: Luuvy Soul [thanks to @Halo555555]
+• Kernel: 4.9.227 (CAF) - LA.UM.10.6.2.r1-02200-89xx.0 (Clang 14.0.2)
 • Misc. Fixes and Improvements
 
 ===== 2022.07.17 =====
