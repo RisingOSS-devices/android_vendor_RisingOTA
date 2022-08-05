@@ -4,14 +4,13 @@
 			"maintainer": "Dhruvesh (dhruvesh_23)",
 			"oem": "Realme",
 			"device": "Realme XT",
-			"filename": "riceDroid-12.1-2022071209-RMX1921-v3.0-PIXEL.zip",
-			"download": "https://drive.google.com/uc?id=11jtakVYh-rVWvp9_d67FBDegiT0OZpjE&export=download",
-			"timestamp": 1657597731,
-			"md5": "4e2a28788165172b2e888d5993e6b11f",
-			"sha256": "81938d41c891f53976a08c1b8b3be5a8362d0d26bf3faad263d0497e6e379895"
-,
-			"size": 1755001219,
-			"version": "3.0",
+			"filename": "riceDroid-12.1-2022080511-RMX1921-v4.0-PIXEL.zip",
+			"download": "https://sourceforge.net/projects/ricedroid-rmx1921/files/4.0/riceDroid-12.1-2022080511-RMX1921-v4.0-PIXEL.zip/download",
+			"timestamp": 1659679113,
+			"md5": "14cacb388da6880cd5b0a00d6a2bdced",
+			"sha256": "531337b27e206bef40a1ad3e0b9fae2c528604215cb569d1b7b8a22c7146ea73",
+			"size": 1765976049,
+			"version": "4.0",
 			"buildtype": "Monthly",
 			"forum": "",
 			"gapps": "",
@@ -23,8 +22,7 @@
 			"telegram": "",
 			"dt": "https://github.com/Dhruvesh16/device_realme_RMX1921/tree/ricedroid",
 			"common-dt": "",
-			"kernel": "https://github.com/Dhruvesh16/android_kernel_realme_RMX1921/tree/
-11"
+			"kernel": "https://github.com/Dhruvesh16/android_kernel_realme_RMX1921/tree/"
 		}
 	]
 }
