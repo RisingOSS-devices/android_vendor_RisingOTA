@@ -1,0 +1,12 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: X3 PRO (vayu/bhima)
+Device maintainer:  Ste0090 x Restintrip 
+
+===== 2022.08.08 =====
+
+• Synced Latest riceDroid 4.5 changes
+• Performance improvements
+• Updated graphic drivers @V0530
+
+
