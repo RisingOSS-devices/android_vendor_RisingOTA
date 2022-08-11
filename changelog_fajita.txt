@@ -3,25 +3,30 @@ Build type: Weekly
 Device: OnePlus 6T
 Device maintainer: vikas(optimusprime)
 
-====08 August, 2022 ====
-Device changelog:(08/08/2022)
--Fixup  Alert Slider UI
--overlays: Fix hyper orange night light 
--props: Allow more background apps
--overlay: configure SQLite to operate in MEMORY mode 
--overlay: Don't pin camera app in memory
--overlay: Don't pin launcher app in memory 
--Enable QCRIL radio power saving 
--Enable freeform windows 
--Updated  QTI bt Stack 
--Enable config_powerDecoupleInteractiveModeFromDisplay
--Added Sepolicy Fixup
--fixup qti thermal 2.0 service hals Denials
--fajita : fingerprint :cleanup & changes 
+====Important Notice ====
+:-DATA Wil Be Wipped in this update   if you already on August patch
+-security patch Aug Downgrade to july for cts fix
+-Minor source side improvements
+
+====11 August, 2022 ====
+Device changelog:(11/08/2022)
+-Sync with new updated sources 11/08/2022
+-sepolicy : Fix permission issues (QuickSettings>>systeminfo)
+-Overlay : Added overlays for Battery temperature ,cpu temperature, GPU Frequency and GPU utilization
+-OneplusSettings : Mics adoption changes/ cleanup
+-PocketLock:Make using light sensor optional
+-prop : Enable QCRIL radio power saving 
+-livedisplay: Drop SunlightEnhancement & AntiFlicker 
+-hidl: inscreen: Set thread to high CFS priority 
+-fingerprint: Add blank callbacks for udfps 
+-Check PRODUCT_SOONG_NAMESPACES instead of BOARD_VENDOR in build guard 
 -KeyHandler: Restore state on boot 
--Check PRODUCT_SOONG_NAMESPACES instead of BOARD_VENDOR in build guard  
--hardware: oneplus-fwk: Add more OnePlus bits 
--vibrator: Fix vibration effects and vibration based on duration 
--Add vendor.oneplus.hardware.CameraMDMHIDL@1.0 
+-Disable debug.sf.latch_unsignaled from prop , reduces notification flicker, UI performance
+-init: Change Acess permission to hide Magisk in banking apps
+-Updated Primus Kernel to 4.9.258
+-Update Default Clang to clang 14.0.2 r445002
+-Silence clang warnings during kernel compile 
+-Safetynet passes by default
+-Minor improvements
 -Safetynet passes by default
 -Minor improvements 
