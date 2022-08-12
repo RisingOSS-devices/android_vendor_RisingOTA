@@ -3,6 +3,10 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+====12 August, 2022 ====
+- Updated to Latest Source Changes
+- Miscellaneous changes to make rom smoother and improve performance
+
 ==== 04 August, 2022 ====
 - Fixed an issue where phone was not showing up when connected to PC
 - Fixed an issue where otg (USB drive) was not detected when connected to Mobile
