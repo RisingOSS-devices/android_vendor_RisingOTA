@@ -1,0 +1,21 @@
+Highlights & Device Specific Changes:
+Build type: first half- Monthly
+Device: Xiaomi Poco F3
+Device maintainer: @oz_maradny & @ZiadFekry
+
+====05 August, 2022 ====
+-update to latest miui blob 13.0.7.0 EEA
+
+-add support for smart charging.
+
+-add support for ambient display gesture .
+
+-fix google fast pairing ( with tws etc )
+
+-add support for aw8624 haptic.
+
+-enforce stock audio format 24 bit
+
+-import entire package of audio config from miui 13.0.7.0
+
+-restrict permissions to socket file to hide Magisk that detect some app as root
