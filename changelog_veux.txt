@@ -3,6 +3,16 @@ Build type: Monthly
 Device: POCO X4 PRO 5G (veux/peux)
 Device maintainer: Sharma G
 
+===== 12th August 2022 =====
+- Synced with Latest riceDroid v4.5 changes
+- veux: Dt2w fixed. Now veux is fully stable almost(Personally i don't guranteed)
+- veux: veux: overlay: Statusbar padding & Margin improvement
+- veux: overlay: Enable min/max & peak refresh rate in display settings according to riceDroid
+- veux: overlay: Add reboot_fastboot action to power menu(Restart System UI)
+- veux: Add system info(thanks to rice maintainers team who helped to fix that system crashing issue)
+- veux: July Security patch(due to google,they mess August patch)
+- veux: Import devicesetting again(Last time it's not working)
+
 ===== 20th July 2022 =====
 - Synced with Latest riceDroid v3.5 changes
 - veux: Aod fixed
