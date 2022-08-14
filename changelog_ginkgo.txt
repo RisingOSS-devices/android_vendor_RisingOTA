@@ -5,7 +5,14 @@ Device maintainer: Rasend
 Required firmware: Last Global Firmware R
 
 ===== 2022.07.19 =====
--  Synced Latest riceDroid v3.5 changes
-- upstreamed kernel to 288
+-  Synced Latest riceDroid v4.5 changes
+- upstreamed kernel to 290
 - fixed issue in previous build
-- fixed booting issue
+- fixed booting issue in 3/32 variant
+- Overlay: Add overlays & Address Denials for QS System Info
+- Switched back to Opengl 
+- overlay: Disable TTS force stop warning
+- sepolicy: dontaudit untrusted_app to open ashmem_device
+- Increase CPU Boost duration to 140ms
+- perf: Enable the pre-rendering feature
+- overlay: Set config_restartActionsList
