@@ -3,29 +3,55 @@ Build type: Weekly
 Device: OnePlus 6T
 Device maintainer: vikas(optimusprime)
 
-====Important Notice ====
-:-DATA Wil Be Wipped in this update   if you already on August patch
--security patch Aug Downgrade to july for cts fix
--Minor source side improvements
+Sync with new updated sources 15/08/2022
+SOURCE Side changelog:(15/08/2022)
 
-====11 August, 2022 ====
-Device changelog:(11/08/2022)
--Sync with new updated sources 11/08/2022
--sepolicy : Fix permission issues (QuickSettings>>systeminfo)
--Overlay : Added overlays for Battery temperature ,cpu temperature, GPU Frequency and GPU utilization
--OneplusSettings : Mics adoption changes/ cleanup
--PocketLock:Make using light sensor optional
--prop : Enable QCRIL radio power saving 
--livedisplay: Drop SunlightEnhancement & AntiFlicker 
--hidl: inscreen: Set thread to high CFS priority 
--fingerprint: Add blank callbacks for udfps 
--Check PRODUCT_SOONG_NAMESPACES instead of BOARD_VENDOR in build guard 
--KeyHandler: Restore state on boot 
--Disable debug.sf.latch_unsignaled from prop , reduces notification flicker, UI performance
--init: Change Acess permission to hide Magisk in banking apps
--Updated Primus Kernel to 4.9.258
--Update Default Clang to clang 14.0.2 r445002
--Silence clang warnings during kernel compile 
+Dashboard Styles: Cleanup 
+themes: Extend system color palettes
+Dashboard Styles: Improve code and add AOSP style
+shorten and optimize/cleanup code
+*dynamically adapt card preference for gapps/vanilla builds
+*add AOSP/Pixel dashboard style
+Further increase blur radius for glass blur effect
+Settings: Fix cellular internet option Not seen after internet reset 
+Fix EthernetManager.addListener dependency in Tethering settings. 
+Settings: Fix WifiSettings FC when rotating screen
+SushiLauncher: Redesign hotseat QSB 
+SushiLauncher: Increase max blur radius
+System Shapes: Increase brightness slider height for square shaped 
+System shapes: Add Rounded outline shapes 
+themes: Extend system color palettes [3/3]
+Vivid theme: Improve color palettes 
+rice: Add seekbar for Left/Right statusbar Paddings [2/2]
+rice: Toggle-able QS style [2/2] 
+rice: Clock Size Settings 
+rice: Resizeable QS date [2/2]
+rice: Trigger systemui restart for qs style option
+ Enable Statusbar Clock background chip
+rice: Rearrange statusbar preferences 
+rice: Extend system color palettes 
+rice: Make LS media filter blur radius configurable [2/2
+rice: Make customization strings translatable
+rice: Define default values for statusbar paddings
+Launcher3: Restore blur depth on configuration change 
+ Statusbar Clock background chip
+SystemUI: Show the ripple on face auth if skip lockscreen enabled 
+Lockscreen Album Filter: Make LS media filter blur radius configurabl
+config: Exclude LatinIME dictionaries from RRO overlays
+-underhood ots of fixes and improvments 
+
+====15 August, 2022 ====
+Device changelog:(15/08/2022)
+sdm845-common : OneplusSettings: remove touchscreen gesture
+sdm845-common: properties: don't latch unsignal buffers
+Revert "sdm845-common: props: Enable QCRIL radio power saving
+sdm845-common: Enable system info
+fixup:sdm845-common: system info
+Revert "sdm845-common: Make enchilada goodix FP HAL loadable
+sdm845-commmon: Build sensorservice  
+sdm845-common: fixup gyro issue 
+sdm845-common : sepolicy : Fix permission issues
+sdm845-common: Fix typo when copying media_codecs_google_video_le
 -Safetynet passes by default
 -Minor improvements
 -Safetynet passes by default
