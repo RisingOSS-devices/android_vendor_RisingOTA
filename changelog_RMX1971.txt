@@ -3,6 +3,13 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 17 August, 2022 ====
+- Fixed system info not displaying values
+- Fixed screen tearing issue on scroll (Scrolling should be smoother now)
+- Enabled QCRIL radio power saving
+- Disabled SF client composition cache
+- Miscellaneous changes to make rom smoother and improve performance
+
 ====12 August, 2022 ====
 - Updated to Latest Source Changes
 - Miscellaneous changes to make rom smoother and improve performance
