@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Ste0090 x Restintrip",
+			"oem": "Xiaomi",
+			"device": "Poco X3 PRO",
+			"filename": "riceDroid-12.1-2022081020-vayu-v4.5-PIXEL.zip",
+			"download": "https://sourceforge.net/projects/ricevayu/files/test/riceDroid-12.1-2022081020-vayu-v4.5-PIXEL.zip/download",
+			"timestamp": 1660157431,
+			"md5": "f630b0817cec04730f08f259cd21fb82",
+			"sha256": "26573afb101c54c92f61d4c03f307710fa28d052b517e9c837ac8bed845c320c",
+			"size": 1900983867,
+			"version": "4.5",
+			"buildtype": "Monthly",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://ko-fi.com/ste0090",
+			"telegram": "",
+			"dt": "",
+			"common-dt": "",
+			"kernel": ""
+		}
+	]
+}
