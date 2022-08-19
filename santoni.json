@@ -4,13 +4,13 @@
 	"maintainer": "EvilAnsh",
 	"oem": "Xiaomi",
 	"device": "Redmi 4/4X",
-	"filename": "riceDroid-12.1-2022080501-santoni-v4.0-PIXEL.zip",
-	"download": "https://sourceforge.net/projects/evilanshbuild/files/riceDroid/santoni/riceDroid-12.1-2022080501-santoni-v4.0-PIXEL.zip/download",
-	"timestamp": 1659664599,
-	"md5": "fd9fab8202e82c62ab30cd43a476012f",
-	"sha256": "3f22baf0d4da2ac4af381ec48d60a87704cbf945c96c507df15ba2d68b2cdecd",
-	"size": 1324228428,
-	"version": "4.0",
+	"filename": "riceDroid-12.1-2022081902-santoni-v5.0-PIXEL.zip",
+	"download": "https://sourceforge.net/projects/evilanshbuild/files/riceDroid/santoni/riceDroid-12.1-2022081902-santoni-v5.0-PIXEL.zip/download",
+	"timestamp": 1660758714,
+	"md5": "01ad11896d5b3213a5d7baade93c43fa",
+	"sha256": "79e7556aedd5bbe86aecc00a1b6e59db482f5ec54e9f2fb0c832831cdaf81480",
+	"size": 1330309466,
+	"version": "5.0",
 	"buildtype": "Monthly",
 	"forum": "",
 	"gapps": "https://t.me/crDroidSantoni/79045",
@@ -24,5 +24,5 @@
 	"common-dt": "",
 	"kernel": "https://github.com/EvilAnsh/kernel_xiaomi_santoni"
     }
-  ]  
+  ]
 }
