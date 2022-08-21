@@ -4,12 +4,12 @@
 			"maintainer": "vikas (optimusprime)",
 			"oem": "OnePlus",
 			"device": "OnePlus 6",
-			"filename": "riceDroid-12.1-2022081620-enchilada-v5.0-PIXEL.zip",
-			"download": "https://sourceforge.net/projects/ricedroid-oneplus-6-t/files/enchilada/riceDroid-12.1-2022081620-enchilada-v5.0-PIXEL.zip/download",
-			"timestamp": 1660663654,
-			"md5": "c855a3b7b1ca69815a096432b75f6186",
-			"sha256": "e6313ac249862a4e689470677da65fdb5a832f4542a259f6b42c1d7bf69d898e",
-			"size": 1288258221,
+			"filename": "riceDroid-12.1-2022082119-enchilada-v5.0-PIXEL.zip",
+			"download": "https://sourceforge.net/projects/ricedroid-oneplus-6-t/files/enchilada/riceDroid-12.1-2022082119-enchilada-v5.0-PIXEL.zip/download",
+			"timestamp": 1661091254,
+			"md5": "51f3ef0aa35bf8c8ca9994d9d0e7d9b4",
+			"sha256": "12a3a2be2a45d0f5ea59192f2d8dfd723550fbc6226261902938ec4c70e5cb81",
+			"size": 1283184508,
 			"version": "5.0",
 			"buildtype": "Weekly",
 			"forum": "https://t.me/op6serieshub",
@@ -22,7 +22,7 @@
 			"telegram": "https://t.me/OptimussPriime",
 			"dt": "https://github.com/rice-droid/device_oneplus_enchilada",
 			"common-dt": "",
-			"kernel": "https://github.com/rice-droid/kernel_oneplus_sdm845"
+			"kernel": ""
 		}
 	]
 }

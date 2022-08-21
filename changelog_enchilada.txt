@@ -3,24 +3,31 @@ Build type: Weekly
 Device: OnePlus 6
 Device maintainer: vikas(optimusprime)
 
-====16 August, 2022 ====
-Device changelog:(16/08/2022)
--Sync with new updated sources 16/08/2022
-sepolicy : Fix permission issues 
-sdm845-common: Enable system info 
-sdm845-common: Define qs system info node paths
-sdm845-common: overlay: Add audio related features 
-enchilada: Ship FPC1020 blobs 
-Enchilada ::Enable riceDroid flags 
-sdm845-common: overlay: enable burn in protection for status bar
-sdm845-common: properties: don't latch unsignal buffers
-Revert "sdm845-common: props: Enable QCRIL radio power saving
-Revert "sdm845-common: Make enchilada goodix FP HAL loadable
-sdm845-commmon: Build sensorservice  
-sdm845-common: fixup gyro issue 
-sdm845-common : sepolicy : Fix permission issues
-sdm845-common: Fix typo when copying media_codecs_google_video_le
+Sync with new updated sources 21/08/2022
+SOURCE Side changelog:(21/08/2022)
+Lots of improvments /fixup done /  few additions also done SOURCE side
+ 
+
+====21 August, 2022 ====
+-Fixup: few more Sepolicy 
+-A13 music player ui also added in a12.1L(source side)
+-Update : Rom Source Side Flags
+-Updated NEW boot animation as pr source
+-fixup: Build sensorservice
+-Fix typo when copying media_codecs_google_video_le
+-Set an overlay to make transition animation a bit faster
+-properties: don't latch  buffers improved jatter
+-overlay: Disable slow blur effect to avoid laggish blu
+-overlay: Add config_wallpaperMaxScale 
+-wifi: Disable RX wakelock feature
+-Update config_ims_rcs_package to use new ImsS
+-dex2oat go fast Make ota updater go a bit faster
+-Remove obsolete tethering overlays
+-overlay: Enable HFP inband ringtone
+-Remove deprecated TARGET_USES_QTI_CAMERA_DEVICE 
+-enchilad:Update flag for Bootanimation
+-Update/Add :vendor/oneplus camera missing  blobs
+-enchilada: Ship fingerprint FPC1020 blobs
+-Revert "sdm845-common: Make enchilada goodix FP HAL loadable"
 -Safetynet passes by default
 -Minor improvements
--Safetynet passes by default
--Minor improvements 
