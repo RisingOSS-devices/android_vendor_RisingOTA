@@ -4,15 +4,15 @@ Device: Redmi Note 8/8T (ginkgo/willow)
 Device maintainer: Rasend 
 Required firmware: Last Global Firmware R
 
-===== 2022.07.19 =====
--  Synced Latest riceDroid v4.5 changes
-- upstreamed kernel to 290
-- fixed issue in previous build
-- fixed booting issue in 3/32 variant
-- Overlay: Add overlays & Address Denials for QS System Info
-- Switched back to Opengl 
-- overlay: Disable TTS force stop warning
-- sepolicy: dontaudit untrusted_app to open ashmem_device
-- Increase CPU Boost duration to 140ms
-- perf: Enable the pre-rendering feature
-- overlay: Set config_restartActionsList
+===== 2022.08.21 =====
+-  Synced Latest riceDroid v5.0 changes
+- Build sensorservice
+- configs :enable incall music and add incall music profile
+- audio: Fix low mic volume on voip
+- audio: Import Google changes on DEC7 Volume
+- wifi: Disable RX wakelock feature
+- set readahead_size_kb=128 to system,vendor and userdata
+- fstab: Enable 64-bit inode version support for ext4
+- Add secondary interface using gEnableConcurrentSTA=wlan1
+- Do not use phase offsets as duration
+- Switch to SkiaGL Threaded
