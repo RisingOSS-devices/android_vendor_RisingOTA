@@ -4,7 +4,7 @@ Device: Redmi Note 8/8T (ginkgo/willow)
 Device maintainer: Rasend 
 Required firmware: Last Global Firmware R
 
-===== 2022.08.21 =====
+===== 2022.08.28 =====
 -  Synced Latest riceDroid v5.0 changes
 - Build sensorservice
 - configs :enable incall music and add incall music profile
@@ -16,3 +16,5 @@ Required firmware: Last Global Firmware R
 - Add secondary interface using gEnableConcurrentSTA=wlan1
 - Do not use phase offsets as duration
 - Switch to SkiaGL Threaded
+- overlay: fix lockscreen charging overlay
+- Reduce TARGET_SCREEN_DENSITY.  (allows us to further resize widgets to the smaller ones e.g horizontal pill style on google's weather widget)
