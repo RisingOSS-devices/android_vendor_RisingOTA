@@ -1,48 +1,48 @@
 Highlights & Device Specific Changes:
 Build type: Weekly
 Device: OnePlus 6T
-Device maintainer: vikas(optimusprime
+Device maintainer: vikas(optimusprime)
 
-====01 Sept, 2022 ====
--Updated NEW boot animation as pr source
--A13 Based features/ ui added
--sepolicy: Allow fingerprint rw access for soc:fpc_fpc1020
--: make dex2oat go fast 
--fixup: Build sensorservice
--Fix typo when copying media_codecs_google_video_le
--Set an overlay to make transition animation a bit faster
--properties: don't latch  buffers improved jatter
--Fajita:overlays :Enable Screen off UDFPS
--overlay: Disable slow blur effect to avoid laggish blu
--overlay: Add config_wallpaperMaxScale 
--wifi: Disable RX wakelock feature
--Update config_ims_rcs_package to use new ImsS
--dex2oat go fast Make ota updater go a bit faster
--Remove obsolete tethering overlays
--overlay: Enable HFP inband ringtone
--Remove deprecated TARGET_USES_QTI_CAMERA_DEVICE 
--Fajita:Update flag for Bootanimation
--Update : Rom Source Side Flags
--Update/Add :vendor/oneplus camera missing  blobs
+====11 Sept, 2022 ====Device-side====
+-Update primus kernel from v4.9.258 to v4.9.327
+- Silence kernel build erros via additional flags 
+-Allow camera HAL read vendor_system_prop
+-sepolicy: Allow system_app to read /proc/pagetypeinfo
+-sepolicy: Allow system_app to access vmallocinfo 
+- overlay: Disable slow blur effect to avoid laggish BLUR
+-sepolicy : Fix permission issues 
+-OneplusSettings: Remove TouchGestures category 
+-OneplusSettings: clenaup done & more optimized
+-Remove pocketmode we have rom side
+-fixup -trace more sepolicy denial
+-Update default clang
+-Update BoardConfig: update llmv clang bits
+-wifi: Disable RX wakelock feature 
+-sdm845-common: Dt cleanup & Minor improvements
 -Safetynet passes by default
--Minor improvements
 
 
 
-update changelogs for v5.0 FINAL
-====01 Sept, 2022 ====
-
-===== Start of Changelog for version 5.0 =====
+Sync source changes as of 09/02/22
+====11Sept, 2022 ====
 
 ==== riceDroid Additions ===== changes we did or modified
 * [AOSP][CP][MD] runtime improvements and August ASB patches from master branch [neobuddy89|crdroid team|lineageos]
 * Adapted and cherry-picked changes/fixes from android 13
 - Android 13 music player and lockscreen notification style
-- UI Animations changes (splash, recents, lockscreen zoom etc)
+- Animations fixes and improvements
+- Bubbles and notification improvements 
+- Direct share/sharesheet improvements
 - Fix IME/keyboard overlapping with edittext elements
+- Fixed wifi/internet dialog systemui crash/not responding
+- Fixed network related issues
+- QS panel, splitshade, LS improvements
+- Reduced cpu usage from main/ui thread
+- Rendering improvements
 - Resolved misc memory leaks, runtime breakage etc.  
 - Resolved splash animations randomly being cutted off
 - Resolved recent apps/overview losing input focus 
+- Vibrant monet color scheme based from android 13 monet styles
 * Added back Lockscreen Blur Media Filters [eldainosor]
  - [MD]: Make blur radius configurable
 * Adapted CAF/CLO revisions to AOSP
@@ -51,7 +51,7 @@ update changelogs for v5.0 FINAL
 * Dialer Improvements:
 - Improved Design based on google's M3 design
 - [CP]: Crowdin updates [gwolf2u]
-* Fixed animations lags by optimizing blur and renderscript usage
+* Fixed some issues with Omnijaws (random crashing, permission error)
 * Fixed statusbar, keyguard and QSB views paddings
 * Fixed systemui restart issues (combined signal etc, removed systemui restart prompt, just use the power menu one)
 * Improved Dashboard Styles
@@ -82,11 +82,10 @@ update changelogs for v5.0 FINAL
 * System Shapes: Improved theming support
 * Toggle-able Translucent QS style [Project Fluid|elluzion|Androbuddy]
 * Translation support improvements 
- - updated turkish translations [Lafactorial]
- - updated chinese translations [xingxingchuan|Fldicoahkiin]
- - updated spanish translations [jesusvpct]
+ - Updated turkish translations [Lafactorial]
+ - Updated chinese translations [xingxingchuan|Fldicoahkiin]
+ - Updated spanish translations (09/02/22) [jesusvpct]
  - made more strings translatable ~ if you want it to be merged to the source please send a message to the group with #translation with url of your repo, we will cherrypick it and add it to source for you with authorship intact (our crowdin is limited).
- * Vibrant monet color scheme based from android 13 monet styles
  * Volume panel media output controller toggle
  * Volume panel style improvements
 
@@ -108,6 +107,7 @@ update changelogs for v5.0 FINAL
 - Lineage dependencies upstream (HALS, blobs, sepolicy more)
 _ Lineage translations updates
 _ Lineage frameworks patches and improvements
+* Omnijaws Improvements [StarkDroid|Corvus AOSP]
 * Redesign and animate battery and storage usage bars [StarkDroid|Corvus AOSP] 
 * Show August security patch on settings [jhenrique09|PixelExperience] 
 * Show ripple on face unlock [xyzuan|xdroid OSS]
@@ -125,6 +125,5 @@ Big thanks to pimpmaneaton for these fork changes merged on main branch:
 * Lockscreen charging improvements [calebcabob|SagarMakhar]
 * QuickSettings vibrate/haptic feedback [mydongistiny|amartinz]
 * Screenshot shutter sound toggle [maxwen]
-
 ===== End of Changelog for version 5.0 =====
 
