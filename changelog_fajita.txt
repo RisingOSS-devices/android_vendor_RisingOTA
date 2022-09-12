@@ -3,8 +3,11 @@ Build type: Weekly
 Device: OnePlus 6T
 Device maintainer: vikas(optimusprime)
 
+====12 Sept, 2022 ====Device-side====
+-Fixed CD issue
+
+
 ====11 Sept, 2022 ====Device-side====
--Update primus kernel from v4.9.258 to v4.9.327
 - Silence kernel build erros via additional flags 
 -Allow camera HAL read vendor_system_prop
 -sepolicy: Allow system_app to read /proc/pagetypeinfo
