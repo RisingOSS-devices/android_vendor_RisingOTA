@@ -1,132 +1,14 @@
 Highlights & Device Specific Changes:
 Build type: Weekly
 Device: OnePlus 6T
+"version": "6.0 Android 13",
 Device maintainer: vikas(optimusprime)
 
-====12 Sept, 2022 ====Device-side====
--Fixed CD issue
+====22 Sept, 2022 ====Device-side====
+Sync  a13 source changes as of 22/09/22
+full changelogs we will publish sooner
 
-
-====11 Sept, 2022 ====Device-side====
-- Silence kernel build erros via additional flags 
--Allow camera HAL read vendor_system_prop
--sepolicy: Allow system_app to read /proc/pagetypeinfo
--sepolicy: Allow system_app to access vmallocinfo 
-- overlay: Disable slow blur effect to avoid laggish BLUR
--sepolicy : Fix permission issues 
--OneplusSettings: Remove TouchGestures category 
--OneplusSettings: clenaup done & more optimized
--Remove pocketmode we have rom side
--fixup -trace more sepolicy denial
--Update default clang
--Update BoardConfig: update llmv clang bits
--wifi: Disable RX wakelock feature 
--sdm845-common: Dt cleanup & Minor improvements
--Safetynet passes by default
-
-
-
-Sync source changes as of 09/02/22
-====11Sept, 2022 ====
-
-==== riceDroid Additions ===== changes we did or modified
-* [AOSP][CP][MD] runtime improvements and August ASB patches from master branch [neobuddy89|crdroid team|lineageos]
-* Adapted and cherry-picked changes/fixes from android 13
-- Android 13 music player and lockscreen notification style
-- Animations fixes and improvements
-- Bubbles and notification improvements 
-- Direct share/sharesheet improvements
-- Fix IME/keyboard overlapping with edittext elements
-- Fixed wifi/internet dialog systemui crash/not responding
-- Fixed network related issues
-- QS panel, splitshade, LS improvements
-- Reduced cpu usage from main/ui thread
-- Rendering improvements
-- Resolved misc memory leaks, runtime breakage etc.  
-- Resolved splash animations randomly being cutted off
-- Resolved recent apps/overview losing input focus 
-- Vibrant monet color scheme based from android 13 monet styles
-* Added back Lockscreen Blur Media Filters [eldainosor]
- - [MD]: Make blur radius configurable
-* Adapted CAF/CLO revisions to AOSP
-  - CAF/CLO tag patches taken from CAF/CLO based roms [AOSPA]
-  - CAF/CLO optimization ports (needs to be tuned/enabled via device tree)
-* Dialer Improvements:
-- Improved Design based on google's M3 design
-- [CP]: Crowdin updates [gwolf2u]
-* Fixed some issues with Omnijaws (random crashing, permission error)
-* Fixed statusbar, keyguard and QSB views paddings
-* Fixed systemui restart issues (combined signal etc, removed systemui restart prompt, just use the power menu one)
-* Improved Dashboard Styles
-- automatically detects if build variant (vanilla/pixel)
-- Added AOSP style
-- Fixed Arcane Style usercard avatar
-* Improved Lockscreen notifcation and smartspace paddings
-* [MD] Resizeable QS Date, QS and Statusbar clock [StarkDroid|Corvus-AOSP]
-* [MD] Statusbar Clock background chip [StarkDroid|Corvus-AOSP]
-* [MD] Statusbar paddings customizations [IDontCare-05|CrisbalGreece]
-* QS Weather view position customization
-* Redesigned battery and storage progress bars to OOS/RUI design pattern
-* Redesigned About phone layout banner [IacobIonut01|DotOS]
-* Reverted back to vivid monet shades (sorry black theme users)
-* SushiLauncher: Spicy Tuna
-  - [CP]Add Weather view from OmniJaws [StarkDroid|Corvus AOSP]
-  - [CP] preference for wallpaper scrolling [neobuddy89|crdroid]
-  - [CP] restore blur on configuration changes [ritujb]
-  - Fine tuned material color shades
-  - Fixed google search bar color on light mode
-  - Fixed recents apps resources tint
-  - Keyguard/lockscreen Android 13 zoom animation toggle
-  - Increased max allowed blur radius
-  - Introducing extended google smartspace layout [teamfiles - for the pixel launcher mod concept]
-  - Redesign QuickSearchBar [teamfiles - for the pixel launcher mod concept]
-* Switched to glassy blur effect for background views, recents etc 
-* Switched to OOS 12/13 ui sound effects
-* System Shapes: Improved theming support
-* Toggle-able Translucent QS style [Project Fluid|elluzion|Androbuddy]
-* Translation support improvements 
- - Updated turkish translations [Lafactorial]
- - Updated chinese translations [xingxingchuan|Fldicoahkiin]
- - Updated spanish translations (09/02/22) [jesusvpct]
- - made more strings translatable ~ if you want it to be merged to the source please send a message to the group with #translation with url of your repo, we will cherrypick it and add it to source for you with authorship intact (our crowdin is limited).
- * Volume panel media output controller toggle
- * Volume panel style improvements
-
-==== Cherry-picked features Additions ==== purely cherry-picked changes we didnt modified
-* crDroid August Upstream changes [neobuddy89|gwolf2u|iusmac|shevt|xNombre]
-- Crowdin Translations
-- Fixed navigation bar theming
-- Fixed handwave & proximity pulse conflict
-- Fixed qs customizer corner radius
-- Rounded corner improvements
-* Fixed power menu systemUI restart showing dialog when restarting [ezio84]
-* Fixed status bar burn-in protection shifting base padding when orientation changed [EcrosoftXiao]
-* Fixed user profile photo picker crash [tmjosten|Evolution X]
-* Improved vertical QS tile layout and animation [tmjosten|Evolution X]
-* Improved Statusbar clock background paddings - [StarkDroid|Corvus-AOSP]
-- Updated android runtime improvements and fixes as of 08/29/22
-* LineageOS August Upstream changes [luk1337|althafvly|bgcngm|sevenrock|chirayudesai|stricted|mikeNg|haggertk|BadDaemon]
-- August ASB patches
-- Lineage dependencies upstream (HALS, blobs, sepolicy more)
-_ Lineage translations updates
-_ Lineage frameworks patches and improvements
-* Omnijaws Improvements [StarkDroid|Corvus AOSP]
-* Redesign and animate battery and storage usage bars [StarkDroid|Corvus AOSP] 
-* Show August security patch on settings [jhenrique09|PixelExperience] 
-* Show ripple on face unlock [xyzuan|xdroid OSS]
-* Switch notification background to monet on heads up [DillerOFire|Project Fluid]
-* Toast icon toggle and improvements [LordClockan|SagarMakhar|BoredOutOfMyGit|jhenrique09|idoybh]
-* QuickSettings Weather view - [StarkDroid|Corvus-AOSP]
-* Volume panel improvements [Arian16ka]
-- Show media output controller if there is an active stream
-- Move the MediaOutputDialog above status bar 
-* Weather provider from OmniRom - [maxwen]
-
-Big thanks to pimpmaneaton for these fork changes merged on main branch:
-* Big dotted/circle battery indicator [DennySPB]
-* ColorController: Fix getting default color [varund7726]
-* Lockscreen charging improvements [calebcabob|SagarMakhar]
-* QuickSettings vibrate/haptic feedback [mydongistiny|amartinz]
-* Screenshot shutter sound toggle [maxwen]
-===== End of Changelog for version 5.0 =====
+====22 Sept, 2022 ====Device-side====
+-first android a13 stable build release
+-lots of improvments and optimization done 
 
