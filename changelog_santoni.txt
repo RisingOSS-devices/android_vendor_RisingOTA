@@ -4,8 +4,16 @@ Device: Redmi 4/4X (santoni)
 Device maintainer: Ansh Singh
 Required firmware: v45 or higher
 
+===== 2022.09.22 =====
+• Synced Latest riceDroid 6.0 changes 
+• Initial Android 13 Build
+• Kernel: Switched to Evil-Kernel v1.0
+• Known Bugs: BT Audio
+• Misc. Fixes And Improvements
+
 ===== 2022.08.19 =====
-• Synced Latest riceDroid 5.0 changes                                 • Updated to August security patch                                    
+• Synced Latest riceDroid 5.0 changes                                 
+• Updated to August security patch                                    
 • Fixed VoLTE issue on before july release                            
 • Kernel: 4.9.227 (CAF) - LA.UM.10.6.2.r1-02200-89xx.0 (Clang 14.0.2) 
 • Misc. Fixes and Improvements
