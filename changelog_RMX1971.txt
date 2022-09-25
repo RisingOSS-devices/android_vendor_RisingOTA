@@ -3,6 +3,16 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 25 September, 2022 ====
+- Initial A13 release
+- CTS passes by default
+- Selinux is Enforcing
+- Build is encrypted (FBE Enabled, so ofox 12.1 recovery or PE recovery recommended)
+- Ships with GrapheneOS Camera 
+- BT Media and calling working fine
+- Clean flashing is Must, even if you are using riceDroid A12L
+- No known issues, if u find any, report with proper logs
+
 ==== 31 August, 2022 ====
 - Updated to Latest Source Changes
 - Miscellaneous changes to make rom smoother and improve performance
