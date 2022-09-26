@@ -3,6 +3,10 @@ Build type: Monthly
 Device: POCO X4 PRO 5G (veux/peux)
 Device maintainer: Sharma G
 
+===== 26th September 2022 ====
+- Synced with Latest riceDroid v6.0 changes
+- Initial A13 build with some fixes 
+
 ===== 17th August 2022 =====
 - Synced with Latest riceDroid v5.0 changes
 - veux: overlay: Max notification of icons --> 9
