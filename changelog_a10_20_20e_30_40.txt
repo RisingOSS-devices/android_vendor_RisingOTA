@@ -1,0 +1,17 @@
+Highlights & Device Specific Changes:
+Build type: Bi-Monthly
+Device: Samsung Galaxy A10/20/20e/30/40
+Device maintainer: eun0115
+
+====29 September, 2022 ====
+
+Changelogs: 
+- Initial ARM64 Android 13 Build
+- Backported more BPF commits 
+- Drop zram writeback
+- Switch to AIDL impl of memtrack HAL, removes memtrack.exynos7xxx.so from vendor, This requires R11 kernel as it has required commits.
+- Default cam is GrapheneCam
+- AIDL DRM clearkey, powerstats HAL.
+- Zram default size is now 1.5GB
+- Vanilla Build
+
