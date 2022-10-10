@@ -1,7 +1,7 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
-Device: Redmi 9T (Chime/Juice)
-Device maintainer: Λｙａｎ
+Device: Redmi 9T/Poco m3 (Chime)
+Device maintainer: Ayan-whyyraku
 Required firmware: Last Global Firmware 
 
 ===== 2022.07.23 =====
@@ -9,3 +9,14 @@ Required firmware: Last Global Firmware
 - Synced Latest riceDroid v3.5 changes
 - fixed lag issue
 - Shipped with Storm breaker kernel 
+
+===== 2022.10.10 =====
+- Switch to Pixel Powers
+- Update Blobs from MIUI V13.0.1.0.SJQMIXM
+- Drop SkiaGL HWUI renderer
+- Tune vibration configs from MIUI
+- Disable zram writeback
+- Drop Vulkan HWUI Renderer
+- Removed blur
+- Added rice dialer
+- Fixed package installer
