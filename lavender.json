@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "JojiOnThatBeat & Shizuka Hinode",
+			"oem": "Xiaomi",
+			"device": "Redmi Note 7/7S",
+			"filename": "riceDroid-7.0-22101011-OFFICIAL-PIXEL-lavender.zip",
+			"download": "https://github.com/Mooni-s-Lab/YandereLab-OTA/releases/download/YandereLab-riceDroid/riceDroid-7.0-22101011-OFFICIAL-PIXEL-lavender.zip",
+			"timestamp": 1660157431,
+			"md5": "f630b0817cec04730f08f259cd21fb82",
+			"sha256": "26573afb101c54c92f61d4c03f307710fa28d052b517e9c837ac8bed845c320c",
+			"size": 1900983867,
+			"version": "7.0",
+			"buildtype": "Monthly",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/YandereLabProject",
+			"dt": "",
+			"common-dt": "",
+			"kernel": ""
+		}
+	]
+}

@@ -1,0 +1,10 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 7/7S (lavender)
+Device maintainer:  JojiOnThatBeat & Shizuka Hinode 
+
+===== 2022.10.10 =====
+ 
+
+
+
