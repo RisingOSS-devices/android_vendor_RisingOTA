@@ -3,6 +3,12 @@ Build type: Monthly
 Device: POCO X4 PRO 5G (veux/peux)
 Device maintainer: Sharma G
 
+===== 10th October 2022 ====
+- Synced with Latest riceDroid v7.0 changes
+- veux: MTP/USB fixed
+- veux: Shipped with Graphene OS camera(no need of Gcam Go)
+- veux: Enable call recording in Google dialer
+
 ===== 26th September 2022 ====
 - Synced with Latest riceDroid v6.0 changes
 - Initial A13 build with some fixes 
