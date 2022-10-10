@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Λｙａｎ",
-			"oem": "Xiaomi",
-			"device": "Redmi 9T",
-			"filename": "riceDroid-12.1-2022082521-chime-v5.0-PIXEL.zip",
-			"download": "https://sourceforge.net/projects/ricedroid/files/riceDroid-12.1-2022082521-chime-v5.0-PIXEL.zip/download",
-			"timestamp": 1661443526,
-			"md5": "5f1da8fb52f87a5e328ecdb98ca50b43",
-			"sha256": "f01b08cc497dc055208e9e0ba7eed74768d9bb4710f4666a996c73b5c3603b1c",
-			"size": 1632470984,
-			"version": "5.0",
-			"buildtype": "Monthly",
-			"forum": "https://t.me/ayanot69",
-			"gapps": "",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "",
-			"paypal": "",
-			"telegram": "https://t.me/not_ayan",
-			"dt": "https://github.com/herobuxx/android_device_xiaomi_chime",
-			"common-dt": "",
-			"kernel": "https://github.com/chimeOSS/kernel_xiaomi_chime"
-		}
-	]
+        "response": [
+                {
+                        "maintainer": "Ayan-whyyraku",
+                        "oem": "Xiaomi",
+                        "device": "Redmi 9T/Poco M3",
+                        "filename": "7.0-22101001-OFFICIAL-PIXEL-chime.zip",
+                        "download": "https://sourceforge.net/projects/ricedroid/files/riceDroid-7.0-22101001-OFFICIAL-PIXEL-chime.zip/download",
+                        "timestamp": 1665365946,
+                        "md5": "",
+                        "sha256": "",
+                        "size": ,
+                        "version": "chime.zip",
+                        "buildtype": "Monthly",
+                        "forum": "https://t.me/ayanot69",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "",
+                        "telegram": "https://t.me/not_ayan",
+                        "dt": "https://github.com/rktdnt/device_xiaomi_chime",
+                        "common-dt": "",
+                        "kernel": "https://github.com/frstprjkt/kernel_xiaomi_chime-anya"
+                }
+        ]
 }
