@@ -4,13 +4,13 @@
         "maintainer": "K Samba Siva Rao (KSSRAO)",
         "oem": "Realme",
         "device": "Realme 5 Pro",
-        "filename": "riceDroid-12.1-2022083104-RMX1971-v5.0-PIXEL.zip",
-        "download": "https://sourceforge.net/projects/ricedroid-rmx1971/files/5.0-EoL/riceDroid-12.1-2022083104-RMX1971-v5.0-PIXEL.zip/download",
-        "timestamp": 1661478442,
-        "md5": "d43ed84164e98da80ea1ab8442d2e5c3",
-        "sha256": "d771e39a41e9d95d7c9497124117acac59b8f830387093c6b7df7373d03776c9",
-        "size": 1749646510,
-        "version": "5.0",
+        "filename": "riceDroid-7.0-22101101-OFFICIAL-PIXEL-RMX1971.zip",
+        "download": "https://sourceforge.net/projects/ricedroid-rmx1971/files/7.0/riceDroid-7.0-22101101-OFFICIAL-PIXEL-RMX1971.zip/download",
+        "timestamp": 1665451523,
+        "md5": "609807e55ee76a3caa285a8ad5ceb871",
+        "sha256": "cfa85a87959d5a5065422558d1aaf8300ca121c33038ffa15c09bf97a352d25f",
+        "size": 1749640927,
+        "version": "7.0",
         "buildtype": "Monthly",
         "forum": "https://t.me/riceDroid_RMX1971",
         "gapps": "",
@@ -22,7 +22,7 @@
         "telegram": "https://t.me/kssrao13882",
         "dt": "https://github.com/riceDroid-Devices/device_realme_RMX1971",
         "common-dt": "https://github.com/riceDroid-Devices/device_realme_sdm710-common",
-        "kernel": "https://gitlab.com/kssrao13882/kernel_realme_sdm710"
+        "kernel": "https://github.com/riceDroid-Devices/kernel_realme_sdm710"
     }
   ]
 }
