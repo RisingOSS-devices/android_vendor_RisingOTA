@@ -1,14 +1,50 @@
 Highlights & Device Specific Changes:
 Build type: Weekly
 Device: OnePlus 6T
-"version": "6.0 Android 13",
+"version": "7.0",
 Device maintainer: vikas(optimusprime)
 
-====22 Sept, 2022 ====Device-side====
-Sync  a13 source changes as of 22/09/22
-full changelogs we will publish sooner
-
-====22 Sept, 2022 ====Device-side====
--first android a13 stable build release
--lots of improvments and optimization done 
-
+==== 14 October, 2022 ====
+-Enabled/Added Support For Google Dialer Call Recording
+-Silence kernel build erros via additional flags 
+-BoardConfig: update with latest a13 llmv clang bits
+-fixup -: sepolicy denial 
+-Define qs system info node paths 
+-Mics adoption changes for oneplussettings& touchscreen Gestures
+-PocketLock:Make using light sensor optional 
+-Switch to AOSP BT stack 
+- Build NFC from source 
+-Pull appropriate USB props from vendor_product.mk 
+-wifi: Enable set channel on NDP setup 
+-wifi: Configure correct overlay configuration. 
+-Migrate to AIDL ClearKey DRM HAL 
+-Import common bdroid_buildcfg 
+-Move Bluetooth power overlays to sysprops 
+-overlay: Remove BT related configs 
+-Disable LE audio related profiles 
+-Use the ?= operator so BT properties can be overridden 
+-Set default the Bluetooth class of device 
+-Update LE Audio profile properties to match spec and i… 
+-Move BT profiles props to vendor 
+-Enable bluetooth profiles with product.prop 
+-drop audio.a2dp.default 
+-Add aptX blobs back 
+-fod: Enable UDFPS customization As per changes
+-Update flag for Bootanimation 
+-Update MAINTAINER NAME 
+-Commonize bdroid_buildcfg 
+-Power profile audio & video support 
+-overlay: Set BT controller voltage in the power profile  
+-Replace BTM_DEF_LOCAL_NAME with a sysprop
+-hardware:Automatic translation import 
+-vibrator: Remove ndk_platform backend. Use the ndk backend. 
+-hidl: fingerprint: release dim on finger up/cancel 
+-hardware: hidl: inscreen: Set thread to high CFS priority 
+-hardware:Check PRODUCT_SOONG_NAMESPACES instead of BOARD_VENDOR in build guard 
+-hardware:fingerprint: Misc changes 
+sepolicy: Allow audio HAL to read vendor_bluetooth_prop
+-Adapted changes to system info as per latest source
+-Upstreamed Primus kernel to latest 4.9.309
+-Safetynet passes by default
+-Miscellaneous other changes to make rom smoother and better
+-lots of improvments and optimization done
