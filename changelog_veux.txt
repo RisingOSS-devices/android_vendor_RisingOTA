@@ -3,6 +3,11 @@ Build type: Monthly
 Device: POCO X4 PRO 5G (veux/peux)
 Device maintainer: Sharma G
 
+===== 18th October 2022 ==== 
+- Synced with Latest riceDroid v7.5 changes 
+- veux: Improved Statusbar and Margin paddings
+- veux: Misc improvements
+
 ===== 10th October 2022 ====
 - Synced with Latest riceDroid v7.0 changes
 - veux: MTP/USB fixed
