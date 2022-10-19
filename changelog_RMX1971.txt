@@ -3,6 +3,10 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 19 October, 2022 ====
+- Fixed an issue where call volume wasn't changing
+- Nuked Audiofx and Music apps that were shipping with rom
+
 ==== 11 October, 2022 ====
 - Switched to User Build from User Debug
 - Fixed low volume issue at Receiver's end during call
