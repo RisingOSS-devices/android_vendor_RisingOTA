@@ -3,6 +3,16 @@ Build type: Monthly
 Device: POCO X4 PRO 5G (veux/peux)
 Device maintainer: Sharma G
 
+===== 10th November 2022 ====
+- Synced with Latest riceDroid v8.0 changes
+- veux: overlay: Update multiple vibration intensity levels config for T
+- veux: props: For smoother scrolling and better responsiveness
+- veux: Update Vendor blobs
+- veux: Drop DeviceSettings
+- veux: Import XiaomiParts(Vibration intesion broken)
+- veux: overlays: Enable Smart Pixels feature
+- veux: Statusbar padding adjustment
+ 
 ===== 18th October 2022 ==== 
 - Synced with Latest riceDroid v7.5 changes 
 - veux: Improved Statusbar and Margin paddings
