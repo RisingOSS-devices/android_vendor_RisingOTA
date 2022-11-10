@@ -1,16 +1,17 @@
+
 {
 	"response": [
 		{
 			"maintainer": "SHARMA G",
 			"oem": "POCO",
 			"device": "POCO X4 PRO 5G",
-			"filename": "riceDroid-7.5-22101802-OFFICIAL-GMS-veux.zip",
-			"download": "https://www.pling.com/p/1851541/",
-			"timestamp": 1666058925,
+			"filename": "riceDroid-8.0-22111006-OFFICIAL-GMS-veux.zip",
+			"download": "https://drive.google.com/file/d/1Mj64YLBxn0_n-a2NPisZAZDScVvZJ80X/view?usp=drivesdk",
+			"timestamp": 1668063423,
 			"md5": "",
 			"sha256": "",
-			"size": "1.5",
-			"version": "7.5",
+			"size": ,
+			"version": "8.0",
 			"buildtype": "Monthly",
 			"forum": "",
 			"gapps": "",
