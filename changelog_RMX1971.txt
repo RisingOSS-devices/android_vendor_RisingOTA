@@ -3,6 +3,22 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 11 November, 2022 ====
+- Added feature to hide system apps in app lock
+- Added feature to show app Memory usage detail in app info 
+- Tuned bmps listening interval to achieve power savings during wifi idle
+- Extended buffer size for offload playback to reduce cpu wake up
+- Used QCOM implementation for audio effects
+- Optimized the shutdown time 
+- Dropped deprecated vp8-vp9 media codecs
+- Reduced number of CPUs for system-background apps to reduce cpu workload 
+- Enabled UXE for performance improvement 
+- Disabled TDLS offchannel in wifi
+- Nuked test apps installation 
+- Switched to AVC 3.1 for screen recording
+- Upstreamed Kharame kernel to latest 4.9.332
+- Miscellaneous other changes to make rom smoother and better
+
 ==== 19 October, 2022 ====
 - Fixed an issue where call volume wasn't changing
 - Nuked Audiofx and Music apps that were shipping with rom
