@@ -20,3 +20,22 @@ Required firmware: Last Global Firmware
 - Removed blur
 - Added rice dialer
 - Fixed package installer
+
+===== 2022.10.19 =====
+- Tune auto-brightness configs
+- Disable intrusive GMS components
+- Drop Vulkan HWUI renderer
+- Migrate to AIDL ClearKey DRM HAL
+- Move to F2FS Compression
+- Improvement Pixel Power
+
+===== 2022.11.09 =====
+- Add Miui cam
+- Drop F2FS Compression
+- Address some sepolicy
+- Improved Status bar paddings
+- Updated Adreno Blobs
+- Cleaned some unused system blobs
+- Remove CAF input boost
+- Fixed 60fps recording
+- Disable slow blur avoid lagging
