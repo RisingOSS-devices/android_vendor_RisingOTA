@@ -1,21 +1,23 @@
-Highlights & Device Specific Changes:
-Build type: first half- Monthly
-Device: Xiaomi Poco F3
-Device maintainer: @oz_maradny & @ZiadFekry
-
-====05 August, 2022 ====
--update to latest miui blob 13.0.7.0 EEA
-
--add support for smart charging.
-
--add support for ambient display gesture .
-
--fix google fast pairing ( with tws etc )
-
--add support for aw8624 haptic.
-
--enforce stock audio format 24 bit
-
--import entire package of audio config from miui 13.0.7.0
-
--restrict permissions to socket file to hide Magisk that detect some app as root
+Power: Decrease launch boost to 3sec 
+- Kill IMS logspam with fire
+- Add xiaomi cit sensor service 
+- Import and switch to qti vibrator effect
+- Enable the pre-rendering feature 
+- Set pcluster size per aosp
+- switch to WeebX clang-16 
+- Optimise dex flags
+- Optimize package manager dexopt properties
+- Compile HWUI for performance
+- Properly declare our platform info 
+- Drop palm sensor inits 
+- Drop VULKAN_DEQP_LEVEL handling
+- Don't spam logspam when bt headset is connected 
+- Allow citsensorservice use sysfs_leds
+- Added Dirac 
+- Added one plus Dolby 
+- update Audio config from 13.0.8.0 EEA
+- Update CarrierConfig from munch V13.0.4.0.SLMMIXM
+- Added HBM 
+- Added Miui camera
+- address some sepolicy denails
+- drop lineage power profile and import AOSPA Trees Power Profile
