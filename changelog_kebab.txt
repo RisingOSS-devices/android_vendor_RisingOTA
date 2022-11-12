@@ -1,0 +1,9 @@
+===================================
+  Device Changes as of 11-12-2022
+===================================
+
+  * android_device_oneplus_lemonkebab
+  - kebab: Build updater app  [minaripenguin37]
+  - kebab: disable face unlock feature  [minaripenguin37]
+  - kebab: Fix task profile parsing  [minaripenguin37]
+

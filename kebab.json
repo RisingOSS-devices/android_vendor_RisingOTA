@@ -1,0 +1,28 @@
+{
+        "response": [
+                {
+                        "maintainer": "Lia",
+                        "oem": "Oneplus",
+                        "device": "kebab",
+                        "filename": "riceDroid-13.0-20221112-kebab-v8.0-CORE-OFFICIAL.zip",
+                        "download": "https://thisisatestlink/test",
+                        "timestamp": 1668248792,
+                        "md5": "7c1de07a6a317c0b699873393e34e21e",
+                        "sha256": "814f3006a0da9edc417c80e8b0c129394a7d2682f7f79628896d02cfd8ce177c",
+                        "size": 1229411787,
+                        "version": "8.0",
+                        "buildtype": "Testing",
+                        "forum": "",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "",
+                        "telegram": "https://t.me/riceDroidsupport",
+                        "dt": "https://github.com/minaripenguin/android_device_oneplus_lemonkebab",
+                        "common-dt": "",
+                        "kernel": "https://github.com/minaripenguin/meteoric_kernel"
+                }
+        ]
+}
