@@ -1,1 +1,28 @@
-
+{
+	"response": [
+		{
+			"maintainer": "SKetU-l",
+			"oem": "Asus",
+			"device": "X00T/D",
+			"filename": "riceDroid-13.0-202301161032-X00TD-v10.1-PIXEL-OFFICIAL.zip",
+			"download": "https://devuploads.com/2qls5zpscagt",
+			"timestamp": 1673865156,
+			"md5": "2410414d36d7f1d1d6a5ae9655932910",
+			"sha256": "92951f4985d13766fb01305c902b902acd284fb48e88989033a20a450355458d",
+			"size": 1603708647,
+			"version": "10.1",
+			"buildtype": "Monthly",
+			"forum": "https://t.me/X00TDDISC",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/SKetUl",
+			"dt": "https://github.com/ricedroidOSS-devices/android_device_asus_X00TD.git",
+			"common-dt": "",
+			"kernel": "https://github.com/SKetU-l/kernel_asus_sdm660.git"
+		}
+	]
+}

@@ -1,1 +1,14 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Asus Zenfone Max Pro M1 (X00TD)
+Device maintainer: SKetU-l
+Required firmware: 087 or 063
 
+===== 2023.01.17 =====
+- Build with Pixel fingerprint
+- Shipped with Fork infinity kernel
+- Added offline charging animation from pixel
+- Decreased Target screen density
+- Decreased Sushi bootanimation to 720
+- Removed Aperture camera and AudioFX
+- Prebuilt GcamGO
