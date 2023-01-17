@@ -1,7 +1,7 @@
 Highlights & Device Specific Changes:
-Build type: Monthly
+Build type: Bi-monthly
 Device: Redmi Note 8/8T (ginkgo/willow)
-Device maintainer: Rasend 
+Device maintainer: Rasend | eun0115
 Required firmware: Last Global Firmware R
 
 ===== 2022.08.28 =====
@@ -18,3 +18,15 @@ Required firmware: Last Global Firmware R
 - Switch to SkiaGL Threaded
 - overlay: fix lockscreen charging overlay
 - Reduce TARGET_SCREEN_DENSITY.  (allows us to further resize widgets to the smaller ones e.g horizontal pill style on google's weather widget)
+
+===== 2022.08.28 =====
+- Rebased over new trees
+- Fixed 48MP Mode (thanks to @aryaman895)
+- Move parts to the system category
+- Fixed RAW10 buffer
+- Address fps and hal_attribute_lineage denials
+- Tune Statusbar padding
+- Meow r7 Included
+- Compiled using Proton Clang 13 + O3 + LTO + LLVM Polly
+- Fixed Playstore crash
+- Misc Improvements
