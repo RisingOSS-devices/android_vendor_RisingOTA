@@ -1,50 +1,16 @@
 Highlights & Device Specific Changes:
-Build type: Weekly
+Build type: Monthly
 Device: OnePlus 6
-"version": "7.0",
+"version": "10.1",
 Device maintainer: vikas(optimusprime)
 
-==== 14 October, 2022 ====
--Enabled/Added Support For Google Dialer Call Recording
--Silence kernel build erros via additional flags 
--BoardConfig: update with latest a13 llmv clang bits
--fixup -: sepolicy denial 
--Define qs system info node paths 
--Mics adoption changes for oneplussettings& touchscreen Gestures
--PocketLock:Make using light sensor optional 
--Switch to AOSP BT stack 
-- Build NFC from source 
--Pull appropriate USB props from vendor_product.mk 
--wifi: Enable set channel on NDP setup 
--wifi: Configure correct overlay configuration. 
--Migrate to AIDL ClearKey DRM HAL 
--Import common bdroid_buildcfg 
--Move Bluetooth power overlays to sysprops 
--overlay: Remove BT related configs 
--Disable LE audio related profiles 
--Use the ?= operator so BT properties can be overridden 
--Set default the Bluetooth class of device 
--Update LE Audio profile properties to match spec and i… 
--Move BT profiles props to vendor 
--Enable bluetooth profiles with product.prop 
--drop audio.a2dp.default 
--Add aptX blobs back 
--fod: Enable UDFPS customization As per changes
--Update flag for Bootanimation 
--Update MAINTAINER NAME 
--Commonize bdroid_buildcfg 
--Power profile audio & video support 
--overlay: Set BT controller voltage in the power profile  
--Replace BTM_DEF_LOCAL_NAME with a sysprop
--hardware:Automatic translation import 
--vibrator: Remove ndk_platform backend. Use the ndk backend. 
--hidl: fingerprint: release dim on finger up/cancel 
--hardware: hidl: inscreen: Set thread to high CFS priority 
--hardware:Check PRODUCT_SOONG_NAMESPACES instead of BOARD_VENDOR in build guard 
--hardware:fingerprint: Misc changes 
-sepolicy: Allow audio HAL to read vendor_bluetooth_prop
--Adapted changes to system info as per latest source
--Upstreamed Primus kernel to latest 4.9.309
--Safetynet passes by default
--Miscellaneous other changes to make rom smoother and better
--lots of improvments and optimization done
+==== 17 January, 2023 ====
+Rise v10.1
+- Jan 2023 Security Patch
+- Added full OOS Camera support
+-Added Smart charging
+-fixup sepolicy denial
+- Fixed Other minor issues and under the hood improvements
+Notice
+Clean flash recommended 🙂
+Come with core gapps
