@@ -39,3 +39,8 @@ Required firmware: Last Global Firmware
 - Remove CAF input boost
 - Fixed 60fps recording
 - Disable slow blur avoid lagging
+
+===== 2023.01.17 =====
+- Add blkio tuning from sunfish 
+- Kang runtime cpusets from coral 
+- Used MIUI fingerprint from latest
