@@ -3,6 +3,17 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 17 January, 2023 ====
+- Based on January Security Patch
+- Fixed video playback tinting issue in apps like Instagram
+- Fixed status bar paddings
+- Fixed boot animation lags/freezes
+- Fixed triple frame buffer regression
+- Added support for Next Gen Assistant
+- Upstreamed Kharame Kernel to latest 4.9.337
+- Updated Battery health overlays as per latest source changes
+- Miscellaneous other changes to make rom smoother and better
+
 ==== 11 November, 2022 ====
 - Added feature to hide system apps in app lock
 - Added feature to show app Memory usage detail in app info 
