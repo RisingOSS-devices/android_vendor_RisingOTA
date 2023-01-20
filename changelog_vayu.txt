@@ -3,13 +3,11 @@ Build type: Monthly
 Device: X3 PRO (vayu/bhima)
 Device maintainer:  Ste0090 x Restintrip 
 
-===== 2022.08.10 =====
+===== 2023.01.20 =====
 
-• Synced Latest riceDroid 4.5 changes
-• Fix cts pass
+• Synced Latest riceDroid 10.1 changes
+• Fix google dialer
 • Performance improvements
-• Updated qcom hals
-• Enable FUSE Passthrough
  
 
 
