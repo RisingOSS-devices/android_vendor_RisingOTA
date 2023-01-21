@@ -1,7 +1,15 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: POCO X4 PRO 5G (veux/peux)
-Device maintainer: Sharma G
+Device maintainer: SharmagRit
+
+===== 21st January 2023 ====
+- Synced with Latest riceDroid v10.1 changes
+- veux: Add GoogleCameraGo
+- veux: add Lineage Trust
+- veux: parts: Add Dirac logo
+- veux: Import OnePlus Dolby
+- veux: Enable usb adb debugging by default
 
 ===== 10th November 2022 ====
 - Synced with Latest riceDroid v8.0 changes
