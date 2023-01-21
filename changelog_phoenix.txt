@@ -1,7 +1,17 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: POCO X2 (phoenix)
-Device maintainer: Sharma G
+Device maintainer: SharmagRit
+
+===== 21st January 2023 =====
+- Synced with Latest riceDroid v10.1 changes
+- phoenix: audio: Fix mic issues in apps like WhatsApp
+- phoenix: prop: fix audio delay in TWS when using AAC
+- phoenix: Include MiuiCam
+- phoenix: parts: Implement Clear Speaker
+- phoenix: Add GoogleCameraGo
+- phoenix: Add Moto dolby support
+- phoenix: Add Xiaomi ringtones
 
 ===== 15th July 2022 =====
 - Synced with Latest riceDroid v3.5 changes

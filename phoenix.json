@@ -1,28 +1,28 @@
 {
-  "response": [
-    {
-        "maintainer": "SHARMA G",
-        "oem": "POCO",
-        "device": "POCO X2",
-        "filename": "riceDroid-12.1-2022071514-phoenix-v3.5-PIXEL.zip",
-        "download": "https://sourceforge.net/projects/sharma-g-builds/files/phoenix/",
-        "timestamp": 1657861442,
-        "md5": "85db61a61f479093c8291609aa3afc55",
-        "sha256": "e0ff59e421eebdb38360233b7aba1cfd0e5bce29297ce7495ab168761f6c55ea",
-        "size": 1343419190,
-        "version": "3.5",
-        "buildtype": "Monthly",
-        "forum": "",
-        "gapps": "",
-        "firmware": "",
-        "modem": "",
-        "bootloader": "",
-        "recovery": "https://orangefox.download/device/phoenix",
-        "paypal": "https://www.paypal.me/sharmag04",
-        "telegram": "https://t.me/SharmaG_OS",
-        "dt": "https://github.com/SharmagRit/android_device_xiaomi_phoenix.git",
-        "common-dt": "",
-        "kernel": "https://github.com/redcliff-op/android_kernel_xiaomi_phoenix.git"
-    }
-  ]
+	"response": [
+		{
+			"maintainer": "SharmagRit",
+			"oem": "POCO",
+			"device": "POCO X2",
+			"filename": "riceDroid-13.0-202301201611-phoenix-v10.1-PIXEL-OFFICIAL.zip",
+			"download": "",
+			"timestamp": 1674231099,
+			"md5": "f6d3a1efd1557ec0add5e2e6d3f557da",
+			"sha256": "9c2b8311a1fce8eda9fe4f43102fc94dc24f35a3ec6e974f4a3b588ec11fb29f",
+			"size": 2048985947,
+			"version": "10.1",
+			"buildtype": "Monthly",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://orangefox.download/device/phoenix",
+			"paypal": "https://www.paypal.me/RiteshKrSharma",
+			"telegram": "https://t.me/phoenix_builds",
+			"dt": "https://github.com/SharmagRit/android_device_xiaomi_phoenix.git",
+			"common-dt": "",
+			"kernel": "https://github.com/redcliff-op/android_kernel_xiaomi_phoenix.git"
+		}
+	]
 }
