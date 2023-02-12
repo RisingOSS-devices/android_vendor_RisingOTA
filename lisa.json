@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "Mezaque Silver (M3zaque)",
+        "oem": "xiaomi",
+        "device": "Mi 11 Lite 5G NE",
+        "filename": "riceDroid-13.0-202302120055-lisa-v10.2-AOSP-OFFICIAL.zip",
+        "download": "https://sourceforge.net/projects/ricedroid-lisa/files/lisa/riceDroid-13.0-202302120055-lisa-v10.2-AOSP-OFFICIAL.zip/download",
+        "timestamp": 1676163236,
+        "md5": "2e1596defedee59ad191f6d64417123b",
+        "sha256": "c9cd905faa92f0baeb4c568a43e6aecd3ad3caf3274af652bbb92b3ace41675b",
+        "size": 2035534017,
+        "version": "10.2",
+        "buildtype": "OFFICIAL",
+        "forum": "xda",
+        "gapps": "true",
+        "firmware": "V13.0.8.0.SKOMIXM",
+        "modem": "",
+        "bootloader": "lahaina",
+        "recovery": "",
+        "paypal": "mezackisilva@gmail.com",
+        "telegram": "@M3zaque",
+        "dt": "https://github.com/M3zaque/android_device_xiaomi_lisa",
+        "common-dt": "",
+        "kernel": "https://github.com/M3zaque/android_kernel_xiaomi_lisa"
+    }
+  ]
+}
