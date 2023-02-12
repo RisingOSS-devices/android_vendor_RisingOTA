@@ -1,16 +1,16 @@
 {
   "response": [
     {
-        "maintainer": "Zisan (xisan)",
+        "maintainer": "Shikhar|Finnaib",
         "oem": "Xiaomi",
         "device": "Poco F1",
-        "filename": "riceDroid-12.1-2022070908-beryllium-v3.0-PIXEL.zip",
-        "download": "https://drive2.mistus.workers.dev/0:/riceDroid-12.1-2022070908-beryllium-v3.0-PIXEL.zip",
-        "timestamp": 1657353520,
-        "md5": "5703ef6fe7658dc263934cdff3906b40",
-        "sha256": "28e933cb2bab8911e1ab5d9a770b6adb66739f9e717fe464495d475b5f0a0a74",
-        "size": 1654655662,
-        "version": "3.0",
+        "filename": "riceDroid-13.0-202302120737-beryllium-v10.2-AOSP-OFFICIAL.zip",
+        "download": "https://sourceforge.net/projects/jxs/files/rice/riceDroid-13.0-202302120737-beryllium-v10.2-AOSP-OFFICIAL.zip/download",
+        "timestamp": 1676138465,
+        "md5": "d070268e3e5930710ede0785d328f357",
+        "sha256": "4708989f20b9e5dd87d85361738434f6aa42bfd057a8c9028a0a68b2822fd34a",
+        "size": 1165979513,
+        "version": "10.2",
         "buildtype": "Monthly",
         "forum": "https://t.me/arcana_beryllium",
         "gapps": "",
@@ -19,10 +19,10 @@
         "bootloader": "",
         "recovery": "",
         "paypal": "",
-        "telegram": "https://t.me/xisan",
-        "dt": "https://github.com/Xeesan/device_xiaomi_beryllium",
-        "common-dt": "https://github.com/Xeesan/device_xiaomi_sdm845-common",
-        "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sdm845"
+        "telegram": "https://t.me/Excraze",
+        "dt": "https://github.com/Krtonia/device_xiaomi_beryllium",
+        "common-dt": "https://github.com/Krtonia/device_xiaomi_sdm845-common",
+        "kernel": "https://github.com/LineageOS/android_kernel_xiaomi_sdm845"
     }
   ]
 }
