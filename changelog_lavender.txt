@@ -1,10 +1,15 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: Redmi Note 7/7S (lavender)
-Device maintainer:  JojiOnThatBeat & Shizuka Hinode 
+Device maintainer: FPSensor
+
+===== 2023.02.13 =====
+
+- Initial FPSensor´s build
+
+HOTFIX:
+
+- Fixed boot issues for 3GB variant devices
+- Added GrapheneOS camera
 
 ===== 2022.10.10 =====
- 
-
-
-

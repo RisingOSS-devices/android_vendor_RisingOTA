@@ -1,28 +1,28 @@
 {
 	"response": [
 		{
-			"maintainer": "JojiOnThatBeat & Shizuka Hinode",
+			"maintainer": "FPSensor",
 			"oem": "Xiaomi",
 			"device": "Redmi Note 7/7S",
-			"filename": "riceDroid-7.0-22101011-OFFICIAL-PIXEL-lavender.zip",
-			"download": "https://github.com/Mooni-s-Lab/YandereLab-OTA/releases/download/YandereLab-riceDroid/riceDroid-7.0-22101011-OFFICIAL-PIXEL-lavender.zip",
-			"timestamp": 1660157431,
-			"md5": "f630b0817cec04730f08f259cd21fb82",
-			"sha256": "26573afb101c54c92f61d4c03f307710fa28d052b517e9c837ac8bed845c320c",
-			"size": 1900983867,
-			"version": "7.0",
+			"filename": "riceDroid-13.0-202302131844-lavender-v10.2-PIXEL-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/fpsensor-builds/files/lavender/riceDroid/10.2/riceDroid-13.0-202302131844-lavender-v10.2-PIXEL-OFFICIAL.zip/download",
+			"timestamp": 1676313797,
+			"md5": "52c271b431c772efc5a127f6a18dcc26",
+			"sha256": "0f9a90326a17025434f444d8f55ed6c7e9cf9ed949f803772a0def8682834a06",
+			"size": 1595179891,
+			"version": "10.2",
 			"buildtype": "Monthly",
 			"forum": "",
 			"gapps": "",
-			"firmware": "",
+			"firmware": "https://sourceforge.net/projects/fpsensor-builds/files/lavender/fw_lavender_miui_LAVENDERGlobal_V10_3_5_0_PFGMIXM_a5cabeca22_9_0.zip/download",
 			"modem": "",
 			"bootloader": "",
-			"recovery": "",
-			"paypal": "",
-			"telegram": "https://t.me/YandereLabProject",
-			"dt": "",
+			"recovery": "https://us-dl.orangefox.download/632790823c05f43c193c0ab7",
+			"paypal": "https://www.paypal.me/GKartyt",
+			"telegram": "https://t.me/FPSensorSupport",
+			"dt": "https://github.com/ricedroidOSS-devices/device_xiaomi_lavender",
 			"common-dt": "",
-			"kernel": ""
+			"kernel": "https://github.com/ricedroidOSS-devices/kernel_xiaomi_lavender"
 		}
 	]
 }
