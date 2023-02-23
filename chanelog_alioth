@@ -25,10 +25,10 @@ Highlights & Device Specific Changes:
 -Limit AOD refresh rate to 60hz
 -Dolby:dax-default: update bass-enhancer-boostVolumes 
 
-==================================================================
 
 
-
+  =========== 12 November 2022============
+ 
 
 Power: Decrease launch boost to 3sec 
 - Kill IMS logspam with fire
