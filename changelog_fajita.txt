@@ -1,16 +1,22 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: OnePlus 6T
-"version": "10.1",
+"version": "10.2",
 Device maintainer: vikas(optimusprime)
 
-==== 17 January, 2023 ====
-Rise v10.1
-- Jan 2023 Security Patch
+==== 23 Febrary, 2023 ====
+
+
+==== ====NOTICE  ==== ==== 
+
+====--Clean  Flash mandatory---====
+bec of huge source rebase / lots of chages
+
+- RiseUI v10.2 based source Sync 23/02/2023
+- Febrary 2023 Security PatchAdded
 - Added full OOS Camera support
--Added Smart charging
--fixup sepolicy denial
+- Added Root support Back 
+- Added Smart charging
+- Fixup sepolicy denial
 - Fixed Other minor issues and under the hood improvements
-Notice
-Clean flash recommended 🙂
-Come with core gapps 
+ 
