@@ -30,3 +30,17 @@ Required firmware: Last Global Firmware R
 - Compiled using Proton Clang 13 + O3 + LTO + LLVM Polly
 - Fixed Playstore crash
 - Misc Improvements
+
+===== 2023.02.23 =====
+--- Device Changes ---
+- Set screen density to 420 (411 in smallest width)
+- merge XiaomiDoze into XiaomiParts
+- Improve pinner configuration
+- Extend audio offload buffer size to 256kb
+- Update adreno stack to WAIPIO 16000
+- Misc Improvements
+--- Kernel Changes ---
+- Meow R9
+- disable more logging and debugging
+- Reconfigure CPU Input Boost and schedhorizon params
+- Misc Improvements
