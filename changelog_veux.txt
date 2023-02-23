@@ -3,6 +3,14 @@ Build type: Monthly
 Device: POCO X4 PRO 5G (veux/peux)
 Device maintainer: SharmagRit
 
+===== 23rd Feburary 2023 ====
+- Synced with Latest riceDroid v10.2 changes
+- veux: Update with latest global vendor 13.0.5.0 with Nov patch kernel
+- veux: Nuke Dirac and Haptic feeback  
+- veux: Disable blur on app launch
+- veux: Show Turbo Charging 
+- veux: Add touch improvements sysprops
+
 ===== 21st January 2023 ====
 - Synced with Latest riceDroid v10.1 changes
 - veux: Add GoogleCameraGo
