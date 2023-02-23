@@ -6,14 +6,15 @@ Highlights & Device Specific Changes:
   Device maintainer: Offender (@lazyafk)
   Required firmware: Eu 13.0.8
    
-====== 23February 2023 ======
-  Intital Official Build
- 
+  ============ 23February 2023 ===============
+  
+-Intital Official Build
 -Add burn-in protection for statusbar and navbar
 - Overlay: Enable Smart Pixels 
 -N0 kernel by Default 
 -BT:Import more LDAC deps & Import back legacy BT Audio Target
--overlay: Change all three default haptic levels to high -overlay: Show "Turbo charging" instead of "Charging rapidly"
+-overlay: Change all three default haptic levels to high 
+-overlay: Show "Turbo charging" instead of "Charging rapidly"
 -Disable blur on app launch
 -Enable QPower and Deep sleep at the same time 
 -Disable client composition cache 
@@ -23,6 +24,10 @@ Highlights & Device Specific Changes:
 -Add burn-in protection for statusbar and navbar
 -Limit AOD refresh rate to 60hz
 -Dolby:dax-default: update bass-enhancer-boostVolumes 
+
+==================================================================
+
+
 
 
 Power: Decrease launch boost to 3sec 
