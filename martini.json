@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "InFeRnO",
+        "oem": "OnePlus",
+        "device": "OnePlus 9RT",
+        "filename": "riceDroid-13.0-202302231900-martini-v10.2-PIXEL-OFFICIAL.zip",
+        "download": "https://sourceforge.net/projects/playground0230/files/riceDROID/riceDroid-13.0-202302231900-martini-v10.2-PIXEL-OFFICIAL.zip/download",
+        "timestamp": 1677178502,
+        "md5": "c4e030541c55186bd0263fb17d8bae89",
+        "sha256": "05ba2a080d856e86216f98f5690a48ab731593e49d54b450b8f2a142b01288a8",
+        "size": 2161921945,
+        "version": "10.2",
+        "buildtype": "Monthly",
+        "forum": "",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/inferno0230",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
