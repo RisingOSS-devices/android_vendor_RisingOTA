@@ -1,0 +1,28 @@
+{
+        "response": [
+                {
+                        "maintainer": "Zaid Khan • Hazama Honoka",
+                        "oem": "Xiaomi",
+                        "device": "Redmi Note 10 Pro",
+                        "filename": "riceDroid-13.0-202302251034-sweet-v10.2-PIXEL-OFFICIAL.zip",
+                        "download": "",
+                        "timestamp": 1677321256,
+                        "md5": "fefacf2cb0bcd11d1e0d21c39e62beb8",
+                        "sha256": "5545704ce3a4909b35fcb872ab9835a99820aa526f442e913f9967c7254e4e7c",
+                        "size": 1976080856,
+                        "version": "10.2",
+                        "buildtype": "Monthly",
+                        "forum": "",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://paypal.me/zaidkhan099",
+                        "telegram": "https://t.me/zaidkhan0997",
+                        "dt": "https://github.com/sweet-sm6150/device_xiaomi_sweet/tree/rice",
+                        "common-dt": "https://github.com/sweet-sm6150/device_xiaomi_sm6150-common/tree/rice",
+                        "kernel": "https://github.com/vantoman/kernel_xiaomi_sm6150/tree/courbet-13"
+                }
+        ]
+}
