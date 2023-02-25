@@ -1,0 +1,9 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 10 Pro/Max (sweet/sweetin)
+Device maintainer: Zaid Khan • Hazama Honoka
+
+===== 25-02-23 =====
+- Initial Official build
+- Vantom prebuild
+- February security patch
