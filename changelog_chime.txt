@@ -44,3 +44,6 @@ Required firmware: Last Global Firmware
 - Add blkio tuning from sunfish 
 - Kang runtime cpusets from coral 
 - Used MIUI fingerprint from latest
+
+===== 2022.03.07 =====
+- Initial De-unified build
