@@ -3,6 +3,13 @@ Build type: Monthly
 Device: POCO X2 (phoenix)
 Device maintainer: SharmagRit
 
+===== 17th March 2023 =====
+- Synced with Latest riceDroid v10.2 changes
+- phoenix: Disable blur on app launch
+- phoenix: Nuke Dirac
+- phoenix: Bring back RR tile
+- phoenix: Include Leica cam
+
 ===== 21st January 2023 =====
 - Synced with Latest riceDroid v10.1 changes
 - phoenix: audio: Fix mic issues in apps like WhatsApp
