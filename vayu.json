@@ -1,28 +1,28 @@
 {
 	"response": [
-			{
-					"maintainer": "Ste0090 x Restintrip",
-					"oem": "Xiaomi",
-					"device": "Poco X3 PRO",
-					"filename": "riceDroid-13.0-202301200015-vayu-v10.1-PIXEL-OFFICIAL.zip",
-					"download": "https://sourceforge.net/projects/ricevayu/files/rice/riceDroid-13.0-202301200015-vayu-v10.1-PIXEL-OFFICIAL.zip/download",
-					"timestamp": 1674173631,
-					"md5": "8687b0712af5068a5f962d5d80e11145",
-					"sha256": "8046599a949b2d76f1dae12d1a53766a26b700fe2391c274234bafd2fb595b9b",
-					"size": 1861940361,
-					"version": "10.1",
-					"buildtype": "Monthly",
-					"forum": "",
-					"gapps": "",
-					"firmware": "",
-					"modem": "",
-					"bootloader": "",
-					"recovery": "",
-					"paypal": "https://ko-fi.com/ste0090",
-					"telegram": "",
-					"dt": "",
-					"common-dt": "",
-					"kernel": ""
-			}
+		{
+			"maintainer": "Ste0090 x Restintrip",
+			"oem": "Xiaomi",
+			"device": "Poco X3 PRO",
+			"filename": "risingOS-v1.0-Atlantis-202304171702-vayu-GAPPS-OFFICIAL.zip",
+			"download": "https://github.com/kuroringo90/rising_builds/releases/download/vayu-2023-04-18--01-01-57/risingOS-v1.0-Atlantis-202304171702-vayu-GAPPS-OFFICIAL.zip",
+			"timestamp": 1681750933,
+			"md5": "47027b78704dffa80181eca2c489c79e",
+			"sha256": "fbc875af4d557aee2b0ab674586ae43440adcd772719736b503018ac2839338c",
+			"size": 1762286699,
+			"version": "v1.0-Atlantis",
+			"buildtype": "Monthly",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://ko-fi.com/ste0090",
+			"telegram": "",
+			"dt": "",
+			"common-dt": "",
+			"kernel": ""
+		}
 	]
 }
