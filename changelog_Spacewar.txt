@@ -1,58 +1,33 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: Nothing phone1
-"version": "10.2",
+"version": "1.0",
 Device maintainer: vikas(optimusprime)
 
-==== 23 Febrary, 2023 ====
+==== 17 April, 2023 ====
 
-RiseUI v10.2 based source Sync 23/02/2023
+RISINGOS v1.0 based source Sync 17/04/2023
 
--all pervious source bugs fixed with updated source 
--fixed  glyph notifications
- Added Reverse Charging support
+-Added Screenoff FOD support
+- Fixed mic noise cancellation in calls
+- Added Support For Google Dialer Call Recording
+- Added Clo booost framework
 - Added New Glypth BeetEl Calling animation
-- Improved  System Stability / Performance Improved 
-- Glyph: Added Flip to glyph gesture 
-- Glyph: Added QS tile for glyph torch 
-- Updated audio policy configuration
-- Enable the pre-rendering feature
-- Set default refresh rate to 120
-- Updated camera from nothingos 1.5 
-- Added fully working nothing camera all  previous issues fixed
-- upstreamed sm8350 caf hals
--  Updated display hals
-- Added refresh rate in display settings
-- Improved auto brightness 
-- Enabled Bluetooth LE features
-- Updated libs from NOS v1.5.1 
-- Fixed battery drain on AOD 
-- Improved AOD brightness 
-- Improved animation on display to AOD transition 
-- Fixed storage permissions for some apps 
-- Cleanup unused permissions and libs 
-- Improved fingerprint 
-- Fixed fingerprint not working when night light/dim is on 
-- Fixed bootanimation stuck on first boot 
-- Improved color modes 
-- Fixed screen flickering on some scenarios 
-- Improved scrolling 
-- Enforced strict standby policy 
-- Blacklisted some system apps from privacy indicators 
-- Fixed display taking more time to wake up on some scenarios  
-- Fixed fingerprint enroll animation position
-- Improved memory management
-- Fix suspend for system apps
+- Added Spatial audio from Pixel (experimental)
+- Improved System Stability / Performance Improved 
 - Change perms to hide Magisk in banking apps
-- Improved thermals
-- Double tap to sleep on lockscreen/statusbar 
-- Allow VoLTE and VoWiFi/WFC by default
-- Remove duplicate wakeup sysfs nodes
-- Enable the pre-rendering feature
-- Add HDR Configs for microphone tuning
--  Improved haptics
-
-huge thanks to...
-our nothing Devlopment Team.
- thanks to aswin brother for Support & Help.
-huge thanks to Team aospa for glyph Feature.
+- Increase Screen brightness 
+- fix audio in voip calls 
+- Updated nothing camera app from v1.5.2
+- Added minimal audio OEM changes
+- Increase auto brightness 
+- kernel : Added back wireguard support
+- kernel : Updates from NOS 1.5
+- kernel : merged LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
+- Updated  NOS 1.5  blobs
+- Glyph: Add Glyph Interface Header Image
+- Glyph: Fix rotation bug
+- Glyph: Add back AudioManager for better incall detection 
+- Enabled multi gen lru
+- Updated NTCamera from 1.5.3
+- Overall improved performance
