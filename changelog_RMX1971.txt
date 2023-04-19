@@ -3,6 +3,17 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 19 March, 2023 ====
+
+Initial RisingOS Build with following changes from last riceDroid 10.2 Paella - Dolby Release
+* Added flag to store Task Snapshot in 16 bit pixel format to save memory 
+* Added RIL props for battery improvements
+* Created PERFD deamon related dirs
+* Enabled Config for vibrate on Icon Animation
+* Made qs pull down smoother
+* Removed deprecated aptX(HD) encoder shared libs
+* Redefined bluetooth a2dp offload capabilities
+
 ==== 09 February, 2023 ====
 - Synced with Latest Source changes
 - Enabled display protected contents in SF (required for PIP in Netflix and other widevine apps) 
