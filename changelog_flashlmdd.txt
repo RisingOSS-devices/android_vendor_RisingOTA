@@ -1,0 +1,14 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: LG  V50 ThinQ 
+Device maintainers: anht3889
+
+==== 19 April, 2023 ====
+
+RISINGOS v1.0 based source Sync 19/04/2023
+
+- Rework kernel based on new the latest LG sources
+- Upstream kernel 4.14.311 from Android common kernel
+- Upstream to latest CAF tag
+- Remove LGE stuff. Now use zram completely instead of hybrid swap
+- Improvement in device trees
