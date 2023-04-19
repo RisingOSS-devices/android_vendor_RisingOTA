@@ -1,0 +1,28 @@
+{
+        "response": [
+                {
+                        "maintainer": "Anh Tran",
+                        "oem": "LG",
+                        "device": "LG V50 ThinQ",
+                        "filename": "risingOS-v1.0-Atlantis-202304190718-flashlmdd-GAPPS-OFFICIAL.zip",
+                        "download": "https://master.dl.sourceforge.net/project/aosp-flashlmdd/RisingOS/v1.0-Atlantis/risingOS-v1.0-Atlantis-202304190718-flashlmdd-GAPPS-OFFICIAL.zip",
+                        "timestamp": 1681888719,
+                        "md5": "d3dd50197b9faabc18d894965abbf86a",
+                        "sha256": "5130db81bf2f5b0a59c066c7c4e3268789ef5d9bcc013b667fa86ec79537c14b",
+                        "size": 1428769433,
+                        "version": "v1.0-Atlantis",
+                        "buildtype": "Monthly",
+                        "forum": "",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://paypal.me/anht3889",
+                        "telegram": "https://t.me/anht3889",
+                        "dt": "",
+                        "common-dt": "",
+                        "kernel": ""
+                }
+        ]
+}
