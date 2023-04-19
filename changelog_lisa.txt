@@ -1,8 +1,19 @@
 Highlights & Device Specific Changes:
-Build type: Paella
+Build type: Atlantis
 Device: Xiaomi 11 Lite 5G NE (lisa)
 Device maintainer: Mezaque Silver | M3zaque
 Required firmware: Latest Global FW
+
+==== 19 April, 2023 ====
+- Initial build RisingOS v1.0
+- Clean flash is highly recommended
+- Updated stock blobs and configs from MIUI V14.0.2.0.TKOMIXM
+- Added support for OnePlus Dolby Atmos
+- Update power profile from V14.0.2.0.TKOMIXM
+- Awinic_haptic vibrator configs
+- Update fingerprint config for 12L
+- Switch to vendor-defined color modes
+- Drop Dirac and MiSound Scenes
 
 ==== 01 March, 2023 ====
 - Clean flash is highly recommended

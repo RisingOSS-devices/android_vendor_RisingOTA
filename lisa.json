@@ -4,14 +4,14 @@
         "maintainer": "Mezaque Silver (M3zaque)",
         "oem": "xiaomi",
         "device": "Mi 11 Lite 5G NE",
-        "filename": "riceDroid-13.0-202303011443-lisa-v10.2-CORE-OFFICIAL.zip",
-        "download": "https://sourceforge.net/projects/ricedroid-lisa/files/lisa/riceDroid-13.0-202303011443-lisa-v10.2-CORE-OFFICIAL.zip/download",
-        "timestamp": 1677681518,
-        "md5": "5446af8c6192c6fd96b6099ae399e6c1",
-        "sha256": "52ef6940ba03906cd7cc76faf5eccc7a2017e17019072e820f33144aaaf711da",
-        "size": 1540119302,
-        "version": "10.2",
-        "buildtype": "OFFICIAL",
+        "filename": "risingOS-v1.0-Atlantis-202304190200-lisa-CORE-OFFICIAL.zip",
+        "download": "https://sourceforge.net/projects/rising-lisa/files/lisa/risingOS-v1.0-Atlantis-202304190200-lisa-CORE-OFFICIAL.zip/download",
+        "timestamp": 1681869491,
+        "md5": "41c756434e6ac365ea0e4ab767306dc8",
+        "sha256": "34f71f195a984162e02af5187e59650a8e44267238868a4cc3af9f0f86dee41e",
+        "size": 1483315395,
+        "version": "1.0",
+        "buildtype": "Atlantis",
         "forum": "",
         "gapps": "CORE",
         "firmware": "MIUI V14.0.2.0.TKOMIXM",
@@ -20,9 +20,9 @@
         "recovery": "",
         "paypal": "mezackisilva@gmail.com",
         "telegram": "@M3zaque",
-        "dt": "https://github.com/ricedroidOSS-devices/android_device_xiaomi_lisa/tree/thirteen-wip",
+        "dt": "https://github.com/RisingOSS-devices/android_device_xiaomi_lisa",
         "common-dt": "",
-        "kernel": "https://github.com/M3zaque/android_kernel_xiaomi_lisa"
+        "kernel": "https://github.com/RisingOSS-devices/android_kernel_xiaomi_lisa"
     }
   ]
 }
