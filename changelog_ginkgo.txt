@@ -44,3 +44,16 @@ Required firmware: Last Global Firmware R
 - disable more logging and debugging
 - Reconfigure CPU Input Boost and schedhorizon params
 - Misc Improvements
+
+===== 2023.04.20 =====
+--- Device Changes ---
+- Removed no longer needed aptX blobs  
+- Revert back to LA.UM.9.11.r1-04500-NICOBAR.0 adreno stack
+- Misc Improvements
+* GCAM is still bugged (change to RAW16 to fix output)
+--- Kernel Changes ---
+- Meow R11
+- Upstream to 4.14.312
+- disable more logging and debugging
+- Reconfigure CPU Input Boost and schedhorizon params
+- Misc Improvements

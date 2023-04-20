@@ -1,16 +1,16 @@
 {
 	"response": [
 		{
-			"maintainer": "_.rasend",
+			"maintainer": "eun0115",
 			"oem": "Xioami",
 			"device": "Redmi Note 8",
-			"filename": "riceDroid-12.1-2022082812-ginkgo-v5.0-PIXEL.zip",
-			"download": "https://sourceforge.net/projects/gudang-rom34/files/RiceDroid/riceDroid-12.1-2022082812-ginkgo-v5.0-PIXEL.zip/download",
+			"filename": "risingOS-v1.0-Atlantis-202304191545-ginkgo-CORE-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/eun0115/files/RisingOS/risingOS-v1.0-Atlantis-202304191545-ginkgo-CORE-OFFICIAL.zip/download",
 			"timestamp": 1661666617,
 			"md5": "9048a3e77664629419fe942adb71c549",
 			"sha256": "4ce9ea406545250d492b0ce9db5bc3622737c2db42fc4b75b45bc4fff4556121",
 			"size": 1570434534,
-			"version": "5.0",
+			"version": "1.0",
 			"buildtype": "Monthly",
 			"forum": "",
 			"gapps": "",
@@ -18,11 +18,11 @@
 			"modem": "",
 			"bootloader": "",
 			"recovery": "",
-			"paypal": "https://www.paypal.me/RasenKhansa",
-			"telegram": "https://t.me/Razs_19",
-			"dt": "https://github.com/rasenss/android_device_xiaomi_ginkgo",
+			"paypal": "",
+			"telegram": "https://t.me/eun0115",
+			"dt": "https://github.com/eun0115/device_xiaomi_ginkgo",
 			"common-dt": "",
-			"kernel": "https://github.com/rasenss/android_kernel_xiaomi_ginkgo"
+			"kernel": "https://github.com/eun0115/kernel_xiaomi_ginkgo"
 		}
 	]
 }
