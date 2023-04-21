@@ -4,6 +4,11 @@ Device: Xiaomi 11 Lite 5G NE (lisa)
 Device maintainer: Mezaque Silver | M3zaque
 Required firmware: Latest Global FW
 
+==== 21 April, 2023 ====
+- Fixed missing NFC
+- Fixed missing refresh rate control
+- Droped MIUI camera for now
+
 ==== 19 April, 2023 ====
 - Initial build RisingOS v1.0
 - Clean flash is highly recommended
