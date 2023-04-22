@@ -1,1 +1,12 @@
-
+Notes : 
+- Clean Flash is mandatory since whole source was rebased so to avoid any unwanted  
+  bugs, clean flash. 
+- Rom is encrypted by default.
+- If you want to be decrypted, flash dfe_v4 after flashing the ROM.
+  Gapps And Firmware are shipped default with Rom.
+- CTS passes by default.
+- Stay away from magisk latest one as it is giving sometimes bootloop and u may neet to rename the file from recovery to uninstall.zip and flash then reboot.....
+  so better stay away from it
+  tried to add micam build is also posted but potrait is broken and once u click on potrait mode u need to clear its data and reopen again to fix it
+Credits : @Joker_V2_0 @panchajanya1999 @dassshubham @abhix202
+@Dr_Opto @Rdx55 @sedlyf6969 @AssGuardGod
