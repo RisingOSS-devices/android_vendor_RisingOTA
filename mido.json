@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Vastolorde",
+			"oem": "MI",
+			"device": "mido",
+			"filename": "risingOS-v1.0-Atlantis-202304220736-mido-AOSP-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/risingos/files/V1.O/",
+			"timestamp": 1682149013,
+			"md5": "58854904e119cf80616409ae73870202",
+			"sha256": "15843d0ccb861f409dc5a3c06c98a3e0444eff49164f84cc531af673b1f2d6a5",
+			"size": 935643324,
+			"version": "v1.0-Atlantis",
+			"buildtype": "",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "",
+			"dt": "",
+			"common-dt": "",
+			"kernel": ""
+		}
+	]
+}
