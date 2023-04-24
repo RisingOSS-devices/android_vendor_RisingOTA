@@ -3,6 +3,14 @@ Build type: Monthly
 Device: POCO X4 PRO 5G (veux/peux)
 Device maintainer: SharmagRit
 
+===== 24th April 2023 =====
+- Synced with Latest initial build RisingOS v1.0
+- veux: Update with latest global vendor 13.0.7.0
+- veux: Fixed Dolby crash issue
+- veux: Nuke Parts for now[Temp]
+- veux: Nuke GcamGo for now[Temp]
+- veux: Fixed fp enrollment issue with random users
+
 ===== 23rd Feburary 2023 ====
 - Synced with Latest riceDroid v10.2 changes
 - veux: Update with latest global vendor 13.0.5.0 with Nov patch kernel
