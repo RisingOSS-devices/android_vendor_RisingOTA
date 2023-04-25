@@ -1,22 +1,21 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: OnePlus 6T
-"version": "10.2",
-Device maintainer: vikas(optimusprime)
+"version": "v1.0-Atlantis",
+Device maintainer: Vikas•Yaduvanshi
 
-==== 23 Febrary, 2023 ====
+==== 25 April, 2023 ====
 
 
 ==== ====NOTICE  ==== ==== 
 
 ====--Clean  Flash mandatory---====
-bec of huge source rebase / lots of chages
+if you are come from any rom / old ricedroid
 
-- RiseUI v10.2 based source Sync 23/02/2023
-- Febrary 2023 Security PatchAdded
+- Synced with Latest initial build RisingOS v1.0
+- April 2023 Security PatchAdded
 - Added full OOS Camera support
-- Added Root support Back 
-- Added Smart charging
+-  Back  to non dynamic partition
 - Fixup sepolicy denial
 - Fixed Other minor issues and under the hood improvements
  

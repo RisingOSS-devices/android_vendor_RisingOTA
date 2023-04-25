@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "vikas (optimusprime)",
-			"oem": "OnePlus",
-			"device": "OnePlus 6T",
-			"filename": "riceDroid-13.0-202302230638-fajita-v10.2-PIXEL-OFFICIAL.zip",
-			"download": "https://sourceforge.net/projects/ricedroid-oneplus-6-t/files/fajita/riceDroid-13.0-202302230638-fajita-v10.2-PIXEL-OFFICIAL.zip/download",
-			"timestamp": 1677134312,
-			"md5": "532a53d228ca76e8535dfc971eeff085",
-			"sha256": "7592f1ef8113adc927c6e8ebb50b887b39893258dee398ea779f3b9f21d70434",
-			"size": 1588470846,
-			"version": "10.2",
-			"buildtype": "Monthly",
-			"forum": "https://t.me/op6serieshub",
-			"gapps": "",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "",
-			"paypal": "https://www.paypal.me/vikasyaduvanshii",
-			"telegram": "https://t.me/OptimussPriime",
-			"dt": "https://github.com/rice-droid/device_oneplus_fajita",
-			"common-dt": "",
-			"kernel": ""
-		}
-	]
+        "response": [
+                {
+                        "maintainer": "Vikas•Yaduvanshi",
+                        "oem": "OnePlus",
+                        "device": "OnePlus 6T",
+                        "filename": "risingOS-v1.0-Atlantis-202304251500-fajita-GAPPS-OFFICIAL.zip",
+                        "download": "https://master.dl.sourceforge.net/project/ricedroid-oneplus-6-t/risingos/fajita/risingOS-v1.0-Atlantis-202304251500-fajita-GAPPS-OFFICIAL.zip",
+                        "timestamp": 1682434527,
+                        "md5": "64c22e16190bb7799369d2a8ccaea105",
+                        "sha256": "d0cfd181411db507aa1256df24e9aefe86ed2f49c2aa6f057686fa4796e9a3e4",
+                        "size": 1497392591,
+                        "version": "v1.0-Atlantis",
+                        "buildtype": "Monthly",
+                        "forum": "https://t.me/op6serieshub",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://www.paypal.me/vikasyaduvanshii",
+                        "telegram": "https://t.me/Vikas_2_0",
+                        "dt": "https://github.com/rice-droid/device_oneplus_fajita",
+                        "common-dt": "",
+                        "kernel": ""
+                }
+        ]
 }
