@@ -1,16 +1,16 @@
 {
 	"response": [
 		{
-			"maintainer": "Ayan-whyyraku",
+			"maintainer": "@notayan99 x @twenfourl",
 			"oem": "Xiaomi",
-			"device": "Redmi 9T/Poco M3",
-			"filename": "riceDroid-13.0-202301160257-chime-v10.1-PIXEL-OFFICIAL.zip",
-			"download": "https://vzf6c-my.sharepoint.com/:u:/g/personal/notayan_vzf6c_onmicrosoft_com/EenWNJN98rNCk4lI1DKmguEBUmqp_7cffiKKeKqdjjr1FQ?download=1",
-			"timestamp": 1673837859,
-			"md5": "11318b5b635c91ef0086258bde54aa4c",
-			"sha256": "2a02fd0b686b79e84b59e10c8e58e197249215b5427e9a576632ca7cb454fdf8",
-			"size": 1723204343,
-			"version": "10.1",
+			"device": "Redmi 9t/Poco M3",
+			"filename": "risingOS-v1.0-Atlantis-202304261558-chime-CORE-OFFICIAL.zip",
+			"download": "",
+			"timestamp": 1682524575,
+			"md5": "e916d4e284978697a073b5a7fc60fbc3",
+			"sha256": "6b65d94465a26f6efab2357a62368c4cdd094e5714b09e0e2fd32758171da80a",
+			"size": 1527639847,
+			"version": "v1.0-Atlantis",
 			"buildtype": "Monthly",
 			"forum": "https://t.me/ayanot69",
 			"gapps": "",
@@ -18,11 +18,10 @@
 			"modem": "",
 			"bootloader": "",
 			"recovery": "",
-			"paypal": "",
-			"telegram": "https://t.me/not_ayan",
-			"dt": "https://github.com/cosm1f/device_xiaomi_chime",
+			"paypal": "https://www.paypal.me/notayan",
+			"telegram": "",
+			"dt": "",
 			"common-dt": "",
-			"kernel": "https://github.com/frstprjkt/kernel_xiaomi_chime-anya"
+			"kernel": ""
 		}
 	]
-}
