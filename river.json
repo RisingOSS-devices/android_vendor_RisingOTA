@@ -1,0 +1,28 @@
+{
+        "response": [
+                {
+                        "maintainer": "FPSensor",
+                        "oem": "Motorola",
+                        "device": "Moto G7",
+                        "filename": "risingOS-v1.0-Atlantis-202305040039-river-CORE-OFFICIAL.zip",
+                        "download": "https://sourceforge.net/projects/fpsensor-builds/files/river/risingOS-v1.0-Atlantis-202305040039-river-CORE-OFFICIAL.zip",
+                        "timestamp": 1683160763,
+                        "md5": "5ddb8fe17f4f2550c776480c09f0546f",
+                        "sha256": "710570b646674e575abe7d0cfc18002eef1c533cec0cf6324ff12bcb2c44a298",
+                        "size": 1114088372,
+                        "version": "v1.0-Atlantis",
+                        "buildtype": "Atlantis",
+                        "forum": "",
+                        "gapps": "CORE",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://www.paypal.me/GKartyt",
+                        "telegram": "https://t.me/FPSensor",
+                        "dt": "https://github.com/RisingOSS-Devices/device_motorola_river",
+                        "common-dt": "https://github.com/RisingOSS-Devices/device_motorola_sdm632-common",
+                        "kernel": "https://github.com/RisingOSS-Devices/kernel_motorola_sdm632"
+                }
+        ]
+}
