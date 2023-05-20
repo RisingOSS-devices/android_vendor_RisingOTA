@@ -20,8 +20,8 @@
         "recovery": "",
         "paypal": "",
         "telegram": "t.me/EliteBlackKaiser",
-        "dt": "https://github.com/RisingOSS-devices/android_device_google_gs101",
-        "common-dt": "https://github.com/LineageOS/android_device_google_bluejay",
+        "dt": "https://github.com/LineageOS/android_device_google_bluejay",
+        "common-dt": "https://github.com/RisingOSS-devices/android_device_google_gs101",
         "kernel": "https://github.com/RisingOSS-devices/android_kernel_google_gs101"
     }
   ]
