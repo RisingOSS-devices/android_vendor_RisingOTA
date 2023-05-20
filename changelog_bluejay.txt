@@ -1,0 +1,7 @@
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: Google Pixel 6A ( Bluejay )
+Device maintainer: EliteBlackKaiser
+===== 2023.05.08 =====
+
+- Initial official Bluejay build

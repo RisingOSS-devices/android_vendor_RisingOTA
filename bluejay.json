@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "EliteDarkKaiser",
+        "oem": "Google",
+        "device": "Pixel 6a",
+        "filename": "risingOS-v1.1-Babylon-202305182239-bluejay-GAPPS-OFFICIAL-updateimages.zip",
+        "download": "https://drive.google.com/file/d/1LkJjy3y1YHr2ddbs0g1add0D8HBmBWoI/view?usp=share_link",
+        "timestamp": "202305182239",
+        "md5": "009a7d55ee3530cff0894c230215e135",
+        "sha256": "b0631eac01d9a79dbdc532cb0f5e4733ae72842ff25141da26823e03f4d43026",
+        "size": "2080290626",
+        "version": "Babylon v1.1",
+        "buildtype": "Weekly",
+        "forum": "https://forum.xda-developers.com/t/rom-unofficial-risingos-android-project-v1-1-bluejay.4581557/",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "t.me/EliteBlackKaiser",
+        "dt": "https://github.com/RisingOSS-devices/android_device_google_gs101",
+        "common-dt": "https://github.com/LineageOS/android_device_google_bluejay",
+        "kernel": "https://github.com/RisingOSS-devices/android_kernel_google_gs101"
+    }
+  ]
+}
