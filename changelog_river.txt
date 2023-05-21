@@ -11,6 +11,10 @@ Highlights & Device Specific Changes:
 
 # Changelogs
 
+## 2023 - 05 - 21
+
+ - use oem as system_ext
+
 ## 2023 - 05 - 03
 
  - Intital Official Build
