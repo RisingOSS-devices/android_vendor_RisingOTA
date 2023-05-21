@@ -3,6 +3,12 @@ Build type: Monthly
 Device: POCO X4 PRO 5G (veux/peux)
 Device maintainer: SharmagRit
 
+===== 21th May 2023 =====
+- Synced with Latest initial build RisingOS v1.1
+- veux: Added XiaomiParts
+- veux: Added GcamGo
+- veux: Minor changes
+
 ===== 24th April 2023 =====
 - Synced with Latest initial build RisingOS v1.0
 - veux: Update with latest global vendor 13.0.7.0
