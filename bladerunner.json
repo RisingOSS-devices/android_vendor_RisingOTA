@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "AAMIRR_ALI",
+			"oem": "Realme",
+			"device": "X50 Pro 5G",
+			"filename": "risingOS-v1.1-Babylon-202305201538-bladerunner-GAPPS-OFFICIAL.zip",
+			"download": "https://drive.google.com/file/d/193twVg1lR-qn2_3Xh7cipLO1Ds1cfQo0/view?usp=sharing",
+			"timestamp": 1684597088,
+			"md5": "a61b39b0b54f98c2bbfc2759917b4ec5",
+			"sha256": "2657c0c432d8cae1ee235020eb4e1d6e3bfac8bc1580e4c68b95639115d6ff34",
+			"size": 2312387548,
+			"version": "v1.1-Babylon",
+			"buildtype": "Monthly",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/Aamirr_Ali",
+			"dt": "https://github.com/AAMIRR-ALI/device_realme_bladerunner",
+			"common-dt": "https://github.com/AAMIRR-ALI/device_realme_sm8250-common",
+			"kernel": "https://github.com/AAMIRR-ALI/kernel_realme_sm8250-1"
+		}
+	]
+}
