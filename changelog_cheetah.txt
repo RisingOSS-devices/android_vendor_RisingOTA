@@ -1,0 +1,417 @@
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: Pixel 7 Pro (cheetah)
+Device maintainer: Niv
+
+====================
+     06-13-2023
+====================
+
+
+   * vendor/pixel-framework
+a44b4bc Update some default configs
+
+   * vendor/risingOTA
+fa05716 Hi Rising, Say hello to Pantah
+
+====================
+     06-12-2023
+====================
+
+
+   * art
+96ca53ae3c Refactor vectorization data flow methods.
+ad6b5b5d29 Add more checks in the presence of file corruption.
+
+   * device/google/gs201
+b0b77765 Revert "change gpu_prebuild to google_devices"
+af047e7b gs201: Label AFP props
+62346751 gs201: Allow top-app tasks to schedule UI/Renderthread threads as SCHED_FIFO
+a7bcf88b gs201: Reduce background processes cpu.share to 2.5%
+33cc10ab gs201: Tune down_rate_limit for power consumption
+f4ca211a gs201: Label Boostframework perf properties
+d13e40ed Exempt ImsService from location indicators
+52e7beed raise maximum users to 32
+5487dc12 Disable chained vbmeta
+5ad24684 gs201: set camera.extensions.package to google
+b264fa5c Pin SystemUIGoogle as well
+5eda543f gs201: Setup smart charging sepolicy for pixels
+a53d2cec gs201: Enable battery stats defender
+4f95d9c3 gs201: Reduce the frequency of swapping memory
+
+   * device/google/pantah
+2d8ea5d1 Revert "pantah: Switch to google_devices vendor"
+
+   * frameworks/av
+cbdfaff860 cameraDevice: Lazy completion of Stream finishConfigfiguration
+2c06f05078 APM: fix cts testGaplessMP3AudioTrackOffload fail
+a46d928a4c Audio: CtsMediaTestCases:ClearKeyPlayback fail [1/1]
+184d28def4 Use floating point volume in mixer for mute checking
+3f7407b3fe Fix lvm process copy length
+578025c7e7 CCodecConfig: split input/output HDR dynamic metadata
+f331c50d56 codec2: change to support multiple fences for single output.
+
+   * frameworks/base
+67750ee2f30b Revert "Remove fixed grant of READ_PHONE_STATE and cleanup"
+5776b785cdf7 privapp-permissions: Grant missing TelephonyProvider perm.
+2f6f14dbc450 fwb: remove spammy wallet lockscreen icon error
+adcb2b346958 Properly disable the lockscreen weather by default
+d51ad74cc886 Reduce the animation size, It is a bit chopped off on cheetah
+9d295fdce2e9 Revert "[SQUASH]: AlertSlider: Introduce user interface for Alert Sliders"
+87d3afa32bb3 SystemUI: Make mKeyguardBottomArea public
+d3c569d95ecc Revert "Ambient Music Ticker - Allow to pulse on new tracks [1/2]"
+73f4b0db1499 SystemUI: QS improvements
+72a81db72617 SystemUI: Use settings slice panel API for longclick interaction
+d64c420670d4 SystemUI: Redesign QuickSettings
+7907612a7899 QS: Add Bluetooth Panel intent
+
+   * frameworks/native
+3c8179c019 egl: load more functions than extension forwarder slots
+
+   * packages/apps/Launcher3
+ba0d38c5d2 Launcher3: Expose transient taskbar settings
+09f2e404be QuickSpace: Fix random force closes caused by null mEventTitleSub
+
+   * packages/apps/Personalizations
+5fc2d58 Revert "settings: Add toggle to disable alert slider notifications [2/2]"
+
+   * packages/apps/Settings
+db2b26a9738 Revert "settings: Remove safetyhub override for privacy dashboard"
+353ba538a9a Revert "settings: Drop support for pixel safety hub"
+daa13ec7b30 Settings: Add back safety center
+22cad2eaaa7 Settings: Create face confirmation activity
+513c3cc9b29 Settings: Create a ActivityDirector to optionally use SettingsGoogleFutureFaceEnroll
+1a374540fad Settings: panels: Add Bluetooth panel
+
+   * vendor/addons
+ba49928 themes: QSTwoToneAccent: Adapt for Quicksettings revamp
+
+   * vendor/google/cheetah
+4060b2f Import AFP perf blobs
+3b683c4 cheetah: Import BoostFramework Blobs from kebab
+
+   * vendor/google_devices/oriole
+213fa5f Import AFP perf blobs
+
+   * vendor/google_devices/panther
+43bd017 Import AFP perf blobs
+
+   * vendor/google_devices/raven
+dae0271 Import AFP perf blobs
+
+====================
+     06-11-2023
+====================
+
+
+   * art
+c72ea4d607 runtime: heap: Refactor GC transition
+
+   * frameworks/base
+18da6b657a19 libs: hwui: Properly silence the opengl swap failure logspam
+0fe40e6a3b5b Use PendingIntent for media click action over lockscreen
+71a156219d13 Fix issues with setRemotePlaybackInfo
+5605dd5ef865 Prevent RemoteViews crashing SystemUi
+d944be3e12fd Wait for preloading images to complete before inflating notifications
+d692517ed138 Remove Activity if it enters PiP without window
+151b8235f7e0 Reland 'VolumeDialogImpl: Optimize volume listeners'
+aab4f96f15c9 Revert "Add listener once for volume row animation"
+eed7035d5b39 SystemUI: Reduce max status icons if right status bar logo is enabled
+60d03062226e SystemUI: Allow overlaying max status icons
+35c7901ac25c libs: hwui: Allow adding null animators
+
+   * packages/apps/Aperture
+ce6be9c Aperture: Make use of ResolutionSelector API
+
+   * packages/apps/Settings
+8a6142a9e72 settings: Do not replace preferences with highlights
+
+   * vendor/addons
+9540efc themes: A11 QS style: Tune for revamp quicksettings
+
+====================
+     06-10-2023
+====================
+
+
+   * art
+2de6a9480a libartbase: Optimize ZeroPages performance and memory usage
+73defd5502 Use memset/madv_free instead of dontneed in foreground state.
+4f7bee44d4 Fix null dereference in SweepInterpreterCaches
+583398e871 NativeAllocation tweaks
+3ab33ff0fa Separate hiddenapi_class_data_item checks in intra and inter
+346e3d4871 runtime: Remove unsupported GetStartupLinearAlloc
+23c683291a Avoid updating class loaders outside system weaks
+538a272e61 Use ArtMethod::GetImtIndex to avoid recomputing the imt index.
+4b19914b6b Fix on the visiblity initialized counter logic.
+6b498dfabc Update ExecUtils to support artd use cases.
+5d68a16045 odrefresh: Ignore some system properties.
+1a7975a4c2 Ignore the error when deleting the root directory during cleanup.
+4739113e87 Dex: Use DexFileContainer instead of begin/size.
+b3dcd972bb Use kPointerSize when cross-compiling.
+7f7bc97e21 Reland "Walk up the super chain to find an IMT to share."
+9339ac8932 Fix OatFileAssistant to return kNoDexOptNeeded when dex file is missing.
+21e0fe42e1 Make ArtDexFileLoader accept an zip file with no dex code.
+d48f568a81 Fix a bug when dumping locks from signal catcher
+201e107ea8 Don't check if the profile exists on app startup.
+4d367e4ec6 Fix DCHECK when freeing from-space in paused compaction mode
+f11eb16078 Fix black-allocation sliding logic for sub-kPageSize TLABs
+ea2abe73b5 ART: Fix mutator lock annotations for new clang++.
+7d6df7c223 Initialize userfaultfd availability even when not using it
+317bb7c828 Clear mod-union tables for immune spaces in PreZygoteFork
+ca00e19f64 Use userfaultfd in COPY mode even when minor-fault available
+fbb0a0a84d Clean up `ObjectReference<>` use with vreg values.
+4f350633f9 Do not allow read barriers with null Thread::Current().
+13eee577e5 Avoid bad read barrier when relocating boot image.
+29ac3c5c94 Reland "Clear mark-bitmap after compaction"
+5acb12aade Fix class-after-object map creation logic
+80e9f18f15 Take super-classes into consideration for from-space freeing
+1245255149 Update all native roots in linear-alloc arenas created pre-zygote fork
+a7cc31e410 Handle very old kernel (<4.11) userfaultfd scenario
+661b2b25f4 Retain classes allocated after their objects until the objects are compacted
+2a95e51a94 Mprotect from-space after uffd GC compaction
+f6d9c242d0 Fix the concurrent compaction logic in userfaultfd GC
+dec6d91b67 Disable userfautlfd GC if minor-fault feature isn't available
+7479901cae Don't create shadow-map if kObjPtrPoisoning is true
+928d93a9a6 Align uffd compacted spaces for faster mremap during pause
+4b8ac63078 Reland "Handle userfaultfd API ioctl on older kernel hosts"
+c011c7ab2b Reland "Update non-moving space references in reverse"
+42bb94b06b Revert "Update non-moving space references in reverse"
+f128372555 Revert "Handle userfaultfd API ioctl on older kernel hosts"
+748f8ecb25 Handle userfaultfd API ioctl on older kernel hosts
+cf20aae8ff Update non-moving space references in reverse
+57a0b55a46 Maintain pre-zygote fork linear-alloc pages as shared-clean
+33f19cc95b Don't sanitize TrackingHeader::GetSize()
+7f997277ee Reduce RSS peak during compaction (observed on CC) with userfaultfd-GC
+c915db2b16 Make native GC-root updation concurrent with userfaultfd
+b1607a8a8e Use cmdline gc-type and phenotype to decide which GC to run
+4b96b233d0 Log GC type in logcat
+e5bc0b621a Poison dead objects only in debug build
+8c223f7504 Remove dead code `Heap::RunFinalization()`.
+756fc48696 Confirm MREMAP_DONTUNMAP (mremap) on all targets
+77397c470b Update native GC roots page-by-page
+52c96bdfee Avoid accessing live-words bitmap past its size
+2d8b312519 Remove redundant definitions of constexpr data.
+d067b80f12 Fix trivial typo
+5a25b371d1 Fix unused variable warning in runtime/gc/heap.cc.
+3ea407874a Assume MREMAP_DONTUNMAP always available only on Android
+162375c543 Record bytes-freed in stop-the-world compaction mode of uffd GC
+441c99ad32 Sweep interpreter caches using checkpoint during GC
+5c81c9e234 Enable using nterp interpreter with userfaultfd GC
+cafe93bd10 Add missing newline terminator on LogHeapCorruption
+3b313d7934 Reduce sleep duration between marking and compaction
+8387912cb0 Disable GC in Get*Critical() for SS and CMS
+5f3ad84e23 Allow all GCs when not using read barrier
+3d59ad1ce9 Fallback to stop-the-wold compaction on hosts with kernel < 5.7
+e1f0678861 Skip acquiring block-lock in BumpPointerSpace::AllocThreadUnsafe
+a9f39e7a26 Don't use MREMAP_DONTUNMAP on host when kernel < 5.13
+8b24bcc0a9 Fix gtest failures due to userfaultfd GC
+2a3d131005 Convert kUseReadBarrier to static const from constexpr
+0050b59987 Tolerate existing zero-pages in moving space
+29d14e541b Update objects-freed after marking phase
+eb3acd4730 Make moving space compaction concurrent using userfaultfd
+493671bf98 Update native gc-roots separately in compaction pause
+8dec4c379b Add debugging info
+6494f4524e Handle black allocations in concurrent mark-compact
+ab4f9a1530 Stop-the-world compaction phase
+e26055214b Add data-structures required for concurrent compaction
+05f541cf0d Marking phase of Concurrent Mark Compact GC
+41cedc1713 Refactor OatFileAssistant to allow it to function without a runtime.
+9e8d1daed0 Reland "LSE fix to allow different operation kinds in the same heap location"
+b294edc42f Reject boot images if there is a read barrier state mismatch.
+
+   * frameworks/base
+f3159b92fa8b change ClassCastException to instanceof where possible
+cf02f65652de Simplify UserHandle.equals
+
+   * hardware/google/pixel
+291b5f7 pixel: Add lineage health HAL
+
+   * hardware/google/pixel-sepolicy
+dfec50a sepolicy: Add lineage health HAL policy
+
+   * vendor/pixel-framework
+7d24167 Import UDFPS lottie translation dimens from TQ2A.230505.002
+
+====================
+     06-09-2023
+====================
+
+
+   * device/lineage/sepolicy
+c86fda9 common: Add sepolicy rules for Lineage Health HAL and service
+
+   * frameworks/av
+dfc0929a50 C2SoftFlacEnc: Send single frame per output by using cloneAndSend
+
+   * frameworks/base
+817b5e6bb424 Fix resource leak caused by attributes variable as TypedArray type
+
+====================
+     06-08-2023
+====================
+
+
+   * device/lineage/sepolicy
+9f339ed Label xtra-daemon control property
+
+   * external/chromium-webview/patches
+483f6a8 Update Chromium Webview to 114.0.5735.61
+
+   * frameworks/base
+91550abf5629 SystemUI: Cleanup QS header
+c3822c41ebb1 SystemUI: Block few clock customizations in QS header
+a4188b46b275 SystemUI: Retune clock paddings
+fe387088b962 Add option to auto hide status-bar clock
+212b39cbab0a Statusbar clock customizations
+c6be885ec795 Add separate tunable for clock seconds
+a7789d5c3f6f services: Properly handle wallpaper clearing/reset
+9e5d1c513bb1 Revert "The default wallpaper should not be set"
+768376198c4a SystemUI: Match systemui dialogs background with power menu
+4fbf025d8fd8 RisingUI: Switch color palettes [2/n]
+
+   * lineage/hudson
+76f6a24 Regenerate device dependency mappings
+
+   * packages/apps/Personalizations
+741e157 settings: Status bar customizations
+
+====================
+     06-07-2023
+====================
+
+
+   * frameworks/av
+5da29331e0 Fix cts fail AudioTrackTest#testPlaybackHeadPositionIncrease
+
+   * frameworks/base
+b7a00bcdd011 Increase timeout for UIAutomation
+a1a0d311b0a6 RisingUI: Switch color palettes [1/n]
+
+   * packages/apps/Personalizations
+42d7c72 RisingUI: Lockscreen clock cleanup
+c629c1b settings: Introduce RisingUI [5/n]
+
+   * packages/apps/Settings
+3e36f9b86ef RisingUI: Theme remaining unthemed preferences
+aa579f47e90 settings: Introduce RisingUI [6/n]
+
+====================
+     06-06-2023
+====================
+
+
+   * frameworks/av
+e69c9e9cb7 Camera: Increase precapture end timeout
+6f97f26c97 Fix up mediaswcodec security policies.
+78701ff8ad Preference exact audio profile for record
+ee1400decb Tracks:  Fix memory leak.
+a07336a0de CCodec: remove queue timeout
+a7ebe59763 CCodec: fix update pixelFormatInfo for pre-S
+0b9297834f CCodec: Update watchdog to handle timeouts accurately
+c0b2d2ed10 audio: fix setvolume crash issue for game track destroyed
+4170101d28 libstagefright: Use ATRACE_INT64 for 64bit fields
+9b0fa9c761 Do not log error if HAL does not support VOIP volume.
+f618cf4f72 ACodec: Set input surface parameters immediately
+f399c0b7b8 Codec2Buffer: accept RGB/RGBA MediaImage layouts
+26f4425109 Avoid create preprocessing effect for playback port
+32b2a0f28e audiopolicy: engineconfigurable: fix double free issue
+4b721d8e5d update inputdelay if changed
+24cf46e572 oboeservice_fuzzer: Bug fix
+cf0f13a7ae libstagefright: initializes member variables in constructor
+32a3ac83f6 httplive: fix use-after-free
+2d79353ae6 apex: Replace writepid with task profiles
+061a59c898 Avoid create preprocessing effect for playback thread
+ddf349ea64 media: fix resource leak when dlsym failed
+d70317d0f4 Do not report error for playback rate/pitch of 1.0
+1970e2347c Fix direct/offload AudoTrack playback head position on flush & re-use
+37dac38ad7 nuplayer: ensure using video ts as anchor when really has no audio and clearAnchor must be followed by updateAnchor in video only case
+0785fabe2d camera: include: Don't override possible overlayed header
+aa3f3cea5d StagefrightRecorder: Add "set-title" parameter
+fac4164176 Camera: Save the HIDL instances regardless of device version
+c5d48d14de APM: fix log spam from getDevicesForStrategyInt when booting devices.
+3ba4e15996 Set volume for playback over voice call when btsco connected
+a91d490a73 Fix mic address augmenting in APM
+c4ed6edf57 Fix code issues in APM found with unit tests
+
+   * frameworks/base
+fa31d9b00026 SettingsLib: Fix a NPE caused by null progress when binding views
+b9b24d79e5f4 Revert "windowManager: Avoid bad state when resetting/creating surface/s"
+
+   * packages/apps/DesktopMode
+bc6f572 Desktop Mode: Remove display settings intent
+
+   * packages/apps/Personalizations
+cbbaab3 settings: Intercept lineage settings via attribute
+a08db63 settings: Introduce RisingUI [4/n]
+c477d3e settings: Introduce RisingUI [1/n]
+
+   * packages/apps/Settings
+1761e3a1698 settings: Introduce RisingUI [3/n]
+c796824291c settings: Introduce RisingUI [2/n]
+
+   * system/memory/lmkd
+8ffd680 Revert "lmkd: fix over-aggressive kills on direct reclaim"
+206a893 Revert "lmkd: fix over-aggressive kills on PSI stalls"
+
+====================
+     06-05-2023
+====================
+
+
+   * device/google/pantah
+623a9d8f pantah: Enable priv-app enforcement
+4dbb6bcb pantah: Import UDFPS lottie translation dimens from TQ2A.230505.002
+afd80d9f pantah: Expose AUX camera ids & bypass HFR checks for Google Camera
+7641d585 pantah: Limit max refresh rate for AOD/Ambient to 60hz
+8d6052f3 pantah: Update power profile entries
+9ff2afb1 pantah: Enable refresh rate switch and qs tile
+cb32f932 pantah: Enable and configure burn-in protection feature
+5bb6ab8d pantah: Enable Smart charging feature
+d0aa349f pantah: Add stock fingerprint for PixelProps
+
+   * external/chromium-webview/patches
+d295af1 Update Chromium Webview to 114.0.5735.58
+
+   * frameworks/base
+5c0c38c23021 SystemUI: Restore try-finally condition when reinflating QS panel
+8aa5df492574 core: Catch OOB when returning pooled string
+
+   * frameworks/native
+434534a65b sf: avoid unnecessary frame skip to reduce janks.
+
+   * packages/apps/Aperture
+00ac9b1 Aperture: Align versions of all Kotlin components
+bc3d67a Aperture: Downgrade com.google.android.material:material to 1.9.0
+e16427b Aperture: Regenerate blueprints
+
+====================
+     06-04-2023
+====================
+
+
+   * device/google/pantah
+5ebec831 pantah: Correct product_model/brand defaults to device real values
+4a23bfad pantah: Enable apk fs-verity
+ddf38092 pantah: Rise up to RisingOS
+9ed0c4fb pantah: Copy FaceUnlock permission from FWB
+addf1e6c pantah: Override rising system properties
+9902be41 pantah: Enable gapps builds as default
+
+   * frameworks/base
+3041595c4893 Add listener once for volume row animation
+cde640edf3a6 Revert "VolumeDialogImpl: Reconfigure handling of animation/jank listeners"
+
+   * hardware/qcom-caf/common
+2705439 common: Add QTI vpp 1.1-1.4 to prebuilt HIDL interfaces
+
+   * lineage/wiki
+f7500bf6 wiki: Split FP3 and FP3+
+
+   * vendor/google/cheetah
+10686e5 Add SettingsGoogleFutureFaceEnroll package
+640d600 Add additonal sysconfigs from stock
+
+====================
+     06-03-2023
+====================
