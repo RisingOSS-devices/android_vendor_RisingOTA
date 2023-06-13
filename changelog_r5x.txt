@@ -1,0 +1,5 @@
+Highlights & Device Specific Changes:
+Build type: Bi-monthly
+Device: realme 5/5i/5s (RMX1911/RMX2030/RMX1927/r5x)
+Device maintainer: eun0115
+Required firmware: C.67 or newer
