@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Niv",
+			"oem": "Google",
+			"device": "Pixel 7",
+			"filename": "risingOS-v1.1-Babylon-202306122341-panther-GAPPS-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/rising-pixel/files/OTA/panther/1.x/risingOS-v1.1-Babylon-202306122341-panther-GAPPS-OFFICIAL.zip/download",
+			"timestamp": 1686613226,
+			"md5": "184e101497e8abcc26270f33522ab759",
+			"sha256": "c7e3576456c4b359c98bf67a274f313f0118e9cd9bb26a87aaf0fec6b129a05a",
+			"size": 2149542572,
+			"version": "v1.1-Babylon",
+			"buildtype": "Weekly",
+			"forum": "https://forum.xda-developers.com/t/rom-13-pantah-risingos-1-0-atlantis-gapps-unofficial.4581505/",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/RisingOS_Pixels",
+			"dt": "https://github.com/nivlafx/android_device_google_pantah",
+			"common-dt": "https://github.com/nivlafx/android_device_google_gs201",
+			"kernel": "https://github.com/nivlafx/android_kernel_google_gs201"
+		}
+	]
+}
