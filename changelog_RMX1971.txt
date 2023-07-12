@@ -3,6 +3,14 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 12 July, 2023 ====
+- Based on July Security Patch
+- Fixed flickering issues completely 
+- Enabled apk fs-verity (avoids root detection by some apps)
+- Enabled LTE_CA workaround
+- Update CarrierConfig from LA.QSSI.13.0.r1-10000.02-qssi.0
+- Update system blobs from LA.QSSI.13.0.r1-10000.02-qssi.0
+
 ==== 19 March, 2023 ====
 
 Initial RisingOS Build with following changes from last riceDroid 10.2 Paella - Dolby Release
