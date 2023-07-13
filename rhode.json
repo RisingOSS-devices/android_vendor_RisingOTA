@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "FPSensor&Dhruv00",
+			"oem": "Motorola",
+			"device": "Moto G52",
+			"filename": "risingOS-v1.2-Caspian-RELEASE-202307130444-rhode-GAPPS-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/dhrv00-releases/files/RisingOS/risingOS-v1.2-Caspian-RELEASE-202307130444-rhode-GAPPS-OFFICIAL.zip/download",
+			"timestamp": 1689223339,
+			"md5": "b47ba762274d2e98b87930db00fe370c",
+			"sha256": "410b5682ce91853c7557f06164efb22c9b76c35f922c17cefbc3cc9b02063f05",
+			"size": 1553565095,
+			"version": "v1.2-Caspian",
+			"buildtype": "Monthly",
+			"forum": "https://t.me/sdm680_moto",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "",
+			"dt": "https://github.com/RisingOSS-devices/device_motorola_rhode",
+			"common-dt": "https://github.com/RisingOSS-devices/device_motorola_sm6225-common",
+			"kernel": "https://github.com/RisingOSS-devices/kernel_motorola_sm6225"
+		}
+	]
+}

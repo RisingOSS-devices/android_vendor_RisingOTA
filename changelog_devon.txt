@@ -1,0 +1,4 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Moto G32 (devon)
+Device maintainer: FPSensor&Dhruv00

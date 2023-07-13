@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "FPSensor&Dhruv00",
+			"oem": "Motorola",
+			"device": "Moto G42",
+			"filename": "risingOS-v1.2-Caspian-RELEASE-202307130506-hawao-GAPPS-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/dhrv00-releases/files/RisingOS/risingOS-v1.2-Caspian-RELEASE-202307130506-hawao-GAPPS-OFFICIAL.zip/download",
+			"timestamp": 1689224746,
+			"md5": "97c2f1be61c6e092687e868b03a3af67",
+			"sha256": "d779c7d36d2f7d87ee8e98a7b1b80cada8b1e8eec376dfc745fd2e0079cc27fe",
+			"size": 1552402974,
+			"version": "v1.2-Caspian",
+			"buildtype": "Monthly",
+			"forum": "https://t.me/sdm680_moto",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "",
+			"dt": "https://github.com/RisingOSS-devices/device_motorola_hawao",
+			"common-dt": "https://github.com/RisingOSS-devices/device_motorola_sm6225-common",
+			"kernel": "https://github.com/RisingOSS-devices/kernel_motorola_sm6225"
+		}
+	]
+}

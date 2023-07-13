@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "FPSensor&Dhruv00",
+			"oem": "Motorola",
+			"device": "Moto G32",
+			"filename": "risingOS-v1.2-Caspian-RELEASE-202307130352-devon-GAPPS-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/dhrv00-releases/files/RisingOS/risingOS-v1.2-Caspian-RELEASE-202307130352-devon-GAPPS-OFFICIAL.zip/download",
+			"timestamp": 1689220342,
+			"md5": "9b3d2089db53cfc1c9d69639422b3b3f",
+			"sha256": "00dad1b7f910172e862e87674f42d573f7ec1582d878f0c2c8ddfbc60285d49e",
+			"size": 1555976509,
+			"version": "v1.2-Caspian",
+			"buildtype": "Monthly",
+			"forum": "https://t.me/sdm680_moto",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "",
+			"dt": "https://github.com/RisingOSS-devices/device_motorola_devon",
+			"common-dt": "https://github.com/RisingOSS-devices/device_motorola_sm6225-common",
+			"kernel": "https://github.com/RisingOSS-devices/kernel_motorola_sm6225"
+		}
+	]
+}
