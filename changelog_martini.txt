@@ -4,6 +4,6 @@ Device: OnePlus 9RT (martini)
 Device maintainer: InFeRnO
 
 ===== 24-02-23 =====
-- Initial Official build
-- Based on MT2111_11_F.14
-- February security patch
+- Initial RisingOS Official build
+- Based on OOS 13.1.0.582
+- July patch

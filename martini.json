@@ -4,13 +4,13 @@
         "maintainer": "InFeRnO",
         "oem": "OnePlus",
         "device": "OnePlus 9RT",
-        "filename": "riceDroid-13.0-202302231900-martini-v10.2-PIXEL-OFFICIAL.zip",
-        "download": "https://sourceforge.net/projects/playground0230/files/riceDROID/riceDroid-13.0-202302231900-martini-v10.2-PIXEL-OFFICIAL.zip/download",
-        "timestamp": 1677178502,
-        "md5": "c4e030541c55186bd0263fb17d8bae89",
-        "sha256": "05ba2a080d856e86216f98f5690a48ab731593e49d54b450b8f2a142b01288a8",
-        "size": 2161921945,
-        "version": "10.2",
+        "filename": "risingOS-v1.2-Caspian-RELEASE-202307150518-martini-GAPPS-OFFICIAL.zip",
+        "download": "https://files.inferno0230.in/release/risingOS-v1.2-Caspian-RELEASE-202307150518-martini-GAPPS-OFFICIAL.zip",
+        "timestamp": 1689398289,
+        "md5": "9295b6008bdfe43c007077942929eebc",
+        "sha256": "d672f1b777f85f9fd91b3b89185aa17bc484205bff54d4ca8f991ed475931882",
+        "size": 2292481209,
+        "version": "202307150518.202307150518",
         "buildtype": "Monthly",
         "forum": "",
         "gapps": "",
@@ -20,9 +20,9 @@
         "recovery": "",
         "paypal": "",
         "telegram": "https://t.me/inferno0230",
-        "dt": "",
+        "dt": "https://github.com/RisingOSS-devices/device_oneplus_martini",
         "common-dt": "",
-        "kernel": ""
+        "kernel": "https://github.com/RisingOSS-devices/kernel_oneplus_martini"
     }
   ]
 }
