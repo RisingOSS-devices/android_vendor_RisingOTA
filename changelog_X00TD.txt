@@ -4,6 +4,14 @@ Device: Asus Zenfone Max Pro M1 (X00TD)
 Device maintainer: SKetU-l
 Required firmware: 087 or 063
 
+===== 2023.07.18 =====
+- Shipped with Skywalker HMP kernel
+- Syned with latest source
+- Set vulkan as hwui renderer
+- Drop remote keyguard animation
+- Drop debug.cpurend.vsync property
+- Added support for KernelSU (Install app separately)
+
 ===== 2023.02.21 =====
 - Build with latest Pixel fingerprint
 - Enable blur by default
