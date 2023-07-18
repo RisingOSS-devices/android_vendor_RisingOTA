@@ -3,16 +3,16 @@
 		{
 			"maintainer": "SKetU-l",
 			"oem": "asus",
-			"device": "X00TD",
-			"filename": "riceDroid-13.0-202302201734-X00TD-v10.2-CORE-OFFICIAL.zip",
-			"download": "https://www.pling.com/p/1935891/",
-			"timestamp": 1676914496,
-			"md5": "765ec5b2e40272681c27e6b8de3d3a02",
-			"sha256": "6af2b387007092a426f5010f54233724081dc500b404e36c6e82a86d6a426d17",
-			"size": 1272707631,
-			"version": "10.2",
+			"device": "Asus Zenfone Max Pro M1",
+			"filename": "risingOS-v1.2-Caspian-RELEASE-202307180425-X00TD-GAPPS-OFFICIAL.zip",
+			"download": "",
+			"timestamp": 1689654232,
+			"md5": "5d1a62bc08da1f61f2ea9260db7c764a",
+			"sha256": "08388d8fbcd7835ef2a15f023004c127768c8b00f6aacc3a461ea1a6b6ce2c34",
+			"size": 1650489049,
+			"version": "v1.2-Caspian",
 			"buildtype": "Monthly",
-			"forum": "https://t.me/X00TDDISC",
+			"forum": "https://t.me/SKetUs_OT",
 			"gapps": "",
 			"firmware": "",
 			"modem": "",
@@ -22,7 +22,7 @@
 			"telegram": "https://t.me/SKetUl",
 			"dt": "https://github.com/ricedroidOSS-devices/android_device_asus_X00TD.git",
 			"common-dt": "",
-			"kernel": "https://github.com/SKetU-l/kernel_asus_sdm660.git"
+			"kernel": ""
 		}
 	]
 }
