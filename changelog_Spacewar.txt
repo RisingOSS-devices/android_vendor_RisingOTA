@@ -1,33 +1,26 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: Nothing phone1
-"version": "1.0",
-Device maintainer: vikas(optimusprime)
+"version": "12.5",
+Device maintainer: vikas Yaduvanshi Vikas_2_0
 
 ==== 17 April, 2023 ====
 
 RISINGOS v1.0 based source Sync 17/04/2023
 
--Added Screenoff FOD support
-- Fixed mic noise cancellation in calls
-- Added Support For Google Dialer Call Recording
-- Added Clo booost framework
-- Added New Glypth BeetEl Calling animation
-- Added Spatial audio from Pixel (experimental)
-- Improved System Stability / Performance Improved 
-- Change perms to hide Magisk in banking apps
-- Increase Screen brightness 
-- fix audio in voip calls 
-- Updated nothing camera app from v1.5.2
-- Added minimal audio OEM changes
-- Increase auto brightness 
-- kernel : Added back wireguard support
-- kernel : Updates from NOS 1.5
-- kernel : merged LA.UM.9.14.r1-21200-LAHAINA.QSSI13.0
-- Updated  NOS 1.5  blobs
-- Glyph: Add Glyph Interface Header Image
-- Glyph: Fix rotation bug
-- Glyph: Add back AudioManager for better incall detection 
-- Enabled multi gen lru
-- Updated NTCamera from 1.5.3
-- Overall improved performance
+* Based on rising source 1.2.5
+* Based on 13 QPR3 (julysecurity patch)
+* Added Richtap vibration effects
+* Fixed excessive battery drain in some scenarios
+* Fixed low speaker volume
+* Added support for network signal guru
+* Improved haptics
+* Improved idle/standby drain
+* Glyph animations now respect DND mode
+* Improved fingerprint performance
+* Added reverse charging glyph animation
+* Automatically disables glyph animations when device is facing up
+* Updated libs from nos 1.5.4
+* Overall improved performance
+
+** CLEAN FLASH recommended**
