@@ -1,8 +1,0 @@
-Highlights & Device Specific Changes:
-Build type: Monthly
-Device: Samsung A72 4g (a72q)
-Device maintainer: Risen & Piyush
-Required firmware: OneUI 5
-
-===== 2023.02.21 =====
-- Fix a few bugs
