@@ -1,7 +1,12 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: Redmi Note 7/7S (lavender)
-Device maintainer: FPSensor
+Device maintainer: Coptan
+
+===== 2023.02.13 =====
+
+- Initial k4.19 build
+
 
 ===== 2023.02.13 =====
 
