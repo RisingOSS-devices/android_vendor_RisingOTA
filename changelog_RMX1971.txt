@@ -3,6 +3,12 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 28 July, 2023 ====
+- Enable performant auth feature
+- Disable continuous transaction tracing on all build types
+- Enable VoLTE and VoWIFI for all
+- Enable VoLTE support for Telkomsel, Indosat and XLAxiata, Three, Globe, Smart, Dito, Banglalink, GrameenPhone, Aritel, Robi, Teletalk and Citycell 
+
 ==== 12 July, 2023 ====
 - Based on July Security Patch
 - Fixed flickering issues completely 
