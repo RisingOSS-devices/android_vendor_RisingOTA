@@ -1,28 +1,28 @@
 {
-  "response": [
-    {
-        "maintainer": "InFeRnO",
-        "oem": "OnePlus",
-        "device": "OnePlus 9RT",
-        "filename": "risingOS-v1.2-Caspian-RELEASE-202307150518-martini-GAPPS-OFFICIAL.zip",
-        "download": "https://files.inferno0230.in/release/risingOS-v1.2-Caspian-RELEASE-202307150518-martini-GAPPS-OFFICIAL.zip",
-        "timestamp": 1689398289,
-        "md5": "9295b6008bdfe43c007077942929eebc",
-        "sha256": "d672f1b777f85f9fd91b3b89185aa17bc484205bff54d4ca8f991ed475931882",
-        "size": 2292481209,
-        "version": "202307150518.202307150518",
-        "buildtype": "Monthly",
-        "forum": "",
-        "gapps": "",
-        "firmware": "",
-        "modem": "",
-        "bootloader": "",
-        "recovery": "",
-        "paypal": "",
-        "telegram": "https://t.me/inferno0230",
-        "dt": "https://github.com/RisingOSS-devices/device_oneplus_martini",
-        "common-dt": "",
-        "kernel": "https://github.com/RisingOSS-devices/kernel_oneplus_martini"
-    }
-  ]
+	"response": [
+		{
+			"maintainer": "InFeRnO",
+			"oem": "OnePlus",
+			"device": "OnePlus 9RT",
+			"filename": "risingOS-v1.2.5-Camelot-RELEASE-202307311655-martini-CORE-OFFICIAL.zip",
+			"download": "https://files.inferno0230.in/release/risingOS-v1.2.5-Camelot-RELEASE-202307301808-martini-CORE-OFFICIAL.zip",
+			"timestamp": 1690822485,
+			"md5": "a02c262a9a869c835f94e5da0bb1721b",
+			"sha256": "31bd165fb068e3c70b497a06e4efe5e7da669e346c53cbf0dd88f3c1c9e48136",
+			"size": 2564958554,
+			"version": "v1.2-Camelot",
+			"buildtype": "Monthly",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/inferno0230",
+			"dt": "https://github.com/RisingOSS-devices/device_oneplus_martini",
+			"common-dt": "",
+			"kernel": "https://github.com/RisingOSS-devices/kernel_oneplus_martini"
+		}
+	]
 }
