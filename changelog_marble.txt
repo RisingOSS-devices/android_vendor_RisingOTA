@@ -1,9 +1,0 @@
-Highlights & Device Specific Changes:
-Build type: Monthly
-Device name: POCO F5/Redmi Note 12 Turbo 
-Device codename: marble
-Device maintainer: SharmagRit
-
-=×=×=×= 1st Aug 2023 =×=×=×=×=
-- Synced with latest risingOS-v1.2.5-Camelot source
-- Initial official build
