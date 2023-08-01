@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "SharmagRit",
+			"oem": "POCO",
+			"device": "POCO F5",
+			"filename": "risingOS-v1.2.5-Camelot-RELEASE-202308010920-marble-GAPPS-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/sharmagrit/files/marble/",
+			"timestamp": 1690881595,
+			"md5": "cf48fb81c493e955c014be898e29f756",
+			"sha256": "29366468e3decf47866abb669e5c775ff4f751463546e573536ca3707a1d2ce3",
+			"size": 2762157231,
+			"version": "v1.2-Camelot",
+			"buildtype": "Weekly/Monthly",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://www.paypal.com/paypalme/RiteshKrSharma",
+			"telegram": "https://t.me/SharmagRit",
+			"dt": "https://github.com/SharmagRit/android_device_xiaomi_marble.git",
+			"vt": "https://gitlab.com/SharmagRit/android_vendor_xiaomi_marble.git",
+			"kt": ""
+		}
+	]
+}
