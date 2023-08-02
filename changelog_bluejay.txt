@@ -2,6 +2,14 @@ Highlights & Device Specific Changes:
 Build type: Weekly
 Device: Google Pixel 6A ( Bluejay )
 Device maintainer: EliteBlackKaiser
+===== 2023.08.02 =====
+-- Updated Device Tree
+- Adjusted Statusbar Padding via Device Tree
+- Fixed Camera Lag
+- Limit max visiblie notification icons to 3 
+- Disable priv-app enforcement
+- Implement Pixel Tensor Audio Decompressor tunings from https://t.ly/3CEMN
+
 ===== 2023.05.23 =====
 - Synced with Latest Sources
 - Fixed Statusbar Logo Placement 
