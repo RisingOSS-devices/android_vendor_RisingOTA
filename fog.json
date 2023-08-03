@@ -1,0 +1,28 @@
+{
+        "response": [
+                {
+                        "maintainer": "Notkerd",
+                        "oem": "Xiaomi",
+                        "device": "Redmi 10C/Power",
+                        "filename": "risingOS-v1.2.5-Camelot-RELEASE-202308031734-fog-CORE-OFFICIAL.zip",
+                        "download": "https://sourceforge.net/projects/redmi10c-rom/files/RisingOS/risingOS-v1.2.5-Camelot-RELEASE-202308031734-fog-CORE-OFFICIAL.zip/download",
+                        "timestamp": 1691084020,
+                        "md5": "464a4cc6d8dad4dbbf55fb0058cdfd73",
+                        "sha256": "b749334a121f3d259802e60122c97e936c385a8d92cfab922497ad93a85a37bd",
+                        "size": 1594107698,
+                        "version": "v1.2-Camelot",
+                        "buildtype": "Weekly/Monthly",
+                        "forum": "",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://www.paypal.com/paypalme/JCPG77",
+                        "telegram": "https://t.me/Notkeret",
+                        "dt": "https://github.com/RisingOSS-devices/device_xiaomi_fog",
+                        "common-dt": "",
+                        "kernel": ""
+                }
+        ]
+}
