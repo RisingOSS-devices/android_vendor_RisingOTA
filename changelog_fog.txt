@@ -1,0 +1,9 @@
+Highlights & Device Specific Changes:
+Build type: Weekly / Monthly
+Device: Redmi 10C/Power (fog/wind/rain)
+Device maintainer: Notkerd
+
+===== 03-08-2023 =====
+
+- Synced with latest risingOS sources.
+- Initial official build.
