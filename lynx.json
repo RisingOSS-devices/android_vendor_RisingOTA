@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "EliteDarkKaiser",
+			"oem": "Google",
+			"device": "Pixel 7a",
+			"filename": "risingOS-v1.3-Dvaraka-PRE_ALPHA-202308061819-lynx-GAPPS-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/rising-os-for-lynx/files/Official/OTA-Recovery/risingOS-v1.3-Dvaraka-PRE_ALPHA-202308061819-lynx-GAPPS-OFFICIAL.zip/download",
+			"timestamp": 1691345978,
+			"md5": "54531b94547be4604d188fbf2ada85bc",
+			"sha256": "13d49244206269ac104b5bc3ad5c057a3171e1d403a004242caa57d9d502a23c",
+			"size": 2060854472,
+			"version": "v1.3-Dvaraka",
+			"buildtype": "Weekly",
+			"forum": "https://forum.xda-developers.com/t/rom-official-risingos-android-project-v1-2-5-camelot-lynx-8-1-23.4597839/",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "",
+			"dt": "https://github.com/nivlafx/android_device_google_gs201",
+			"common-dt": "https://github.com/LineageOS/android_device_google_lynx",
+			"kernel": "https://github.com/LineageOS/android_kernel_google_gs201"
+		}
+	]
+}
