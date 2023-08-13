@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "Iascker (Mezaque Silva)",
+        "oem": "OEM",
+        "device": "Xiaomi 11 Lite 5G NE",
+        "filename": "risingOS-v1.3-Dvaraka-BETA-202308131434-lisa-CORE-OFFICIAL.zip",
+        "download": "https://sourceforge.net/projects/rising/files/lisa/risingOS-v1.3-Dvaraka-BETA-202308131434-lisa-CORE-OFFICIAL.zip/download",
+        "timestamp": 1691942916,
+        "md5": "6a5f741070ab367bec6863f0f68ebd84",
+        "sha256": "4238d7b375c7d2229d407c050af26d5f1997e65b8f3f71c1a9647ed89059b8d9",
+        "size": 1754004462,
+        "version": "202308131434.202308131434",
+        "buildtype": "type",
+        "forum": "",
+        "gapps": "",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
