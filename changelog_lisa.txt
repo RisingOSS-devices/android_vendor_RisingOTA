@@ -1,0 +1,70 @@
+==== 13 August, 2023 ====
+- Clean flash is highly recommended
+- Required firmware: Latest Global FW V14.0.4.0.TKOMIXM
+- Updated stock blobs V14.0.4.0.TKOMIXM
+- Droped OnePlus Dolby Atmos
+- Miui camera not included
+
+Highlights & Device Specific Changes:
+Build type: Atlantis
+Device: Xiaomi 11 Lite 5G NE (lisa)
+Device maintainer: Mezaque Silver | M3zaque
+Required firmware: Latest Global FW
+
+==== 21 April, 2023 ====
+- Fixed missing NFC
+- Fixed missing refresh rate control
+- Droped MIUI camera for now
+
+==== 19 April, 2023 ====
+- Initial build RisingOS v1.0
+- Clean flash is highly recommended
+- Updated stock blobs and configs from MIUI V14.0.2.0.TKOMIXM
+- Added support for OnePlus Dolby Atmos
+- Update power profile from V14.0.2.0.TKOMIXM
+- Awinic_haptic vibrator configs
+- Update fingerprint config for 12L
+- Switch to vendor-defined color modes
+- Drop Dirac and MiSound Scenes
+
+==== 01 March, 2023 ====
+- Clean flash is highly recommended
+- Updated stock blobs and configs from MIUI V14.0.2.0.TKOMIXM
+- Updated MIUI Camera from MIUI V14.0.2.0.TKOMIXM
+- Enabled anti-aliasing for notch cutout and corners
+- Added support for aux on Aperture camera
+- Fixed 90hz refresh rate
+- Discarded from dimming
+- Add support for Clear speaker and Dirac
+- Add MiSound scenes
+- Add HDR dolby vision support
+- Misc. improvements and fixes
+
+- Credits: whyredfire, ghostrider-reborn for trees
+
+==== 09 February, 2023 ====
+- Initial build Official
+- CTS passes
+- Selinux is enforcing
+- Miui camera is included
+- Remove A2DP input module in audio policy configuration
+- Update fp and blobs from V13.0.8.0.SKOMIXM
+- Uprev boot header version to 4
+
+==== Flashing Instructions ===
+
+1. Reboot to bootloader (fastboot)
+
+2. Connect your phone to PC
+
+3. fastboot flash boot boot.img
+
+4. fastboot reboot recovery
+
+5. Select Wipe data/factory reset & confirm
+
+6. Go back and select Apply update from ADB
+
+7. adb sideload riceDroid*.zip(or drag down the rom zip to cmd)
+
+8. After installation complete, Reboot system.
