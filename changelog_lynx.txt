@@ -2,17 +2,21 @@ Highlights & Device Specific Changes:
 Build type: Weekly
 Device: Google Pixel 7A ( LYNX )
 Device maintainer: EliteBlackKaiser
-Release Version : v1.3 dvaraka ( beta ) 2023-08-13
+Release Version : v1.3 dvaraka 2023-08-15
 
-====== Local Fixes ======
-
-2023-08-13
-   - Implemented Google Face Enroll ( face unlock ) big thanks too @google-pantah-dev on github
 
 ====== android ======
 
+2023-08-15
+   - manifest: Track external piex [minaripenguin]
+
 2023-08-13
    - [LineageOS] manifest: August 2023 Security update [Michael Bestas]
+   
+====== Local Fixes ======
+
+2023-08-13
+   - Implemented Google Face Enroll ( face unlock ) big thanks too @google-pantah-dev on github   
 
 2023-08-12
    - qcom: Add kalama HALs [Bruno Martins]
@@ -26,10 +30,6 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 
 2023-08-12
    - Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_bootable_recovery into HEAD [minaripenguin]
-
-2023-08-04
-   - recovery: Simplify reboot recovery reason [LuK1337]
-   - recovery: Clear BCB before rebooting to recovery [LuK1337]
 
 ====== build/make ======
 
@@ -76,37 +76,42 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 2023-08-09
    - Merge tag 'android-13.0.0_r67' into staging/lineage-20_merge-android-13.0.0_r67 [Michael Bestas]
 
-====== device/qcom/sepolicy-legacy-um ======
+====== external/piex ======
 
-2023-08-04
-   - Allow FM2 app to read/write `vendor.hw.fm.` props [me-cafebabe]
-
-====== external/chromium-webview/patches ======
-
-2023-08-03
-   - Update Chromium Webview to 115.0.5790.166 [Kevin F. Haggerty]
-
-====== external/chromium-webview/prebuilt/arm ======
-
-2023-08-05
-   - Update Chromium Webview arm prebuilt to 115.0.5790.166 [Kevin F. Haggerty]
-
-====== external/chromium-webview/prebuilt/arm64 ======
-
-2023-08-05
-   - Update Chromium Webview arm64 prebuilt to 115.0.5790.166 [Kevin F. Haggerty]
-
-====== external/chromium-webview/prebuilt/x86 ======
-
-2023-08-05
-   - Update Chromium Webview x86 prebuilt to 115.0.5790.166 [Kevin F. Haggerty]
-
-====== external/chromium-webview/prebuilt/x86_64 ======
-
-2023-08-05
-   - Update Chromium Webview x86_64 prebuilt to 115.0.5790.166 [Kevin F. Haggerty]
+2023-08-15
+   - Piex: Import Xiaomi camera hal changes [johnmart19]
 
 ====== frameworks/av ======
+
+2023-08-15
+   - APM: Remove A2DP audio ports from the primary HAL [Peter Cai]
+   - APM: Optionally force-load audio policy for system-side bt audio HAL [Peter Cai]
+   - Fix vorbis-specific workaround to only compare audio timestamps [Ian Baker]
+
+2023-08-14
+   - fixup! Camera: Skip stream size check for whitelisted apps [Arian]
+   - camera: Expose aux cameras in third party apps [Pierre-Hugues Husson]
+   - camera2 vndk: Improve error handling [Emilian Peev]
+   - camera: Don't segfault if we get a NULL parameter [Steve Kondik]
+
+2023-08-13
+   - EffectChain: fix removeEffect_l for global aux effects [Nie Wei Feng]
+   - C2SoftFlacEnc: Send single frame per output by using cloneAndSend [Haripriya Deshmukh]
+   - Use floating point volume in mixer for mute checking [Shunkai Yao]
+   - Fix cts fail AudioTrackTest#testPlaybackHeadPositionIncrease [Mingyu Shih]
+   - PatchTrackBase: fix null pointer dereference issue [gaoxiupei]
+   - Check for null params in VolumeShaper [Pawan Wagh]
+   - DO NOT MERGE audio flinger: fix initial mmap stream volume [Eric Laurent]
+   - Fix incorrect buffer size in NuPlayer [Jeffrey Kardatzke]
+   - nuplayer: ensure using video ts as anchor when really has no audio and clearAnchor must be followed by updateAnchor in video only case [Abdul Khalik Shaik]
+   - CCodec: Update watchdog to handle timeouts accurately [Shrikara B]
+   - NuPlayer does not send MEDIA_PLAYBACK_COMPLETE message in some cases. [Jonathan Kim]
+   - NuPlayer: signal video scaling mode to components that queue to IGBR [guochuang]
+   - update inputdelay if changed [Xu Lai]
+   - Codec2Buffer: accept RGB/RGBA MediaImage layouts [Slawomir Rosek]
+   - Visualizer: Resolve multichannel capture [Andy Hung]
+   - audio: if device is change from none to new device, need get index from new device. [chenxin20]
+   - APC: Add possible deadlock fix when creating track [Vlad Popa]
 
 2023-08-11
    - APC: Wake OffloadThread on AppOps mute [Vlad Popa]
@@ -145,6 +150,27 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
    - Fix arguments checking in AudioSystem::canBeSpatialized [Ram Mohan]
 
 ====== frameworks/base ======
+
+2023-08-15
+   - SystemUI: Remove omnijaw weather slice [minaripenguin]
+   - SystemUI: Scale udfps keyfuard view [minaripenguin]
+   - Revert "Remove removed package uids from Restricted Mode's uid allowlist" [minaripenguin]
+
+2023-08-14
+   - Allow sending vendor- or device-specific commands to the camera HAL. [Danny Baumann]
+   - CameraManager: Fixup exposing aux camera to apps [Ido Ben-Hur]
+   - Camera: Prevent crash with prebuilt camera metadata [Pranav Vashi]
+   - Camera: Expose aux camera if packagename is null [wbs306]
+   - camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
+   - Camera: Avoid possible NPE after extension session configuration [Emilian Peev]
+   - ThemeOverlayController: Remove settings observer for reticker [minaripenguin]
+   - base: Avoid hiding development status to system apps [minaripenguin]
+   - System manager: Move aggressive idle callbacks to SystemManagerUtils [minaripenguin]
+   - System manager: Listen for updates during charging and settings change [minaripenguin]
+
+2023-08-13
+   - SystemUI: Fix some qs transitions [minaripenguin]
+   - SystemUI: Fade the QS footer background early when split shade is translucent [minaripenguin]
 
 2023-08-12
    - services: Enable pro-active kills [minaripenguin]
@@ -1044,12 +1070,27 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 
 ====== frameworks/native ======
 
-2023-08-12
+2023-08-14
+   - Native: IPCThreadState: Import Xiaomi Modifications [johnmart19]
+   - Native: Camera: Import Release Slot Xiaomi Changes [johnmart19]
+   - Native: ProducerListener: Import ON_BUFFER_DETACHED Changes [johnmart19]
+
+2023-08-13
+   - Skip dumping backtraces for cached processes [Kevin Jeon]
+   - Fix libgui cts crash bug [tangcheng]
+   - Vulkan: Avoid buffer overflow by ignoring duplicate extensions [Ian Elliott]
+   - Skip "verify" packages in otapreopt. [Jiakai Zhang]
+   - Stop OtaDexopt when receive any exception signal [yangfuteng]
+   - Don't infer the default boot image location in otapreopt. [Jiakai Zhang]
+   - Installd: don't generate app image with empty reference profile [yanmin5]
+   - Don't allow opening reference profiles for writing when ART Service is enabled. [Martin Stjernholm]
+   - Use dalvik.vm.background-dex2oat-* system properties for background jobs. [Martin Stjernholm]
+   - Ensure dex2oat is run with background priority for OTA dexopt. [Martin Stjernholm]
+   - Remove 1s sleep between each package in the A/B OTA postinstall dexopt process. [Martin Stjernholm]
+   - Fix bug when there are no packages to OTA dexopt. [Martin Stjernholm]
    - libbinder: Turn on whole program vtables [minaripenguin]
    - libbinder: Build with -O3 [minaripenguin]
    - Turn on LTO optmisations for libbinder [Yi Kong]
-
-2023-08-11
    - sf: avoiding unnecessary frame skip to reduce janks. [Rajat Yadav]
    - renderengine: skia: Improve glass blur filter rendering [minaripenguin]
    - libbinder: O_CLOFORK [Steven Moreland]
@@ -1084,6 +1125,15 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
    - inputflinger: add absolute mouse input support [nift4]
    - Skip transaction processing if the surface damage stays the same in Layer::setSurfaceDamageRegion. [Sally Qi]
    - Add AC4Tbl params for dolby AC4 decoder [2/2] [HELLBOY017]
+   - nativedisplay: fix the flicker issue in streaming video [Ray Zhang]
+   - Avoid UI freezing when reading battery capacity/status [Andy Chen]
+   - libbinder: Suppress log spam when unlinking death recipients [Danny Lin]
+   - build: Optimize dalvik heap configs [minarypenguin]
+   - Use hardcoded value for HapticScale [Jeongik Cha]
+   - renderengine: skia: switch to glass blur effect [minaripenguin]
+   - SF: Scheduler: vote max for NOTIFICATION_SHADE [Juhyung Park]
+   - Add dalvik-heap device configs for 8/12/16 GiB devices [Simao Gomes Viana]
+   - Add pending command buffer reset [Huihong Luo]
 
 ====== hardware/google/pixel-sepolicy ======
 
@@ -1092,8 +1142,18 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 
 ====== hardware/interfaces ======
 
-2023-08-12
+2023-08-14
+   - frameworks: Update HIDL overrideFormat from HAL [Abhijit Trivedi]
+
+2023-08-13
    - compatibility_matrices: Allow radio.config@1.0 till target-level 5 [me-cafebabe]
+   - bluetooth: audiocodecs: add 16 bit sample rate for APTX offloading [klozz]
+   - btaudio: aidl: Support offloading all LDAC qualities [Adithya R]
+
+====== hardware/qcom-caf/thermal ======
+
+2023-08-14
+   - thermal_hal: Update skin temperature threshold for sdm845 [LuK1337]
 
 ====== hardware/qcom-caf/wlan ======
 
@@ -1106,6 +1166,14 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
    - cloudripper: Config lto full to thin [Alvin Francis]
 
 ====== lineage/hudson ======
+
+2023-08-15
+   - hudson: Promote miatoll to 20 [Alexander Winkowski]
+   - Regenerate device dependency mappings [LineageOS Infra]
+
+2023-08-14
+   - hudson: Promote Zuk Z2 to 20 [Davide Garberi]
+   - Regenerate device dependency mappings [LineageOS Infra]
 
 2023-08-12
    - Regenerate device dependency mappings [LineageOS Infra]
@@ -1120,9 +1188,6 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
    - Regenerate device dependency mappings [LineageOS Infra]
 
 2023-08-07
-   - Regenerate device dependency mappings [LineageOS Infra]
-
-2023-08-05
    - Regenerate device dependency mappings [LineageOS Infra]
 
 ====== lineage/mirror ======
@@ -1141,17 +1206,16 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 2023-08-07
    - Updated to 08-Aug-2023 00:43 UTC [Kevin F. Haggerty]
 
-2023-08-04
-   - Updated to 04-Aug-2023 13:03 UTC [Kevin F. Haggerty]
-   - Updated to 04-Aug-2023 12:22 UTC [Kevin F. Haggerty]
-   - Updated lineage-minimal to 04-Aug-2023 12:01 UTC [Tim Schumacher]
-
-====== lineage/scripts ======
-
-2023-08-03
-   - build-webview: Update default webview to 115.0.5790.166 [Kevin F. Haggerty]
-
 ====== lineage/wiki ======
+
+2023-08-15
+   - wiki: Promote miatoll to 20 [Alexander Winkowski]
+   - wiki: devices: Only provide screen size in inches [Michael W]
+   - wiki: Fix wording on devices page [razorloves]
+
+2023-08-12
+   - wiki: Update z2_plus unlock instructions [Davide Garberi]
+   - wiki: Promote Zuk Z2 to 20 [Davide Garberi]
 
 2023-08-11
    - wiki: adding_device: Make lowest supported version dynamic [LuK1337]
@@ -1172,7 +1236,19 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 2023-08-06
    - Automatic translation import [LineageOS Infra]
 
+====== packages/apps/GameSpace ======
+
+2023-08-13
+   - GameSpace: Remove hide adb settings [minaripenguin]
+
 ====== packages/apps/Launcher3 ======
+
+2023-08-15
+   - QuickSpaceController: Move extended weather to detailed weather switch [minaripenguin]
+   - [DNM] Launcher3: Disable live tile feature [minaripenguin]
+   - [RisingUI 1.3] Recents overview UI/UX cleanup and improvements [minaripenguin]
+   - Revert "Launcher3: Clear task snapshots remnants on 'onRecentsAnimationComplete'" [minaripenguin]
+   - Launcher3: Fix non-whitelisted system apps showing on apps list [minaripenguin]
 
 2023-08-11
    - Fix kotlin nullable errors in Launcher3 [Colin Cross]
@@ -1205,6 +1281,9 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 
 ====== packages/apps/Settings ======
 
+2023-08-13
+   - notification: Show vibrate icon in status bar by default [minaripenguin]
+
 2023-08-12
    - [RisingUI 1.3] Rework, Cleanup and prepare for upstream [minaripenguin]
    - Applock: Fix an issue where system allowlist is not respected [minaripenguin]
@@ -1219,6 +1298,10 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
    - Crash occurs when entering a Bluetooth broadcast password [Jin Dong]
 
 ====== packages/modules/Bluetooth ======
+
+2023-08-15
+   - gd: hci: Ignore command READ_REMOTE_VERSION_INFORMATION result if it doesn't in command_queue_ [wbs306]
+   - audio_hal_interface: Optionally use sysbta HAL [Peter Cai]
 
 2023-08-12
    - gd: hci: Allow disabling selected local commands [LuK1337]
@@ -1235,10 +1318,56 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 
 ====== system/core ======
 
-2023-08-12
+2023-08-13
    - debuggerd: fix passing of fdsan_table to crash_dump [Tomislav Novak]
    - storageproxyd: Start only a single binder thread [Stephen Crane]
    - snapuserd: Fix ubsan when reading a single aligned sector. [David Anderson]
+   - storageproxyd: Start binder thread pool [Stephen Crane]
+   - libfiemap: Handle EAGAIN in fallocate(). [David Anderson]
+   - libprocessgroup: Remove isolated UID cgroup directories [T.J. Mercier]
+   - debuggerd: simplify output handling [Frederick Mayle]
+   - rootdir: Add sysfs permissions for pocket bridge [Chris Lahaye]
+   - libprocessgroup: Write initial cpuset values for audio-app [minaripenguin]
+   - init.rc disable bootreceiver traces by default [Divyanand Rangu]
+   - healthd: cover devices that have voltage_max file with value of 0 [maxwen]
+   - LockscreenCharging: squashed (2/3) [xyyx]
+   - snapuserd: Set taskprofile OtaProfiles [Akilesh Kailash]
+   - debuggerd: show syscall in SYS_SECCOMP one-liners. [Elliott Hughes]
+   - Use scudo_ring_buffer_size from process_info [Florian Mayer]
+   - static_assert to catch struct mismatches earlier [Florian Mayer]
+   - Fix scudo MTE tests. [Peter Collingbourne]
+   - Fix scudo fault address processing. [liyong]
+   - init: Change extra_free_kbytes.sh to add margin relative to the default watermark level [Suren Baghdasaryan]
+   - set iostat_period_ms to 1 sec [Daeho Jeong]
+   - core: Fix reading max_comp_streams for zram [usernameComputer01]
+   - Fix data lost in zram_swap if system rebooted [Hu Xiaoyu]
+   - libprocessgroup: Import code linaro optimizations [minaripenguin]
+   - debuggerd: Update tombstone proto firmware tag [minaripenguin]
+   - Fix the cgroup v2 thread path [Bart Van Assche]
+   - UDC: Dm-Bow failed to load when size is not Multiple of 4096 [Swapneel Mashalkar]
+   - rootdir: Look for ODM & vendor ueventd entries in ETC too. [Alexander Koskovich]
+   - libfs_avb: Disable dm-verity when AVB is permissive [Danny Lin]
+   - Revert "libfs_avb: verifying vbmeta digest early" [Md Abu Talha]
+   - init: Update properties for snet spoof [Pranav Vashi]
+   - init.rc: don't start console unless asked to [Alex Naidis]
+   - init.rc: Disable native stats collection service [Danny Lin]
+   - init: Do not set safety net props for ENG builds [Pranav Vashi]
+   - init: Add more properties to spoof. [spezi77]
+   - init: Weaken property override security for the init extension [Alex Naidis]
+   - init: Don't spoof SafetyNet properties in recovery mode [Jarl-Penguin]
+   - init: Set properties to make SafetyNet pass [Danny Lin]
+   - init: reboot to recovery on panic by default to allow reading pstore [Alexander Martinz]
+   - Do not call tune2fs for verity on non /data partitions [Jaegeuk Kim]
+
+====== system/libhwbinder ======
+
+2023-08-14
+   - IPCThreadState: Import Xiaomi Android 13 robustness modification [johnmart19]
+
+====== tools/extract-utils ======
+
+2023-08-10
+   - extract-utils: Try to use arch specific vdex for JARs [Sebastiano Barezzi]
 
 ====== vendor/addons ======
 
@@ -1248,32 +1377,30 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 
 ====== vendor/gms ======
 
-2023-08-12
+2023-08-15
    - gms: Correct WallpaperEffect to priv-app and cert signed [Alvin Francis]
-
-2023-08-11
-   - Update DevicePersonalizationPrebuilt to T.30.playstore.pixel7.546346341 [minaripenguin]
-
-2023-08-10
    - permissions: Update gms priv-app whitelist [minaripenguin]
-
-2023-08-08
-   - Update to TQ3C.230805.001.A4 [minaripenguin]
-
-2023-08-05
    - common: Remove ui sounds overrides [minaripenguin]
+   - gms: Import libpowerstatshaldataprovider from pixel experience    * [jhenrique09]
+   - Build google wallpaper prebuilts [minaripenguin]
+   - gms: Import Google wallpaper picker and wallpaper effects [minaripenguin]
+   - Update SetupWizard strings to RisingOS [Alvin Francis]
+   - common: Override AOSP messaging if google messages is shipped [minaripenguin]
+   - common: Add necessary google services and modules to core variants [minaripenguin]
+   - common: Add support for gms core/core extras [minaripenguin]
+   - common: Remove messaging overrides from prebuilt [minaripenguin]
+   - gms: Allow to opt-out from google telephony [minaripenguin]
+   - Debloat prebuilt packages [minaripenguin]
+   - Dedupe system properties [minaripenguin]
+   - gms: Override LineageSetupwizard [minaripenguin]
+
+2023-08-09
+   - gms: Update from cheetah-tq3a.230805.001-factory-73193a8e [Sourajit Karmakar]
 
 ====== vendor/google/bluejay ======
 
 2023-08-12
    - Import blobs from TQ3A.230805.001 [Michael Bestas]
-
-====== vendor/google/faceunlock ======
-
-2023-08-04
-   - faceunlock: Override moto faceunlock [DarkJoker360]
-   - faceunlock: sepolicy: Correct face service label [DarkJoker360]
-   - faceunlock: remove SettingsIntelligenceGooglePrebuilt dependency [Ionut Gherman]
 
 ====== vendor/google/lynx ======
 
@@ -1281,6 +1408,10 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
    - Import blobs from TQ3A.230805.001 [Michael Bestas]
 
 ====== vendor/lineage ======
+
+2023-08-14
+   - tools: Update the changelog paths [Alvin Francis]
+   - [RisingOS] Bump to v1.3 Release [minaripenguin]
 
 2023-08-13
    - prebuilts: Ship settings intelligence by default [minaripenguin]
@@ -1292,9 +1423,6 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 
 2023-08-10
    - [RisingOS] Bump to v1.3 BETA [minaripenguin]
-
-2023-08-04
-   - envsetup.sh: Cleanup initial build tasks [minaripenguin]
 
 ====== vendor/pixel-framework ======
 
@@ -1310,16 +1438,3 @@ Release Version : v1.3 dvaraka ( beta ) 2023-08-13
 2023-08-06
    - now playing: Resolve compiler warnings [minaripenguin]
    - SystemUIGoogle: Replace outdated google-interfaces-lib [aswin7469]
-
-2023-08-05
-   - SystemUIGoogle: BatteryDefenderNotification: Convert to aidl [spezi77]
-
-2023-08-04
-   - SettingsGoogle: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3 [Sourajit Karmakar]
-   - SystemUIGoogle: Add missing permission for Smartspace [spezi77]
-   - SystemUIGoogle: Fix deprecated quality check [Master]
-
-====== vendor/rising-prebuilts ======
-
-2023-08-08
-   - Update to TQ3C.230805.001.A4 [minaripenguin]
