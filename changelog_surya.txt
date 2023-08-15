@@ -1,1 +1,22 @@
-Initial changes
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: Xiaomi POCO X3 NFC (surya)
+Device maintainer: rxuglr
+
+===== 14-08-23 =====
+- Disable remote keyguard animation
+- Add spatial audio
+- Add Leica 5.0 support
+
+
+===== 14-08-23 =====
+- Remove updatable APEX
+- Override risingOS device property
+- Don't use Pixel fingerprint
+- Bring QuickTap back
+
+===== 23-07-23 =====
+- Initial official build
+- Update Dolby
+- Add JamesDSP
+- Remove QuickTap
