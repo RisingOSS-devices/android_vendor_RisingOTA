@@ -1,0 +1,28 @@
+{
+        "response": [
+                {
+                        "maintainer": "rxuglr",
+                        "oem": "Xiaomi",
+                        "device": "Redmi 7A/8/8A/8A Dual",
+                        "filename": "",
+                        "download": "",
+                        "timestamp": ,
+                        "md5": "",
+                        "sha256": "",
+                        "size": ,
+                        "version": "",
+                        "buildtype": "",
+                        "forum": "",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "",
+                        "telegram": "",
+                        "dt": "",
+                        "common-dt": "",
+                        "kernel": ""
+                }
+        ]
+}
