@@ -1,16 +1,16 @@
 {
         "response": [
                 {
-                        "maintainer": "Zaid Khan • Hazama Honoka",
+                        "maintainer": "Ajit",
                         "oem": "Xiaomi",
-                        "device": "Redmi Note 10 Pro",
-                        "filename": "riceDroid-13.0-202302251034-sweet-v10.2-PIXEL-OFFICIAL.zip",
-                        "download": "",
-                        "timestamp": 1677321256,
-                        "md5": "fefacf2cb0bcd11d1e0d21c39e62beb8",
-                        "sha256": "5545704ce3a4909b35fcb872ab9835a99820aa526f442e913f9967c7254e4e7c",
-                        "size": 1976080856,
-                        "version": "10.2",
+                        "device": "Redmi Note 10 Pro/Pro Max",
+                        "filename": "risingOS-v1.3-Dvaraka-RELEASE-202308171911-sweet-GAPPS-OFFICIAL.zip",
+                        "download": "https://sourceforge.net/projects/doctor-strange-builds/files/risingOS-v1.3-Dvaraka-RELEASE-202308171911-sweet-GAPPS-OFFICIAL.zip/download",
+                        "timestamp": 1692299485,
+                        "md5": "08bc649f21300865bf75016a719992bf",
+                        "sha256": "313d0c4cdc74237bd5468647f37fb2e8099f8b86492259372d3ac35ab765b3ca",
+                        "size": 1972792624,
+                        "version": "v1.3-Dvaraka",
                         "buildtype": "Monthly",
                         "forum": "",
                         "gapps": "",
@@ -18,11 +18,11 @@
                         "modem": "",
                         "bootloader": "",
                         "recovery": "",
-                        "paypal": "https://paypal.me/zaidkhan099",
-                        "telegram": "https://t.me/zaidkhan0997",
-                        "dt": "https://github.com/sweet-sm6150/device_xiaomi_sweet/tree/rice",
-                        "common-dt": "https://github.com/sweet-sm6150/device_xiaomi_sm6150-common/tree/rice",
-                        "kernel": "https://github.com/vantoman/kernel_xiaomi_sm6150/tree/courbet-13"
+                        "paypal": "https://www.paypal.me/ajitalenka69",
+                        "telegram": "https://t.me/ajitlenka30",
+                        "dt": "",
+                        "common-dt": "",
+                        "kernel": ""
                 }
         ]
 }

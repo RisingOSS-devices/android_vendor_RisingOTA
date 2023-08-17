@@ -1,9 +1,21 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
-Device: Redmi Note 10 Pro/Max (sweet/sweetin)
-Device maintainer: Zaid Khan • Hazama Honoka
+Device: Redmi Note 10 Pro/Pro Max (sweet/sweetin)
+Device maintainer: Ajit
 
-===== 25-02-23 =====
+===== 18-08-23 =====
 - Initial Official build
-- Vantom prebuild
-- February security patch
+- Aghisna rx prebuild
+- Build QTI thermal
+- fixed lags
+- Build QTI thermal
+- Build QTI health implementation
+- Disable ART debug and optimize dexpreopt
+- Update carrier config from munch
+- build vendor.qti.hardware.perf@2.3
+- Enable TWS plus feature using persist property
+- Enable Qualcomm TrueWireless™ Stereo
+- AAC frame control enabled for hal implementation
+- Disable BT A2DP AAC whitelist.
+- Add support for low power adaptive control feature
+- Removed some packages
