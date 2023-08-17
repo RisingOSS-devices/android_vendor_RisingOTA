@@ -1,8 +1,14 @@
 Highlights & Device Specific Changes:
-Build type: Weekly
+Build type: Monthly
 Device: Realme X50 Pro 5G ( bladerunner )
 Device maintainer: AAMIRR_ALI
 Required firmware: RealmeUI 3
-===== 2023.08.14 =====
 
+===== 17.08.2023 =====
+- Synced with latest risingOS sources.
+- Fix gamespace
+- Fix reTicker
+- Fix charging info
+
+===== 14.08.23 =====
 - Initial official bladerunner build
