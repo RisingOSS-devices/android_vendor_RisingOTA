@@ -3,7 +3,18 @@ Build type: Weekly / Monthly
 Device: Redmi 10C/Power (fog/wind/rain)
 Device maintainer: Notkerd
 
-===== 03-08-2023 =====
+===== 18-08-2023 =====
 
 - Synced with latest risingOS sources.
-- Initial official build.
+- August patch
+- Switch to Chrisl7 CLO based tree
+- Add CLO BoostFramework
+- Include MiuiCamera
+- Dalvik heap tuning
+- Move props makefiles to *prop
+- Fixed lags
+- Boost Bootanimation
+- Allow system_app to read /proc/pagetypeinfo
+- Register framebuffer lib to cached freq reporting
+- Address denials for audio mods 
+- Added BatteryHeath stats in settings
