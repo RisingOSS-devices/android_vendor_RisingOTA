@@ -3,8 +3,8 @@ Build type: Monthly
 Device: OnePlus 9RT (martini)
 Device maintainer: InFeRnO
 
-===== 31-07-23 =====
-- Initial RisingOS Official build 
-- Based on OOS 13.1.0.582
+===== 18-08-23 ===== 
+- Based on OOS 13.1.0.590
 - OOS 13.1.0.582 Firmware included
-- July patch
+- August patch
+- Added BatteryHeath stats in settings
