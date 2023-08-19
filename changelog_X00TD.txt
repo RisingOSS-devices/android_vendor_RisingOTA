@@ -4,6 +4,12 @@ Device: Asus Zenfone Max Pro M1 (X00TD)
 Device maintainer: SKetU-l
 Required firmware: 087 or 063
 
+===== 2023.08.19 =====
+- Kernel: Update KernelSU version 
+- Drop SurfaceFlinger Cache
+- Fix internal warning after boot
+- Syned with latest source
+
 ===== 2023.07.18 =====
 - Shipped with Skywalker HMP kernel
 - Syned with latest source
