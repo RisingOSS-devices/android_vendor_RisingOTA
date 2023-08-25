@@ -3,6 +3,15 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 25 August, 2023 ====
+- Remove ro.vendor.perf.scroll_opt (Fixes some scroll lags)
+- Disable ART debug and optimize dexpreopt
+- Added prop to Clean up useless log spams
+- Added prop to Enable media smoothstreaming
+- Remove obsolete ro.sys.fw.dex2oat_thread_count
+- Disable dexpreopt minidebuginfo
+- Do not use phase offsets as duration (Janks reduction)
+
 ==== 28 July, 2023 ====
 - Enable performant auth feature
 - Disable continuous transaction tracing on all build types
