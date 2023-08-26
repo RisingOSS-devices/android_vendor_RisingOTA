@@ -1,26 +1,20 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: Nothing phone1
-"version": "12.5",
-Device maintainer: vikas Yaduvanshi Vikas_2_0
+"version": "risingOS-v1.3.1-Damascus",
+Device maintainer: vikas Yaduvanshi( Vikas_2_0)
 
-==== 17 April, 2023 ====
-
-RISINGOS v1.0 based source Sync 17/04/2023
-
-* Based on rising source 1.2.5
-* Based on 13 QPR3 (julysecurity patch)
+Device Side Changes ( 28 August , 2023 )
+ ========================
+ 
 * Added Richtap vibration effects
 * Fixed excessive battery drain in some scenarios
+* Switch to pixy kernel thanks to brother aswin 
+* Updated libs from nos v1.5.6 
+* Enabled secure NFC support
 * Fixed low speaker volume
-* Added support for network signal guru
-* Improved haptics
-* Improved idle/standby drain
-* Glyph animations now respect DND mode
-* Improved fingerprint performance
-* Added reverse charging glyph animation
-* Automatically disables glyph animations when device is facing up
-* Updated libs from nos 1.5.4
-* Overall improved performance
 
-** CLEAN FLASH recommended**
+• Notes
+- CTS passes by default 
+- you guys need  firmware from nos 1.5+
+- check group for more info 
