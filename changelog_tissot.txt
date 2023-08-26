@@ -1,0 +1,11 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Mi A1 tissot
+Device maintainer: Ajit
+
+===== 26-08-23 =====
+- Initial Official build
+- Disable camera perflock
+- Enable the pre-rendering feature
+- Force triple frame buffers
+- Disable VSync for CPU rendered apps

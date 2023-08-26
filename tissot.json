@@ -1,0 +1,28 @@
+{
+    "response": [
+            {
+                    "maintainer": "Ajit",
+                    "oem": "Xiaomi",
+                    "device": "Mi A1",
+                    "filename": "risingOS-v1.3.1-Damascus-RELEASE-202308260653-tissot-VANILLA-OFFICIAL.zip",
+                    "download": "https://sourceforge.net/projects/doctor-strange-builds/files/tissot/risingOS-v1.3.1-Damascus-RELEASE-202308260653-tissot-VANILLA-OFFICIAL.zip/download",
+                    "timestamp": 1693032779,
+                    "md5": "75bdde2cd10b404e7bd042814f90b6c3",
+                    "sha256": "98badb2b628a36ced5bec55dc315ca4c81a8b7624d2069a60999093a1d1f67e9",
+                    "size": 869702493,
+                    "version": "v1.3-Damascus",
+                    "buildtype": "Monthly",
+                    "forum": "",
+                    "gapps": "",
+                    "firmware": "",
+                    "modem": "",
+                    "bootloader": "",
+                    "recovery": "",
+                    "paypal": "https://www.paypal.me/ajitalenka69",
+                    "telegram": "https://t.me/ajitlenka30",
+                    "dt": "",
+                    "common-dt": "",
+                    "kernel": ""
+            }
+    ]
+}
