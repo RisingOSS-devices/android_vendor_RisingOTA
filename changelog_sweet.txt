@@ -3,19 +3,10 @@ Build type: Monthly
 Device: Redmi Note 10 Pro/Pro Max (sweet/sweetin)
 Device maintainer: Ajit
 
-===== 18-08-23 =====
-- Initial Official build
-- Aghisna rx prebuild
-- Build QTI thermal
-- fixed lags
-- Build QTI thermal
-- Build QTI health implementation
-- Disable ART debug and optimize dexpreopt
-- Update carrier config from munch
-- build vendor.qti.hardware.perf@2.3
-- Enable TWS plus feature using persist property
-- Enable Qualcomm TrueWireless™ Stereo
-- AAC frame control enabled for hal implementation
-- Disable BT A2DP AAC whitelist.
-- Add support for low power adaptive control feature
-- Removed some packages
+===== 26-08-23 =====
+- Disable camera perflock
+- fixed 64MP/108MP
+- Enable the pre-rendering feature
+- Force triple frame buffers
+- Disable VSync for CPU rendered apps
+- Update QTI factory HAL to v2.3
