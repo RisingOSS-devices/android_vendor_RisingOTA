@@ -3,6 +3,13 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 11 September, 2023 ====
+- Add and ship prebuilt text classifier (Fixes the delay between copying text and that being available in clipboard)
+- Updated Dolby config values (Improved Dolby experience)
+- Silence OpenGL Renderer log spam
+- Implemented Lineage charging control (aka new smart charging implementation)
+
+
 ==== 25 August, 2023 ====
 - Remove ro.vendor.perf.scroll_opt (Fixes some scroll lags)
 - Disable ART debug and optimize dexpreopt
