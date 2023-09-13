@@ -3,18 +3,42 @@ Build type: Weekly / Monthly
 Device: Redmi 10C/Power (fog/wind/rain)
 Device maintainer: Notkerd
 
-===== 18-08-2023 =====
+===== 13-09-2023 =====
 
-- Synced with latest risingOS sources.
-- August patch
-- Switch to Chrisl7 CLO based tree
-- Add CLO BoostFramework
-- Include MiuiCamera
-- Dalvik heap tuning
-- Move props makefiles to *prop
-- Fixed lags
-- Boost Bootanimation
-- Allow system_app to read /proc/pagetypeinfo
-- Register framebuffer lib to cached freq reporting
-- Address denials for audio mods 
-- Added BatteryHeath stats in settings
+- Don't inherit updatable_apex.mk
+- Disable per-cgroup PSI accounting
+- Relax WiFi re-association RSSI thresholds 
+- Disable wifi kernel tracing by default
+- Reduce minimum brightness
+- Update MIUI blobs to V14.0.3.0.TGEMIXM 
+- Nuke powerbutton fingerprint overlay
+- Disable config_dozePulsePickup by default
+- Disable SPU 
+- Enable media smoothstreaming
+- Clean up useless log spams 
+- Update graphics/display props
+- Enable use of PerformanceHintManager for HWUI
+- Set persist.sys.scrollingcache=5 prop
+- Disable VSync for CPU rendered apps
+- Compact cached app heaps in the background
+- Add app resume boost 
+- Set min cpufreq to 300MHz 
+- Use tweaked perf configs 
+- Enable Project ID Quota support on userdata. 
+- Add FUSE passthrough prop
+- Use 75% zram size 
+- Fix proximity sensor during doze overlay definition
+- Fix SELinux permission to set build.prop
+- Label only power_supply/bms
+- Allow hvcdp to seacrh vendor_sysfs_iio
+- Set stflashtool prop correctly
+- Clean unecessary labels
+- Remove libdisplayconfig.qti build package
+- Fix definition to Pre-Fling boost
+- Downgrade prebuilt kernel from FOGGlobal V13.0.13.0-A11
+
+• Notes
+- CTS passes by default 
+- Clean flash is HIGLHLY RECOMMENDED! (If you using custom dtbo)
+- Since the implementation of Miui camera (since build 1.3) the zip file size may be a way bigger than before,
+so don't worry about that.
