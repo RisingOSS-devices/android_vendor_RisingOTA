@@ -3,8 +3,9 @@ Build type: Monthly
 Device: OnePlus 9RT (martini)
 Device maintainer: InFeRnO
 
-===== 18-08-23 ===== 
-- Based on OOS 13.1.0.590
-- OOS 13.1.0.582 Firmware included
-- August patch
-- Added BatteryHeath stats in settings
+===== 12-09-23 ===== 
+- Based on OOS 13.1.0.591
+- OOS 13.1.0.591 Firmware included
+- September security patch
+- Upstreamed kernel to v5.4.256 with latest CLO tag
+- Fixed Slo-mo mode not working
