@@ -9,3 +9,10 @@ Device maintainer: SeminaAlexandru(semialex16)
 Short Changelog:
 • Synced with latest risingOS sources.
 • Initial official build.
+
+=×=×= 14th September 2023 =×=×=
+
+• Updated to 14.0.3.0.TKCMIXM Kernel & Vendor blobs.
+• Disable CamX log spam and some other stuff.
+• Use FrameworkOverlay to set default volume slider steps.
+• Enable saturated color mode.
