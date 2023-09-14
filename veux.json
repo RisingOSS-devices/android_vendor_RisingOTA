@@ -1,28 +1,27 @@
-{
-	"response": [
-		{
-			"maintainer": "SeminaAlexandru(semialex16)",
-			"oem": "Xiaomi",
-			"device": "veux",
-			"filename": "risingOS-v1.3-Dvaraka-RELEASE-202308151548-veux-GAPPS-OFFICIAL.zip",
-			"download": "https://drive.google.com/file/d/1XalRVIOIPww_jsrVMneaxZNUiZRfDNTh/view?usp=drive_link",
-			"timestamp": 1692114424,
-			"md5": "cef41e8a116fe4c79ad65e70a67fae86",
-			"sha256": "8b45974c04c3646162b8799502154c25de4ec03c24e0b9eb8297d9ad61fc0f0a",
-			"size": 1953866609,
-			"version": "v1.3-Dvaraka",
-			"buildtype": "RELEASE",
-			"forum": "",
-			"gapps": "",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "",
-			"paypal": "https://www.paypal.me/openmedia15",
-			"telegram": "t.me/semialex16",
-			"dt": "https://github.com/alexandrusemina/device_xiaomi_veux",
-			"common-dt": "",
-			"kernel": ""
-		}
-	]
+        "response": [
+                {
+                        "maintainer": "SeminaAlexandru(semialex16)",
+                        "oem": "Xiaomi",
+                        "device": "veux",
+                        "filename": "risingOS-v1.4-Elysium-FINAL-202309141632-veux-GAPPS-OFFICIAL.zip",
+                        "download": "",
+                        "timestamp": 1694709028,
+                        "md5": "0ee9dc818abf219327719f9dc066cacc",
+                        "sha256": "065d7c75493e67ffc77a7522386d0cc8968bd0b2a00f1e6428a109650c10b908",
+                        "size": 1966818515,
+                        "version": "v1.4-Elysium",
+                        "buildtype": "RELEASE",
+                        "forum": "",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://www.paypal.me/openmedia15",
+                        "telegram": "",
+                        "dt": "https://github.com/alexandrusemina/device_xiaomi_veux",
+                        "common-dt": "",
+                        "kernel": ""
+                }
+        ]
 }
