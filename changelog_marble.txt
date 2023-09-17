@@ -1,12 +1,25 @@
 Highlights & Device Specific Changes:
-Build type: Weekly / Monthly
+Build type: Stable/Monthly
 Device name: Poco F5/Redmi Note 12 Turbo
 Device codename: marble
 Device maintainer: SharmagRit
 
+=×=×= 17th September 2023 =×=×=
+
+Minor Changelogs:
+* Synced with latest risingOS v1.4 Elysium sources
+* Initial oss vendor update
+* Comes with Dolby Atmos
+* Tune statubar padding
+* Include battery health
+* Safetynet passed by default
+* Leica with miui gallery included
+* Comes with 2 variants: Core & Gapps
+* Turn off retickerr, this fix headsup for incoming calls issue.
+
 =×=×= 28th August 2023 =×=×=
 
-Short Changelogs:
+Major Changelogs:
 * Synced with latest risingOS v1.3 sources
 * marble: Enable adaptive color mode
 * marble: overlay: Switch to vendor-defined color modes
@@ -29,6 +42,6 @@ Short Changelogs:
 
 =×=×= 2nd August 2023 =×=×=
 
-Short Changelogs:
+Minor Changelogs:
 * Synced with latest risingOS sources.
 * Initial official build.
