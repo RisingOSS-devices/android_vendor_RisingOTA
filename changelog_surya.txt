@@ -3,11 +3,22 @@ Build type: Weekly
 Device: Xiaomi POCO X3 NFC (surya)
 Device maintainer: rxuglr
 
+===== 17-09-23 =====
+- surya: gps: Resolve unused parameter warnings 
+- surya: Fix BOARD_FLASH_BLOCK_SIZE 
+- surya: Fix IMS symlink as per dynamic partitions 
+- surya: Move more RIL properties to vendor 
+- surya: Drop unused RIL properties 
+- surya: sepolicy: Drop camera.sensor* properties 
+- surya: sepolicy: Bringup property_contexts for Android 13 
+- surya: Disable continuous transaction tracing on all build types 
+- surya: Enable GL comp backpressure 
+- surya: Disable SF client composition cache 
+
 ===== 14-08-23 =====
 - Disable remote keyguard animation
 - Add spatial audio
 - Add Leica 5.0 support
-
 
 ===== 14-08-23 =====
 - Remove updatable APEX
