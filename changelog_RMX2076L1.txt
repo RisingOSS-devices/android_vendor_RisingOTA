@@ -3,139 +3,37 @@ Build type: Monthly
 Device: Realme X50 Pro 5G ( bladerunner )
 Device maintainer: AAMIRR_ALI
 Required firmware: RealmeUI 3
-Rising version: 1.3.1-Damascus
 
-==== ====NOTICE  ==== ==== 
+==== ==== NOTICE  ==== ==== 
 
 ====--Clean  Flash mandatory---====
 if you are come from any rom
 
+===== 21.09.2023 =====
+- Synced with latest risingOS v1.4 Elysium sources
+- Enable APK fs-verity 
+- Set 60Hz AOD & ambient display refresh rate
+- Update battery info every second when charging
+- Enable the pre-rendering feature
+- Move background cpuset to CPU0-1
+- Enable refresh rate control
+- Enable full LLVM compilation on kernel
+- Fix usb tethering 
+- Disable wifi 6GHz band
+- Improved system performance and stability
 
- ======Device changes ====== 28-08-2023
+
+====== 28-08-23 ======
 - Added Aosp clock
 - Improved system performance and stability
 - Device changes remains same like old changes 
 
+===== 17.08.2023 =====
+- Synced with latest risingOS sources.
+- Fix gamespace
+- Fix reTicker
+- Fix charging info
 
-
- ======source changes ====== 26-08-2023
-
-
-
-====== android ======
-
-2023-08-18
-   - manifest: Track themepicker and wallpaperpicker [minaripenguin]
-
-====== build/soong ======
-
-2023-08-18
-   - cc: Optimize compiler flags [minaripenguin]
-
-2023-08-17
-   - Whitelist pahole tool [minaripenguin]
-   - Disable "-Wl,-plugin-opt,-import-instr-limit=5" on MacOS [A. Cody Schuffelen]
-   - Increase D8/R8 max heap size to 4GB [Jared Duke]
-   - Bump up errorprone heap size [Cole Faust]
-   - Increase javac heap to 4096M [Sorin Basca]
-   - Limit JIT tier for D8 [Jared Duke]
-   - soong: Whitelist python3.11 [Pranav Vashi]
-   - Add python3.10 to allowed paths [Silesh K Nair]
-   - soong: Allow various path commands [Pranav Vashi]
-   - soong: Whitelist locale [Kevin F. Haggerty]
-   - build: whitelist repo [minaripenguin]
-   - build: whitelist aarch64-linux-gnu-ld [minaripenguin]
-   - Prepend AFDO flags to allow overriding [Yi Kong]
-   - UI: Add RisingOS banner variables [minaripenguin]
-   - Disable deferred tracing in R8 [Rico Wind]
-   - HWAsan: Increase the malloc fill size. [Christopher Ferris]
-   - Fix symlinks from APEX to partitions [Jiyong Park]
-
-====== device/qcom/sepolicy-legacy-um ======
-
-2023-08-23
-   - legacy: common: Label discard_max_bytes for SDB devices [Nolen Johnson]
-
-====== device/qcom/sepolicy_vndr ======
-
-2023-08-24
-   - sepolicy_vndr: Remove duplicate hwservice_contexts [Bruno Martins]
-   - sepolicy: Add mutualex as alias to vendor_qms back [Arian]
-   - sepolicy: Make qcc_vendor an alias for qcc_trd_2 [Arian]
-   - sepolicy: Add neural network sepolicy back [Arian]
-   - Revert "Removal of CVP and Panorama services/SE files" [Arian]
-   - Revert "Removal of SCVE Panorama services file" [Arian]
-   - sepolicy: Remove new neverallows on vendor_xdsp_device and vendor_qdsp_device [Arian]
-   - Revert "Remove rules for xtwifi-inet-agent as the daemon is removed" [Arian]
-   - Revert "sepolicy_vndr: Remove sepolicy changes for eID services" [Arian]
-   - Revert "sepolicy: remove agm service policy context" [Arian]
-   - Revert "sepolicy: Remove unused sensors-qesdk binary name." [Arian]
-   - Revert "QAPEService: Remove old perf_qesdk_client label" [Arian]
-   - Merge tag 'LA.VENDOR.13.2.0.r1-16100-KAILUA.0' of https://git.codelinaro.org/clo/la/device/qcom/sepolicy_vndr into HEAD [Bruno Martins]
-
-====== frameworks/av ======
-
-2023-08-20
-   - Codec2: guard the dummy work signal to lahaina only [Chenyang Zhong]
-   - Codec2: queue a empty work to HAL to wake up allocation thread [Jiajia Cong]
-
-====== frameworks/base ======
-
-2023-08-25
-   - core: Mark hide ime space feature uri key as readable [minaripenguin]
-   - System manager: Cleanup notification service handling [minaripenguin]
-   - Pulse: Fix orientation checks [minaripenguin]
-
-2023-08-24
-   - Pulse: Prevent systemui-related crashes [minaripenguin]
-   - Pulse: Vertical mirror [1/2] [TikkiTikki]
-   - Pulse: Custom gravity and Center mirrored [1/2] [TikkiTikki]
-   - PIH: Optional google camera spoof [1/2] [minaripenguin]
-   - SystemUI: Improve gesture navigation length and radius handling [minaripenguin]
-   - SystemUI: Re-evaluate themes when changing nav bar radius [minaripenguin]
-
-2023-08-23
-   - KeyguardIndication: Prevent wakelocks from being stucked [minaripenguin]
-   - base: Allow toggling floating rotation button [1/3] [Ido Ben-Hur]
-   - SystemUI: Allow disabling clipboard overlay [1/2] [Adithya R]
-   - LessBoring: fixup LessBoring preventing bubbles [Rushab Shah]
-   - Less boring heads up: Don't skip heads up for most messaging apps [minaripenguin]
-   - Slightly optimize less boring apps check for heads up [Pranav Vashi]
-   - Skip less boring notification check when reTicker mode is active [Pranav Vashi]
-   - Less boring heads up option [1/2] [ezio84]
-   - NotificationShade: Make blur crossfading more gradual [Danny Lin]
-   - KeyguardIndication: Set wakelock on doze only when required [Pranav Vashi]
-   - SystemUI: Allow making Navigation Pill thinner [1/2] [Terminator-J]
-   - SystemUI: Allow Configuring Navbar Radius [1/2] [spkal01]
-   - Allow changing the length of gesture navbar [1/2] [jhonboy121]
-   - SystemUI: Reduce qs header image elevation [minaripenguin]
-   - systemUtils: Refactor restart utility methods [minaripenguin]
-   - SystemUI: Custom QS header image [1/2] [minaripenguin]
-   - services: Bypass security check when checking provider permissions for google apps [minaripenguin]
-
-2023-08-22
-   - SystemUI: Fix class cast exception when animating play/pause button [minaripenguin]
-   - CameraDeviceImpl: Don't crash when checking input configuration failed [Xayah]
-   - core: server: inputmanager: Check if input method is enabled before showing missing keyboard layout notification [Fabian Leutenegger]
-   - SystemUI: Add SCREEN_GESTURE as a CameraLaunchSourceModel [resist15]
-   - DisplayModeDirector: Allow to enforce user selected resolution [cjh1249131356]
-   - System manager: Simplify adaptive charging status check [minaripenguin]
-   - core: Mitigate a crash when there are more than one installer intent received [minaripenguin]
-
-2023-08-20
-   - core: freeze two IDs used by HbmSvManager [nift4]
-   - aapt2: support freezing private resource IDs [nift4]
-   - libandroid_runtime: workaround global ThinLTO bug [John Galt]
-   - libandroid_defaults: force full LTO to workaround runtime bug [John Galt]
-   - Revert "SystemUI: Enable new wallpaper picker UI" [minaripenguin]
-   - Use try-with-resources to avoid accidentaly leaking unclosed objects. [Mateus Azis]
-   - Close DirectoryStream in ActivityThread after use. [Mateus Azis]
-   - Avoid duplicate map lookups in RemoteConnectionManager. [Mateus Azis]
-   - [DO NOT MERGE] Handle out-of-bound array index in FastDataInput [Songchun Fan]
-   - System Manager: Limit adaptive charging notification updates [minaripenguin]
-   - Build: Don't check build consistency for user builds [minaripenguin]
-   - SystemUI: Fix weather info to match with launcher [minaripenguin]
-   - core: Set appropriate cgroup paths for each cpusets [minaripenguin]
-   - services: Implement service rescheduling API [minaripenguin]
-   - services: Move freezer thread group to system background [minaripenguin]
+===== 14.08.23 =====
+- Initial official bladerunner build
 
