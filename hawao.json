@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "FPSensor&Dhruv00",
-			"oem": "Motorola",
-			"device": "Moto G42",
-			"filename": "risingOS-v1.2-Caspian-RELEASE-202307130506-hawao-GAPPS-OFFICIAL.zip",
-			"download": "https://sourceforge.net/projects/dhrv00-releases/files/RisingOS/risingOS-v1.2-Caspian-RELEASE-202307130506-hawao-GAPPS-OFFICIAL.zip/download",
-			"timestamp": 1689224746,
-			"md5": "97c2f1be61c6e092687e868b03a3af67",
-			"sha256": "d779c7d36d2f7d87ee8e98a7b1b80cada8b1e8eec376dfc745fd2e0079cc27fe",
-			"size": 1552402974,
-			"version": "v1.2-Caspian",
-			"buildtype": "Monthly",
-			"forum": "https://t.me/sdm680_moto",
-			"gapps": "",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "",
-			"paypal": "",
-			"telegram": "",
-			"dt": "https://github.com/RisingOSS-devices/device_motorola_hawao",
-			"common-dt": "https://github.com/RisingOSS-devices/device_motorola_sm6225-common",
-			"kernel": "https://github.com/RisingOSS-devices/kernel_motorola_sm6225"
-		}
-	]
+        "response": [
+                {
+                        "maintainer": "FPSensor",
+                        "oem": "Motorola",
+                        "device": "Moto G42",
+                        "filename": "risingOS-v1.4-Elysium-FINAL-202310090105-hawao-GAPPS-OFFICIAL.zip",
+                        "download": "https://sourceforge.net/projects/fpsensor-builds/files/risingOS-v1.4-Elysium-FINAL-202310090105-hawao-GAPPS-OFFICIAL.zip/download",
+                        "timestamp": 1696813380,
+                        "md5": "41b1761beda3a04580f84d35e075f013",
+                        "sha256": "8154b4830fff403b442c546929af12e89c43513c14a84c95363531f9d976329b",
+                        "size": 1472053900,
+                        "version": "v1.4-Elysium",
+                        "buildtype": "Monthly",
+                        "forum": "https://t.me/sdm680_moto",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://www.paypal.me/GKartyt",
+                        "telegram": "https://t.me/FPSensor",
+                        "dt": "https://github.com/RisingOSS-devices/device_motorola_hawao",
+                        "common-dt": "https://github.com/RisingOSS-devices/device_motorola_sm6225-common",
+                        "kernel": "https://github.com/RisingOSS-devices/kernel_motorola_sm6225"
+                }
+        ]
 }
