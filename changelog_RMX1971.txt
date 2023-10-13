@@ -3,6 +3,21 @@ Build type: Monthly
 Device: Realme 5 Pro 
 Device maintainers: KSSRAO
 
+==== 28 September, 2023 ====
+- Enabled Optimized Power Management
+- Remove obsolete gFixedRate
+- Remove obsolete gEnableBypass11d config
+- Remove obsolete SapSccChanAvoidance config
+- Disabled surface flinger prime shader cache (removes the cache and saves memory in the surface flinger process)
+
+
+==== 11 September, 2023 ====
+- Add and ship prebuilt text classifier (Fixes the delay between copying text and that being available in clipboard)
+- Updated Dolby config values (Improved Dolby experience)
+- Silence OpenGL Renderer log spam
+- Implemented Lineage charging control (aka new smart charging implementation)
+
+
 ==== 25 August, 2023 ====
 - Remove ro.vendor.perf.scroll_opt (Fixes some scroll lags)
 - Disable ART debug and optimize dexpreopt

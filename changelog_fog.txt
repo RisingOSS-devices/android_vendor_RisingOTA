@@ -3,18 +3,28 @@ Build type: Weekly / Monthly
 Device: Redmi 10C/Power (fog/wind/rain)
 Device maintainer: Notkerd
 
-===== 18-08-2023 =====
+===== 25-09-2023 =====
 
-- Synced with latest risingOS sources.
-- August patch
-- Switch to Chrisl7 CLO based tree
-- Add CLO BoostFramework
-- Include MiuiCamera
-- Dalvik heap tuning
-- Move props makefiles to *prop
-- Fixed lags
-- Boost Bootanimation
-- Allow system_app to read /proc/pagetypeinfo
-- Register framebuffer lib to cached freq reporting
-- Address denials for audio mods 
-- Added BatteryHeath stats in settings
+- Fix proximity sensor during doze overlay definition 
+- Force disable iorapd 
+- Enable auto-power-save modes 
+- Add config_wallpaperMaxScale 
+- Spoof netflix to Mi 11 Lite 5G
+- Add sf threshold of next vsync props from Pixel 
+- Disable layer_stitch and enable_rounded_corner 
+- Remove some unnecessary props 
+- Remove BT low power adaptive control feature 
+- Add MiCharge service 
+- Add and increase 5 GHz network signal tolerance 
+- Disable surfaceflinger prime shader cache
+- Remove max ZRAM compression streams setting
+- Add properties for surfaceflinger
+- Resize product, system and vendor to 2GB size
+- Fixed obb data problem
+- Reverted to A12 Prebuilt kernel
+
+• Notes
+- CTS passes by default 
+- Clean flash required, If you are coming from older versions.
+- Since the implementation of Miui camera (since build 1.3) the zip file size may be a way bigger than before,
+so don't worry about that.

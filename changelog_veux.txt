@@ -4,6 +4,14 @@ Device name: Redmi Note 11 Pro 5G/ Poco X4 Pro 5G
 Device codename: veux
 Device maintainer: SeminaAlexandru(semialex16)
 
+=×=×= 14th September 2023 =×=×=
+
+• Synced with latest risingOS sources.
+• Enable saturated color mode.
+• Disable CamX log spam and some other stuff.
+• Updated to 14.0.3.0.TKCMIXM Kernel & Vendor blobs.
+• Use FrameworkOverlay to set default volume slider steps.
+
 =×=×= 15th August 2023 =×=×=
 
 Short Changelog:

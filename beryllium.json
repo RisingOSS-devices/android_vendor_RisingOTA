@@ -1,16 +1,16 @@
 {
   "response": [
     {
-        "maintainer": "Shikhar|Finnaib",
+        "maintainer": "AKSHAT",
         "oem": "Xiaomi",
         "device": "Poco F1",
-        "filename": "riceDroid-13.0-202302120737-beryllium-v10.2-AOSP-OFFICIAL.zip",
-        "download": "https://sourceforge.net/projects/jxs/files/rice/riceDroid-13.0-202302120737-beryllium-v10.2-AOSP-OFFICIAL.zip/download",
-        "timestamp": 1676138465,
-        "md5": "d070268e3e5930710ede0785d328f357",
-        "sha256": "4708989f20b9e5dd87d85361738434f6aa42bfd057a8c9028a0a68b2822fd34a",
-        "size": 1165979513,
-        "version": "10.2",
+        "filename": "risingOS-v1.4-Elysium-FINAL-202310051816-beryllium-VANILLA-OFFICIAL.zip",
+        "download": "https://sourceforge.net/projects/uploads10/files/rise/risingOS-v1.4-Elysium-FINAL-202310051816-beryllium-VANILLA-OFFICIAL.zip/download",
+        "timestamp": 1696529573,
+        "md5": "b0cd583e614eba8b26ad4b5579fe34db",
+        "sha256": "bf3b9aa415705550e4c030e9f153690207dd691668af716b6dff62825824adcb",
+        "size": 1322586632,
+        "version": "v1.4-Elysium",
         "buildtype": "Monthly",
         "forum": "https://t.me/arcana_beryllium",
         "gapps": "",
@@ -19,10 +19,10 @@
         "bootloader": "",
         "recovery": "",
         "paypal": "",
-        "telegram": "https://t.me/Excraze",
-        "dt": "https://github.com/Krtonia/device_xiaomi_beryllium",
-        "common-dt": "https://github.com/Krtonia/device_xiaomi_sdm845-common",
-        "kernel": "https://github.com/LineageOS/android_kernel_xiaomi_sdm845"
+        "telegram": "https://t.me/Legendleo90",
+        "dt": "",
+        "common-dt": "",
+        "kernel": "https://github.com/Krtonia/kawaii_xiaomi_sdm845"
     }
   ]
 }
