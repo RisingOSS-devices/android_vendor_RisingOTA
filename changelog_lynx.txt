@@ -2,407 +2,333 @@ Highlights & Device Specific Changes:
 Build type: Weekly
 Device: Google Pixel 7A ( LYNX )
 Device maintainer: EliteBlackKaiser
-Release Version : v1.4 Elysium 2023-09-04
+Release Version : v1.4 Elysium 2023-10-12
+
 
 ====== android ======
 
-2023-08-29
-   - lineage: Switch to our own fork of hardware/libhardware_legacy [Bruno Martins]
-   - qcom: Remove sdm660 display group [Michael Bestas]
-   - qcom: Correct core-utils-vendor group [Michael Bestas]
-   - qcom: Change healthd-ext group to reflect waipio-vendor base [Bruno Martins]
-   - manifest: Track our own external/dtc [Aaron Kling]
+2023-09-28
+   - pixel: Track gpu module repository [minaripenguin]
 
-2023-08-28
-   - trees: Track vendor from github [minaripenguin]
+2023-09-26
+   - September 2023 Security update 2 [Michael Bestas]
+   - Track our own frameworks/opt/colorpicker [LuK1337]
+   - Revert "lineage: Sync external/dwarves from AOSP" [Bruno Martins]
+   - Track our own fork for CVE-2023-4863 [Luca Stefani]
+   - Track our own fork(s) for 2023-09 ASB patching [Kevin F. Haggerty]
 
 ====== build/make ======
 
-2023-08-28
-   - Add flag for building with 0 compression [minaripenguin]
+2023-09-26
+   - Bump build ID to TQ3A.230901.001.B1 [minaripenguin]
 
-====== build/soong ======
+====== device/google/bluejay ======
 
-2023-08-28
-   - Limit LTO inlining even when profile is present [Yi Kong]
+2023-09-25
+   - Update fingerprint/build description from TQ3A.230901.001 [Michael Bestas]
 
-====== device/google/gs101 ======
+2023-09-21
+   - Merge tag 'android-13.0.0_r75' into staging/lineage-20_merge-android-13.0.0_r75 [Michael Bestas]
 
-2023-08-27
-   - gs101: Tune rate limits for power consumption [minaripenguin]
+====== device/qcom/sepolicy-legacy-um ======
 
-====== device/lineage/sepolicy ======
-
-2023-08-28
-   - sepolicy: vendor: Allow Trust to get vendor SPL [razorloves]
-   - sepolicy: Export dolby prop from mediacodec [Pranav Vashi]
-
-====== external/chromium-webview/patches ======
-
-2023-08-30
-   - Update Chromium Webview to 116.0.5845.163 [Kevin F. Haggerty]
-
-====== external/chromium-webview/prebuilt/arm ======
-
-2023-08-31
-   - Update Chromium Webview arm prebuilt to 116.0.5845.163 [Kevin F. Haggerty]
-
-====== external/chromium-webview/prebuilt/arm64 ======
-
-2023-08-31
-   - Update Chromium Webview arm64 prebuilt to 116.0.5845.163 [Kevin F. Haggerty]
-
-====== external/chromium-webview/prebuilt/x86 ======
-
-2023-08-31
-   - Update Chromium Webview x86 prebuilt to 116.0.5845.163 [Kevin F. Haggerty]
-
-====== external/chromium-webview/prebuilt/x86_64 ======
-
-2023-08-31
-   - Update Chromium Webview x86_64 prebuilt to 116.0.5845.163 [Kevin F. Haggerty]
-
-====== frameworks/av ======
-
-2023-09-03
-   - CCodec: fix wrapping logic [Wonsik Kim]
-   - Use android::base::NoDestructor for static variables [Wonsik Kim]
-   - audio policy: fix eligibility condition for spatialization [Eric Laurent]
-   - Reset staticInfo if static meta fetch fails [Jongchan Choi]
-   - Enlarge the width of AudioTimestampInternal.position [Mikhail Naganov]
-   - CCodec: remove queue timeout [Wonsik Kim]
-
-2023-09-01
-   - Only set initial volume to 0 for the effect that does volume control. [jiabin]
+2023-09-28
+   - sepolicy: Label QTI Thermal HAL 2.0 [Bharath]
 
 ====== frameworks/base ======
 
-2023-09-03
-   - SystemUI: Fix a runtime exception cause by wrong retrieval of drawable [minaripenguin]
-   - SystemUI: Optimize motion layout animation performance [minaripenguin]
-   - BluetoothControllerImpl: Optimize connected battery level scanning [minaripenguin]
-   - SystemUI: Add ability to toggle bluetooth battery level [1/2] [Pranav Vashi]
-   - SystemUI: Fetch bluetooth battery level from any device [jhonboy121]
-   - BluetoothControllerImpl: Synchronize mConnectedDevices access [jhonboy121]
+2023-09-26
+   - SystemUI: Less boring headsup enhancements and fixes [minaripenguin]
+   - GameManagerService: Set device_config property on behalf of GameSpace [Dhina17]
+   - PhoneWindowManager: Pass correct invocation type for assistant launch on home long press [Dhina17]
+   - SystemUI: Fix exception when retrieving signal strength drawable [minaripenguin]
+   - Ambient Display: Simplify always on charging enabled check [minaripenguin]
+   - services: Launch pulse during plug-in if aod is enabled [minaripenguin]
+   - KeyguardIndication: Improve charging current detection [minaripenguin]
+   - KeyguardIndication: Fix charging indication updates [minaripenguin]
+   - PIH: Spoof Pixel tablet to ASI related services [minaripenguin]
 
-2023-09-01
-   - SystemUI: Fix QS brightness slider vibrating to non-user interactions [minaripenguin]
-   - Prevent crash in AccountManager after profile removal. [Dmitry Dementyev]
-   - Fix: avoid the potential attack on SlicePermissionActivity [hukaixiang]
-   - SystemUserInfoHelper: Prevent crash when switching user [minaripenguin]
-   - AuthRippleController: Always make sure LightRevealScrim finishes regardless of the progress [minaripenguin]
-   - AuthRippleController: Always finish the LightRevealScrim [Chenyang Zhong]
-   - ServiceRecord: Don't post running notification for selected apps [cjh1249131356]
-   - Fix bug on DC#ensureActivitiesVisible [Hyeongseop Shim]
-   - View: Remove tooltip callbacks when detached from window [Prabir Pradhan]
-   - Fix flakiness of testNativeCrash [Yukun Yang]
-   - Unmount unusable partition instead of putting device into crashloop. [Alex Buynytskyy]
-   - SurfaceControl: Prevent crash when surfacecontrol is null [minaripenguin]
-   - services: Simplify freezer enablement check [minaripenguin]
-   - Revert "CacheAppOptimizer: Enable compaction if freezer is supported" [minaripenguin]
+2023-09-22
+   - SystemUI: Implement haptic feedback on doze tap to wake [minaripenguin]
+   - SystemUI: Cleanup back gesture affordance vibration methods [minaripenguin]
 
-2023-08-31
-   - GameSpaceManager: Lazily initialize system manager [minaripenguin]
+====== hardware/lineage/compat ======
 
-2023-08-30
-   - Fix NullPointerException for WifiDisplayController. [jiayongqiang]
-   - Fix timer bug in TrustManagerService. [Jacob Hobbie]
-   - SystemUI: Improve qs panel style resources updates [minaripenguin]
-   - SystemUI: Fix label and side view initialization [minaripenguin]
-
-2023-08-29
-   - core: Always clear the cache when the framework resources packages is changed [minaripenguin]
-   - SystemUI: Fade the clock when performing motion layout transition [minaripenguin]
-   - SystemUI: fix missing rotate suggestion in 2 button nav mode [nift4]
-
-2023-08-28
-   - SystemUI: Disable notification headers when using split shade [minaripenguin]
-   - CacheAppOptimizer: Enable compaction if freezer is supported [minaripenguin]
-   - SystemUI: Fix Biometric dialog corner radius [Anushek Prasal]
-   - Fix possible NPE in StatusBarIconList causing bootloop [SpiritCroc]
-   - Enable backup service by default for all users [Oliver Scott]
-   - services: fix quickswitch with gesture pill disabled [nift4]
-   - SystemUI: improve blur handling in respect to app launch animations [nift4]
-   - SystemUI: Allow limiting AOD & ambient display refresh rate via overlay. [Ido Ben-Hur]
-
-2023-08-27
-   - KeyguardIndicationController: Fix adaptive charging indication tracking wrong settings [minaripenguin]
-   - Fix logspam from AppIdleHistory on first boot [Eric Biggers]
-   - Fix JobServiceContext leak issue [Jiangyou Li]
-   - Fix drawable-state cache expired issue [felkachang]
-   - Use std::unique_ptr in FileDescriptorTable [Colin Cross]
-   - Fix memory leak of FileDescriptorInfo object. [Christopher Ferris]
-   - Add null check to updateHasAboveClientLocked [Tomislav Novak]
-   - Ignore BIND_ABOVE_CLIENT for same-process connections [Tomislav Novak]
-   - Delay tryToRebind if application exit reason is LMK [Vijay Kumar]
-   - [BugFixed][OOM_ADJ] use max_adj to control process final adj [guolun Xue]
-   - Recheck the condition before really killing [desuo wang]
-   - services: Remove doKillExcessiveProcesses check [minaripenguin]
-   - services: Link phantom processes configuration with max cached processes [minaripenguin]
-   - services: Disable automatic system server heap dumps by default [minaripenguin]
-   - Bluetooth: fix NullPointerException during bluetooth turning off [dongguanjun1]
-   - BatteryStatsImpl: Fix wrong synchronized with mDailyFile. [Yilin Wu]
-   - BootReceiver: Reset dropbox rate limiter on boot [minaripenguin]
-   - Also reset the dropbox rate limiter in BootReceiver in addition to ActivityManagerService. [Siim Sammul]
-   - Add the ability to reset dropbox rate limiter with a shell command. [Siim Sammul]
-   - Correct requestRefLocation [Shinru Han]
-
-====== frameworks/native ======
-
-2023-09-03
-   - Revert "SurfaceFlinger: Disable early release optimization" [Adithya R]
-   - SF: adjust threeVsyncsAhead calculation to include hwcMinWorkDuration [Ady Abraham]
-   - sf: Check if fps scores are valid to compute best refresh rate. [Pullakavi Srinivas]
-   - SF: do not call register a callback if one is already pending [Ady Abraham]
-   - SF: avoid skipping waiting for the earliest time to present [Ady Abraham]
-   - Allow sensors list to be empty [Devin Moore]
-
-2023-08-30
-   - SF: Scheduler: vote max for NOTIFICATION_SHADE [Juhyung Park]
-
-2023-08-29
-   - Fix 59.94 fps content to choose 60 Hz mode. [Ady Abraham]
-   - libbinder: Turn on whole program vtables [minaripenguin]
-   - libbinder: Build with -O3 [minaripenguin]
-   - Turn on LTO optmisations for libbinder [Yi Kong]
-   - SF: Bring back support for disabling backpressure propagation [Adithya R]
-   - Native: VibratorFeature: Import Xiaomi Android 13 Changes [johnmart19]
-   - libbinder: O_CLOFORK [Steven Moreland]
-
-====== hardware/google/pixel ======
-
-2023-08-29
-   - Merge branch 'lineage-20.0' into thirteen [minaripenguin]
+2023-09-25
+   - compat: Add GNSS interface type shim [R0rt1z2]
+   - compat: Add libsensor -> libsensorndkbridge wrapper [Sebastiano Barezzi]
+   - compat: libc: Convert to Android.bp [me-cafebabe]
+   - compat: libc: Add pthread_mutex_destroy hack for camera [Nich]
+   - compat: libc: Trim down pthread_cond_timedwait hack [Nich]
+   - compat: libc: compile shim with GCC again.. [Nich]
+   - compat: libc: Specific naming of libc shim library [Nich]
+   - compat: libc: Bring libc hax inline with the latest sources [Nich]
+   - compat: libc: Transition to OSS libc shim [Arne Coucheron]
 
 ====== hardware/qcom-caf/thermal ======
 
-2023-08-28
-   - thermal_hal: Update skin temperature threshold for lito [Michael Bestas]
+2023-09-29
+   - thermal-hal: Add HAL v2 support for sdm632 [Ankit Siddhapura]
 
 ====== kernel/google/gs201/private/gs-google ======
 
-2023-09-03
-   - cpuset: Force nice=10 for background tasks [LibXZR]
-   - f2fs: Enlarge min_fsync_blocks to 20 [Jesse Chan]
-   - cloudripper_gki: Disable Coresight driver [Alvin Francis]
-   - UPSTREAM: bluetooth: Perform careful capability checks in hci_sock_ioctl() [Ruihan Li]
-   - UPSTREAM: scsi: ufs: core: Fix I/O hang that occurs when BKOPS fails in W-LUN suspend [Keoseong Park]
-   - UPSTREAM: scsi: ufs: core: WLUN suspend SSU/enter hibern8 fail recovery [Peter Wang]
-   - BACKPORT: scsi: ufs: core: Fix the polling implementation [Bart Van Assche]
-   - BACKPORT: USB: Gadget: core: Help prevent panic during UVC unconfigure [Alan Stern]
-   - psci/exynos: Silence logging [celtare21]
-   - pwm: treat double free as a debug message [Park Ju Hyung]
-   - trace: add CONFIG_DISABLE_TRACE_PRINTK option [Juhyung Park]
-   - sched: core: silence no longer affine to cpu logspam [Yaroslav Furman]
-   - cpu: Silence log spam when a CPU is brought up [Sultan Alsawaf]
-   - mm: oom_kill: Reduce some verbose logging [Diab Neiroukh]
-   - net/sched: Shut up [celtare21]
-   - printk: Don't allow userspace to write to /dev/kmsg [idkwhoiam322]
-   - cpufreq: Don't WARN_ON on non-existent cpu [LibXZR]
-   - blk: disable IO_STAT completely [Park Ju Hyung]
-   - selinux: don't require auditing [kdrag0n]
-   - UPSTREAM: netfilter: nft_set_pipapo: fix improper element removal [Florian Westphal]
-   - UPSTREAM: tty: n_gsm: fix UAF in gsm_cleanup_mux [Chaoyuan Peng]
-   - UPSTREAM: net/sched: cls_fw: Fix improper refcount update leads to use-after-free [M A Ramdhan]
-   - UPSTREAM: netfilter: nf_tables: skip bound chain on rule flush [Pablo Neira Ayuso]
-   - FROMGIT: fs: drop_caches: draining pages before dropping caches [Andrew Yang]
-   - FROMGIT: Multi-gen LRU: skip CMA pages when they are not eligible [Charan Teja Kalla]
-   - BACKPORT: mm: skip CMA pages when they are not available [Zhaoyang Huang]
-   - ANDROID: sched/fair: unlink misfit from cpu overutilized [Qais Yousef]
-   - BACKPORT: mm: Multi-gen LRU: remove wait_event_killable() [Kalesh Singh]
-   - ANDROID: fix a race between speculative page walk and unmap operations [Dezhi Huang]
-   - BACKPORT: mm: multi-gen LRU: retry pages written back while isolated [Yu Zhao]
-   - BACKPORT: FROMGIT: Multi-gen LRU: fix workingset accounting [Kalesh Singh]
-   - UPSTREAM: f2fs: fix to avoid use-after-free for cached IPU bio [Chao Yu]
-   - UPSTREAM: net/sched: cls_u32: Fix reference counter leak leading to overflow [Lee Jones]
-   - UPSTREAM: net/sched: flower: fix possible OOB write in fl_set_geneve_opt() [Hangyu Hua]
-   - UPSTREAM: x86/mm: Avoid using set_pgd() outside of real PGD pages [Lee Jones]
-   - UPSTREAM: f2fs: fix deadlock in i_xattr_sem and inode page lock [Jaegeuk Kim]
-   - FROMLIST: fuse: revalidate: don't invalidate if interrupted [Miklos Szeredi]
-   - ANDROID: KVM: arm64: Fix MMU context save/restore over TLB invalidation [Will Deacon]
-   - UPSTREAM: rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period [Ziwei Dai]
-   - ANDROID: Incremental fs: Allocate data buffer based on input request size [Lee Jones]
-   - FROMGIT: BACKPORT: Multi-gen LRU: Fix can_swap in lru_gen_look_around() [Kalesh Singh]
-   - FROMGIT: BACKPORT: Multi-gen LRU: Avoid race in inc_min_seq() [Kalesh Singh]
-   - FROMGIT: BACKPORT: Multi-gen LRU: Fix per-zone reclaim [Kalesh Singh]
-   - gki_defocnfig: Disable F2FS I/O Statistics logging [Panchajanya1999]
-   - arm64: debug: disable self-hosted debug by default [kdrag0n]
-   - fs: default to noatime [arter97]
-   - slider_gki: Disable Coresight driver [Panchajanya1999]
-   - Enable cortex-a55 dot product instructions optimization [minaripenguin]
-   - enable CC_OPTIMIZE_FOR_PERFORMANCE_O3 by default [minaripenguin]
-   - Makefile: unlock -O3 option [Juhyung Park]
-   - f2fs: Demote GC thread to idle scheduler class [Danny Lin]
-   - f2fs: set ioprio of GC kthread to idle [Park Ju Hyung]
-   - staging: binder - Set binder_debug_mask=0 to suppress logging [John Dias]
-   - binder: Stub out debug prints by default [Sultan Alsawaf]
-   - cloudripper: Config lto full to thin [Alvin Francis]
-   - drivers: misc: power: implement usb fast charge mode [engstk]
-   - FROMLIST: binder: return pending info for frozen async txns [Li Li]
-   - arm64: Enable cortex-A55 optimizations [minaripenguin]
+2023-09-29
+   - sched: fair: Restrict iowait boost to important tasks [minaripenguin]
+   - vh: sched: cpufreq_gov: cap iowait boost by uclamp_max [Qais Yousef]
+   - vh: sched: Disable UCLAMP_STATS [Rick Yiu]
+   - [DNM] drivers: cpuidle: Replace EXPORT_SYMBOL_GPL with EXPORT_SYMBOL [minaripenguin]
+   - ANDROID: cpuidle: teo: Export a function that allows modifying util_threshold [Qais Yousef]
+   - ANDROID: teo: Extend ifdef protection for accessing sched_cpu_util [Qais Yousef]
+   - BACKPORT: cpuidle: teo: Introduce util-awareness [Kajetan Puchalski]
+   - UPSTREAM: cpuidle: teo: Optionally skip polling states in teo_find_shallower_state() [Kajetan Puchalski]
+   - UPSTREAM: cpuidle: teo: Rename two local variables in teo_select() [Rafael J. Wysocki]
+   - UPSTREAM: cpuidle: teo: Fix alternative idle state lookup [Rafael J. Wysocki]
+   - UPSTREAM: cpuidle: teo: remove unneeded semicolon in teo_select() [Wan Jiabing]
+   - UPSTREAM: cpuidle: teo: Use kerneldoc documentation in admin-guide [Rafael J. Wysocki]
+   - UPSTREAM: cpuidle: teo: Rework most recent idle duration values treatment [Rafael J. Wysocki]
+   - UPSTREAM: cpuidle: teo: Change the main idle state selection logic [Rafael J. Wysocki]
+   - UPSTREAM: cpuidle: teo: Cosmetic modification of teo_select() [Rafael J. Wysocki]
+   - UPSTREAM: cpuidle: teo: Cosmetic modifications of teo_update() [Rafael J. Wysocki]
+   - UPSTREAM: cpuidle: teo: Take negative "sleep length" values into account [Rafael J. Wysocki]
+   - UPSTREAM: cpuidle: teo: Adjust handling of very short idle times [Rafael J. Wysocki]
+   - sched: fair: Increase capacity margin ceiling for `fits_capacity` [minaripenguin]
+   - vh: sched: Skip pulling tasks on new idle balance if source task cannot migrate [minaripenguin]
+   - vh: sched: Don't pull task towards idle CPUs [minaripenguin]
+   - vh: sched: Treat unimportant tasks as fit if it is placed on min cap CPUs [minaripenguin]
+   - arm64: dts: gs101: Use second cpu frequency steps as min cpu frequencies [minaripenguin]
+   - vh: sched: Incorporate CPU capacity inversion to `rvh_util_fits_cpu` [minaripenguin]
+
+2023-09-28
+   - vh: sched: fair: Use `cpu_overutilized` when checking if utilization fits [minaripenguin]
+   - vh: sched: Port util_fits_cpu() from upstream [Qais Yousef]
+   - vh: sched: Make rt_task_fits_capacity() use util_fits_cpu() [Qais Yousef]
+   - vh: sched: Make cpu_overutilized_pixel_mod use util_fits_cpu like upstream [Qais Yousef]
+   - vh: sched: Port task_fits_cpu() from upstream [Qais Yousef]
+   - vh: sched: Pass the cpu with max util [Rick Yiu]
+   - vh: sched: Get correct util_est in cpu_util_next [Rick Yiu]
+   - vendor_hook: sched: Initialize tasks when loading vh_sched.ko [Rick Yiu]
+   - vh: sched: remove uclamp threshold [Chungkai Mei]
+   - sched/fair: Sanitize vruntime of entity being migrated [Vincent Guittot]
+   - sched/fair: sanitize vruntime of entity being placed [Zhang Qiao]
+   - sched/fair: Reduce cases for active balance [Vincent Guittot]
+   - sched/fair: Don't set LBF_ALL_PINNED unnecessarily [Vincent Guittot]
+   - sched/fair: Don't balance task to its current running CPU [Yicong Yang]
+   - sched/fair: Always update CPU capacity when load balancing [Sultan Alsawaf]
+   - cpufreq: acme: Set thermal pressure using the _new_ max frequency [Sultan Alsawaf]
+   - sched/fair: Return early from update_tg_cfs_load() if delta == 0 [Dietmar Eggemann]
+   - sched/pelt: Ensure that *_sum is always synced with *_avg [Vincent Guittot]
+   - sched/fair: Keep load_avg and load_sum synced [Vincent Guittot]
+   - sched/fair: Ensure that the CFS parent is added after unthrottling [Rik van Riel]
+   - sched/fair: Prevent dead task groups from regaining cfs_rq's [Mathias Krause]
+   - sched/fair: Correctly insert cfs_rq's to list on unthrottle [Odin Ugedal]
+
+2023-09-27
+   - sched/fair: Fix imbalance overflow [Vincent Guittot]
+   - sched/fair: Move calculate of avg_load to a better location [zgpeng]
+   - UPSTREAM: net/sched: sch_hfsc: Ensure inner classes have fsc curve [Budimir Markovic]
+   - UPSTREAM: net: sched: sch_qfq: Fix UAF in qfq_dequeue() [valis]
+   - Add GCC optimizaton flags [minaripenguin]
+   - vh: sched: Treat intensive uclamp tasks as important [minaripenguin]
+   - vh: sched: Fix `detach_important_task` heavy task check [minaripenguin]
+
+2023-09-23
+   - vh: sched: Don't treat rt task as fit if it is important and is placed on min CPU [minaripenguin]
+   - vh: sched: Separate capacity margin for high/mid utilization tasks [minaripenguin]
+   - vh: sched: Restrict iowait boost to important tasks [minaripenguin]
+   - vh: sched: Don't treat task as fit if it is important tasks and is placed on min CPU [minaripenguin]
+   - vh: sched: Don't pull tasks towards high energy CPUs during new idle balance [minaripenguin]
+   - vh: sched: Add audio-app to vendor task group [minaripenguin]
+   - vh: sched: Use min capacity cpu if cpu is not fit for the task [minaripenguin]
+   - Revert "vh: sched: Use the highest capacity CPU when no CPU fits a task" [minaripenguin]
+   - vh: sched: Place important tasks on mid capacity cpu [minaripenguin]
+   - drivers: Remove CPUFreq times driver [Sultan Alsawaf]
+   - kernel: Disable io_uring [Sultan Alsawaf]
+   - vh: sched: Treat intensive tasks as important [minaripenguin]
+   - vh: sched: Simplify `detach_important_task` struct [minaripenguin]
+
+2023-09-22
+   - vh: sched: Never migrate tasks upon execve() [Sultan Alsawaf]
+   - vh: sched: Don't affine sugov kthreads if DVFS is allowed from any CPU [Sultan Alsawaf]
+   - vh: sched: Don't select the previous CPU if it isn't allowed [Sultan Alsawaf]
+   - vh: sched: Run max RT-priority tasks as soon as possible [Sultan Alsawaf]
+   - vh: sched: Ignore empty cpumasks in rvh_cpumask_any_and_distribute() [Sultan Alsawaf]
+   - vh: sched: Ensure backup_mask is cleared in find_least_loaded_cpu() [Sultan Alsawaf]
+   - vh: sched: Remove redundant nr_cpus_allowed check in find_lowest_rq() [Sultan Alsawaf]
+   - vh: sched: Allow CPU frequency changes to be amended before they're set [Sultan Alsawaf]
+   - vh: sched: Elevate sugov kthreads to maximum RT priority [Sultan Alsawaf]
+   - vh: mm: Skip is_migrate_cma_page() when a TLB flush is already needed [Sultan Alsawaf]
+   - ANDROID: cgroup: Fix bad merge of "Fix threadgroup_rwsem <-> cpus_read_lock() deadlock" [John Stultz]
+   - rcu: Enable `RCU_LAZY` by default [minaripenguin]
+   - ANDROID: Provide a boot time parameter to enable lazy RCU [Qais Yousef]
+   - ANDROID: rcu: Add a minimum time for marking boot as completed [Joel Fernandes (Google)]
+   - ANDROID: rcu: Disable lazy if call_rcu() called when GPs expedited [Joel Fernandes (Google)]
+   - Revert "Revert "rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period"" [Qais Yousef]
+   - FROMGIT: rcu: Do not disable gp stall detection in rcu_cpu_stall_reset() [Sergey Senozhatsky]
+   - UPSTREAM: rcu/kvfree: Move need_offload_krc() out of krcp->lock [Uladzislau Rezki (Sony)]
+   - BACKPORT: FROMGIT: rcu: Make call_rcu() lazy to save power [Joel Fernandes (Google)]
+   - FROMLIST: net: Use call_rcu_flush() for dst_destroy_rcu [Joel Fernandes (Google)]
+   - FROMLIST: net: devinet: Reduce refcount before grace period [Eric Dumazet]
+   - FROMGIT: rxrpc: Use call_rcu_flush() instead of call_rcu() [Joel Fernandes (Google)]
+   - FROMGIT: scsi/scsi_error: Use call_rcu_flush() instead of call_rcu() [Uladzislau Rezki]
+   - FROMGIT: rcu/sync: Use call_rcu_flush() instead of call_rcu [Joel Fernandes (Google)]
+   - FROMGIT: percpu-refcount: Use call_rcu_flush() for atomic switch [Joel Fernandes (Google)]
+   - BACKPORT: FROMGIT: rcu: Shrinker for lazy rcu [Vineeth Pillai]
+   - BACKPORT: FROMGIT: rcu: Refactor code a bit in rcu_nocb_do_flush_bypass() [Joel Fernandes (Google)]
+   - BACKPORT: FROMGIT: rcu: Make call_rcu() lazy to save power [Joel Fernandes (Google)]
+   - BACKPORT: FROMGIT: rcu: Fix late wakeup when flush of bypass cblist happens [Joel Fernandes (Google)]
+   - BACKPORT: FROMGIT: rcu: Fix missing nocb gp wake on rcu_barrier() [Frederic Weisbecker]
+   - UPSTREAM: rcu/kvfree: Update KFREE_DRAIN_JIFFIES interval [Uladzislau Rezki (Sony)]
+   - UPSTREAM: rcu/kvfree: Remove useless monitor_todo flag [Joel Fernandes (Google)]
+   - UPSTREAM: kvfree_rcu: Refactor kfree_rcu_monitor() [Uladzislau Rezki (Sony)]
+   - UPSTREAM: kvfree_rcu: Fix comments according to current code [Uladzislau Rezki (Sony)]
+   - UPSTREAM: kvfree_rcu: Use kfree_rcu_monitor() instead of open-coded variant [Uladzislau Rezki (Sony)]
+   - UPSTREAM: kvfree_rcu: Update "monitor_todo" once a batch is started [Uladzislau Rezki (Sony)]
+   - UPSTREAM: kvfree_rcu: Add a bulk-list check when a scheduler is run [Uladzislau Rezki (Sony)]
+   - UPSTREAM: kvfree_rcu: Use [READ/WRITE]_ONCE() macros to access to nr_bkv_objs [Uladzislau Rezki (Sony)]
+   - Revert "rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period" [Qais Yousef]
+   - UPSTREAM: kvfree_rcu: Release a page cache under memory pressure [Zhang Qiang]
+   - BACKPORT: FROMLIST: rcu/nocb: Add an option to offload all CPUs on boot [Joel Fernandes]
+   - UPSTREAM: sched/fair: Fixes for capacity inversion detection [Qais Yousef]
+   - BACKPORT: sched/uclamp: Fix a uninitialized variable warnings [Qais Yousef]
+   - UPSTREAM: sched/fair: Consider capacity inversion in util_fits_cpu() [Qais Yousef]
+   - BACKPORT: sched/fair: Detect capacity inversion [Qais Yousef]
+   - sched/uclamp: Cater for uclamp in find_energy_efficient_cpu()'s early exit condition [Qais Yousef]
+   - sched/uclamp: Make cpu_overutilized() use util_fits_cpu() [Qais Yousef]
+   - sched/uclamp: Make asym_fits_capacity() use util_fits_cpu() [Qais Yousef]
+   - sched/uclamp: Make select_idle_capacity() use util_fits_cpu() [Qais Yousef]
+   - sched/uclamp: Fix fits_capacity() check in feec() [Qais Yousef]
+   - sched/uclamp: Make task_fits_capacity() use util_fits_cpu() [Qais Yousef]
+   - sched/uclamp: Fix relationship between uclamp and migration margin [Qais Yousef]
+   - sched/fair: Cleanup task_util and capacity type [Vincent Donnefort]
+   - kernel: Switch to 100 HZ Timer frequency [minaripenguin]
+   - treewide: use power efficient workingqueues [HolyAngel]
+   - kernel: power: Enable worqueue power-efficient mode by default [minaripenguin]
+   - mm: vmstat: use power efficient workingqueues [freak07]
+   - treewide: use power efficient workingqueues [freak07]
+   - sched/uclamp: Fix iowait boost escaping uclamp restriction [Qais Yousef]
+   - arm64: dts: Optimize minimum CPU frequencies [minaripenguin]
+   - sched: core: Prevent frequency lockups caused by uclamp utilization [minaripenguin]
+
+====== lineage/charter ======
+
+2023-09-25
+   - charter: Make LineageOS Recovery the defacto solution [Sebastiano Barezzi]
+
+2023-09-24
+   - exemptions: Generizie LGE FDE [Nolen Johnson]
 
 ====== lineage/hudson ======
 
-2023-09-02
+2023-09-25
    - Regenerate device dependency mappings [LineageOS Infra]
 
-2023-08-31
-   - Regenerate device dependency mappings [LineageOS Infra]
+2023-09-24
+   - hudson: Remove remaining `"lineage_recovery": true` [Sebastiano Barezzi]
+
+2023-09-23
+   - Nothing to be found here [x0x00044]
+
+2023-09-22
    - Regenerate device dependency mappings [LineageOS Infra]
 
-2023-08-26
-   - devices: Upadte nx65j to reflect new variant support [Nolen Johnson]
+2023-09-21
+   - Regenerate device dependency mappings [LineageOS Infra]
 
 ====== lineage/mirror ======
 
-2023-08-31
-   - Updated aosp-minimal to 31-Aug-2023 12:01 UTC [Tim Schumacher]
+2023-09-27
+   - Updated aosp-minimal to 27-Sep-2023 12:02 UTC [Tim Schumacher]
+
+2023-09-22
+   - Updated aosp-minimal to 22-Sep-2023 12:01 UTC [Tim Schumacher]
+
+2023-09-21
+   - Updated to 21-Sep-2023 23:56 UTC [Kevin F. Haggerty]
+   - Updated to 21-Sep-2023 12:01 UTC [Tim Schumacher]
 
 ====== lineage/scripts ======
 
-2023-08-31
-   - build-webview: Update default webview to 116.0.5845.163 [Kevin F. Haggerty]
+2023-09-21
+   - pixel: Update README [Michael Bestas]
 
 ====== lineage/wiki ======
 
-2023-09-02
-   - wiki: Add validation script to github workflow [razorloves]
-   - wiki: Remove unused _data/devices/*.yml properties [LuK1337]
-   - wiki: Regen github pages workflow yaml [razorloves]
+2023-09-23
+   - wiki: Add Spacewar [x0x00044]
+   - wiki: Don't index quirks in the search engines [LuK1337]
+   - wiki: Exclude quirks from search [LuK1337]
 
-2023-08-29
-   - devices: lge8996: Format on upgrade (FDE) [Nolen Johnson]
-   - test/validate.rb: Switch to safe loading for YAML [Albert Tang]
-   - devices: lge8996: State Charter exemption [Nolen Johnson]
-
-2023-08-27
-   - devices: Add 256 GB storage variant of Motorola G32 [Christian Schrötter]
-
-2023-08-26
-   - wiki: Add a glossary [Michael W]
-   - wiki: dimensions: calculate size in [in] automatically [Michael W]
-   - fixup! wiki: Validate dimensions [Michael W]
-   - wiki: adding_device: List allowed technologies [Michael W]
-   - wiki: bugs: Mention specific What-not-to-do's [Michael W]
-   - wiki: Disallow some additional properties [Michael W]
-   - wiki: Lineage -> LineageOS [LuK1337]
-   - wiki: Mention Ubuntu LTS version in the build instructions [LuK1337]
-   - wiki: Document jack-server quirk in build instructions [LuK1337]
-   - wiki: Remove '.y.z' from Android firmware requirements [LuK1337]
-   - devices: nx65j: Split variants to add Red Magic 5G Lite [Cyborg2017]
-   - wiki: Make format_on_upgrade accept branch version [LuK1337]
-   - wiki: devices: add missing LED flash to ks01lte [Stefan Pöschel]
-   - wiki: Move older gapps to separate page [Michael W]
+2023-09-21
+   - wiki: Fix quirks conditional on upgrade page [razorloves]
 
 ====== packages/apps/Aperture ======
 
-2023-09-01
-   - Automatic translation import [LineageOS Infra]
+2023-09-20
+   - Aperture: Update CameraX to 1.4.0-alpha01 [LuK1337]
 
-====== packages/apps/DocumentsUI ======
+====== packages/apps/GameSpace ======
 
-2023-08-29
-   - fixup! DocumentsUI: add feature for adding shortcuts to launcher [nift4]
-   - DocumentsUI: fix crash in desktop/tablet mode when selecting files [nift4]
-
-====== packages/apps/Launcher3 ======
-
-2023-09-03
-   - [DNM]: Launcher3: Fix handling of input consumer when swiping recents [minaripenguin]
-
-====== packages/apps/Personalizations ======
-
-2023-09-03
-   - statusbar: Theme statusbar bluetooth battery preference [minaripenguin]
-   - statusbar: Add ability to toggle bluetooth battery level [2/2] [Pranav Vashi]
-
-2023-08-27
-   - lockscreen: Add more lockscreen fonts [minaripenguin]
-
-2023-08-26
-   - Settings: Implement FeatureFactoryImplGoogle [minaripenguin]
+2023-09-26
+   - GameSpace: Don't set device_config property directly [Dhina17]
 
 ====== packages/apps/Settings ======
 
-2023-08-27
-   - Settings: Disable automatic system server heap dumps by default [minaripenguin]
+2023-09-26
+   - settings: Handle fastcharge service gracefully if not supported [minaripenguin]
+   - [DNM] Fix security patch version [minaripenguin]
 
-2023-08-26
-   - [SQUASH] Settings: Implement FeatureFactoryImplGoogle [Jason Edson]
+====== packages/inputmethods/LatinIME ======
 
-====== packages/modules/Bluetooth ======
+2023-09-25
+   - fixup! LatinIME: Add option to always show the emoji key [LuK1337]
+   - fixup! LatinIME: Add number row option [LuK1337]
 
-2023-09-02
-   - Fix crash when terminating big during streaming [Rongxuan Liu]
-   - Replace constructs with an if check to avoid crashes when nullptr happens [Aritra Sen]
-   - Fix when gatt disconnect too fast, RC pair fail [Huirong Liao]
-   - Fix null playstate update from players. [Etienne Ruffieux]
-   - Fix unexpected pairing failures after CTKD [Jakub Pawlowski]
-   - Do not spam metrics with vendor events [Chris Manton]
-   - floss: Fix unknown error for pairing failure [Ying Hsu]
-   - Fix L2CAP PTS issue [Huirong Liao]
-   - Validate periodic_sync before use in SyncLost to fix crash [Rongxuan Liu]
-   - Defer disconnect commands until post connecting state [Sal Savage]
+====== vendor/google/bluejay ======
 
-====== system/core ======
+2023-09-25
+   - Import blobs from TQ3A.230901.001 [Michael Bestas]
 
-2023-08-27
-   - init.rc: Tune F2FS and dirty writeout policy for modern devices [hydrangea07]
-   - Avoid odd behavior when clearing nonexistent SID [Eric Biggers]
-   - Fix the missing std [zijunzhao]
-   - Fix failure on mounting system_ext partition [Lianjun Huang]
-   - storaged: use correct accumulate variable for publishing disk stats [David Munoz Constantine]
-   - Fix uninitialized value warnings. [Chih-Hung Hsieh]
-   - libsparse: fix double free after block splitting [Eric Biggers]
-   - libsparse: Fix allocation failures on 32-bit systems. [David Anderson]
-   - libsparse: Propagate failures when resparsing files. [David Anderson]
-   - flattened apex: fix clatd mode also for inprocess tethering [Satoshi Niwa]
-   - libprocessgroup: fix task_profile_test to correctly detect cgroup v2 [Suren Baghdasaryan]
-   - flattened apex: fix /apex/com.android.tethering/bin/for-system{,/clatd} mode [Maciej Żenczykowski]
-   - Fix the return values of DmTable::valid to match the expected type [Mitchell Wills]
-   - libsnapshot: fix -Wdefaulted-function-delete warnings. [Krzysztof Kosiński]
-   - init.rc: Don't enable f2fs iostat by default [xNombre]
-   - init.rc: Disable native stats collection service [Danny Lin]
-   - Start statsd before starting zygote [Keun young Park]
-   - init: simplify queue_fs_event() [Eric Biggers]
-   - ueventd: Wait for runtime apex before running external firmware handler [Suchang Woo]
-   - NetlinkEvent: trivial simplification. [Elliott Hughes]
-   - String8: fix infinite loop and segmentation fault in removeAll() [Eric Miao]
-   - libutils: Improve performance of utf8_to_utf16/utf16_to_utf8 [Eric Miao]
-   - Avoid two SELinux related error messages at boot time [Eric Biggers]
-   - liblp: Pass verification on missing partitions in payload [pjgowtham]
+====== vendor/google/lynx ======
 
-====== vendor/addons ======
+2023-09-25
+   - Import blobs from TQ3A.230901.001 [Michael Bestas]
 
-2023-08-27
-   - fonts: Add more ios clock fonts [minaripenguin]
-   - fonts: Add more IOS 16 fonts [YangJiiii]
+====== vendor/google/raven ======
 
-====== vendor/crowdin ======
-
-2023-09-01
-   - Automatic translation import [LineageOS Infra]
+2023-09-25
+   - Import blobs from TQ3A.230901.001 [Michael Bestas]
 
 ====== vendor/lineage ======
 
-2023-09-03
-   - [RisingOS]: Final release for tiramisu [minaripenguin]
-
-2023-08-28
-   - config: build with compression by default for pixel devices [minaripenguin]
-
-2023-08-26
-   - overlay: config_plugin{Whitelist -> Allowlist} [Adithya R]
+2023-09-27
+   - qcom: Add parrot platform [HeroBuxx]
+   - apn: Add Mint Mobile [Arvind Mukund]
+   - vars: RIP sunfish [Michael Bestas]
+   - repopick: Fix regex related SyntaxWarning on Python 3.12 [LuK1337]
+   - kernel: Use pahole from Google prebuilts [Bruno Martins]
+   - kernel: Allow to limit the used .dtb files for the final DTB image [SGCMarkus]
+   - kernel: Include DTBOs from OEM/ODM folder in base DTB [Bruno Martins]
+   - kernel: Handle GKI modules [Bruno Martins]
+   - overlay: Move config_hspa_data_distinguishable to proper location [Tommaso Fonda]
 
 ====== vendor/pixel-framework ======
 
-2023-08-27
-   - SystemUIGoogle: googlebattery: rework system feature check sequence [Alcatraz323]
+2023-09-27
+   - SystemUIGoogle: Adaptive charging fixes [minaripenguin]
 
-2023-08-26
-   - Settings: Implement FeatureFactoryImplGoogle [minaripenguin]
+2023-09-26
+   - SettingsGoogle: Move spatial audio below media player preference [minaripenguin]
 
-====== vendor/qcom/opensource/power ======
+2023-09-25
+   - SystemUIGoogle: Fix and update adaptive charging and battery defender calls [minaripenguin]
+   - SystemUIGoogle: Prevent adaptive charging from activating during daytime [minaripenguin]
 
-2023-08-28
-   - power: Unbreak isModeSupported() for DOUBLE_TAP_TO_WAKE and LAUNCH [LuK1337]
+====== vendor/qcom/opensource/audio-hal/st-hal-ar ======
+
+2023-09-21
+   - st-hal-ar: Guard on oss sthal flag [Aaron Kling]
+
+====== vendor/qcom/opensource/data-ipa-cfg-mgr ======
+
+2023-09-29
+   - ipacm: Address ipacm start failure [dianlujitao]
