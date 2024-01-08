@@ -1,12 +1,21 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: Redmi Note 10 Pro/Pro Max (sweet/sweetin)
-Device maintainer: Ajit
+Device maintainer: Aarav&Ajit
 
-===== 26-08-23 =====
-- Disable camera perflock
-- fixed 64MP/108MP
-- Enable the pre-rendering feature
-- Force triple frame buffers
-- Disable VSync for CPU rendered apps
-- Update QTI factory HAL to v2.3
+===== 08-01-24 =====
+- Merged January 2024 security patch
+- Shipped with Omnitrix-NRG+ [4.14.334
+- MiuiCamera Leica mod is included
+- Import libspatialaudio from cheetah TQ2A.230305.008.C1
+- FUSE passthrough enabled, flash only with given recovery
+- Sony Dolby included by default 
+- Core Gapps Build
+- Use MIUI-14 firmware of your region
+- Added support for dolbycodecs
+- Aded KSU support in kernel
+- Implemented LineageHealth HAL
+- Fixed an issue where text was not visible in some apps
+- Fixed clipboard delay issue
+- Clean flash necessary if you are coming from november android-13 build
+
