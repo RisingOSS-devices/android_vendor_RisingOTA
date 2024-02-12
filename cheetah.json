@@ -1,28 +1,28 @@
 {
-  "response": [
-    {
-        "maintainer": "Niv",
-        "oem": "Google",
-        "device": "Pixel 7 Pro",
-        "filename": "risingOS-2.0-20240206-OFFICIAL-cheetah-ota.zip",
-        "download": "https://sourceforge.net/projects/rising-pixel/files/OTA/cheetah/2.x/risingOS-2.0-20240206-OFFICIAL-cheetah-ota.zip/download",
-        "timestamp": 1707188798,
-        "md5": "e807242849d0a2a5df1ac1b6a7fd02e4",
-        "sha256": "598d90e841d4becf8e2054f5d392bf7a1c55889f8b7072997c4ad6d8c9322a53",
-        "size": 2609822204,
-        "version": "2.0",
-        "buildtype": "Testing",
-        "forum": "https://forum.xda-developers.com/t/rom-13-pantah-risingos-1-0-atlantis-gapps-unofficial.4581505/",
-        "gapps": "",
-        "firmware": "",
-        "modem": "",
-        "bootloader": "",
-        "recovery": "",
-        "paypal": "paypal.me/nivlafx1",
-        "telegram": "https://t.me/RisingOS_Pixels",
-        "dt": "https//github.com/nivlafx/android_device_google_pantah",
-        "common-dt": "https://github.com/nivlafx/android_device_google_gs201",
-        "kernel": "https://github.com/nivlafx/android_kernel_google_gs201"
-    }
-  ]
+	"response": [
+		{
+			"maintainer": "Niv",
+			"oem": "Google",
+			"device": "Pixel 7 Pro",
+			"filename": "rising-2.0-RELEASE-20240212-GAPPS-OFFICIAL-cheetah-ota.zip",
+			"download": "https://sourceforge.net/projects/risingos-official/files/2.x/GAPPS/cheetah/rising-2.0-RELEASE-20240212-GAPPS-OFFICIAL-cheetah-ota.zip/download",
+			"timestamp": 1707752997,
+			"md5": "d19b28397e4a24ef28e817370122059c",
+			"sha256": "1ba48d576e78de340b32fbb885da231af809ec852c424a41e88ec60b79432e44",
+			"size": 2500183165,
+			"version": "2.0-Heraclea",
+			"buildtype": "RELEASE",
+			"forum": "https://xdaforums.com/t/rom-13-pantah-risingos-1-1-babylon-gapps-aosp-official.4581505/",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://paypal.me/nivlafx1",
+			"telegram": "https://t.me/RisingOS_Pixels",
+			"dt": "https://github.com/nivlafx/android_device_google_pantah",
+			"common-dt": "https://github.com/nivlafx/android_device_google_gs201",
+			"kernel": "https://github.com/nivlafx/android_kernel_google_gs201"
+		}
+	]
 }

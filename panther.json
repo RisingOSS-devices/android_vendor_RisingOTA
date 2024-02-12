@@ -1,28 +1,28 @@
 {
-  "response": [
-    {
-        "maintainer": "Niv",
-        "oem": "Google",
-        "device": "Pixel 7",
-        "filename": "risingOS-2.0-20240206-OFFICIAL-panther-ota.zip",
-        "download": "https://sourceforge.net/projects/rising-pixel/files/OTA/panther/2.x/risingOS-2.0-20240206-OFFICIAL-panther-ota.zip/download",
-        "timestamp": 1707190903,
-        "md5": "70df33d5bf347d68e974ba1558f926ae",
-        "sha256": "29de2c63d4d57f6877cca5e4ed1cc54bf4434bc40b57a736173b1fc32e1bb952",
-        "size": 2608381581,
-        "version": "2.2",
-        "buildtype": "Testing",
-        "forum": "https://forum.xda-developers.com/t/rom-13-pantah-risingos-1-0-atlantis-gapps-unofficial.4581505/",
-        "gapps": "",
-        "firmware": "",
-        "modem": "",
-        "bootloader": "",
-        "recovery": "",
-        "paypal": "paypal.me/nivlafx1",
-        "telegram": "https://t.me/RisingOS_Pixels",
-        "dt": "https://github.com/nivlafx/android_device_google_pantah",
-        "common-dt": "https://github.com/nivlafx/android_device_google_gs201",
-        "kernel": "https://github.com/nivlafx/android_kernel_google_gs201"
-    }
-  ]
+	"response": [
+		{
+			"maintainer": "Niv",
+			"oem": "Google",
+			"device": "Pixel 7",
+			"filename": "rising-2.0-RELEASE-20240212-GAPPS-OFFICIAL-panther-ota.zip",
+			"download": "https://sourceforge.net/projects/risingos-official/files/2.x/GAPPS/panther/rising-2.0-RELEASE-20240212-GAPPS-OFFICIAL-panther-ota.zip/download",
+			"timestamp": 1707765507,
+			"md5": "c0f9f9689df015bdb40037506f91082d",
+			"sha256": "2aac8ca2f844eb946f349cd4fe11810892d400880cd3b5c276f1a3f4679d24df",
+			"size": 2498968793,
+			"version": "2.0-Heraclea",
+			"buildtype": "RELEASE",
+			"forum": "https://xdaforums.com/t/rom-13-pantah-risingos-1-1-babylon-gapps-aosp-official.4581505/",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://paypal.me/nivlafx1",
+			"telegram": "https://t.me/RisingOS_Pixels",
+			"dt": "https://github.com/nivlafx/android_device_google_pantah",
+			"common-dt": "https://github.com/nivlafx/android_device_google_gs201",
+			"kernel": "https://github.com/nivlafx/android_kernel_google_gs201"
+		}
+	]
 }
