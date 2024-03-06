@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Matt Filetto (Albinoman887)",
+			"oem": "Google",
+			"device": "Pixel 8 Pro",
+			"filename": "rising-2.0-RELEASE-20240306-GAPPS-OFFICIAL-husky-ota.zip",
+			"download": "https://sourceforge.net/projects/risingos-official/files/2.x/GAPPS/husky/rising-2.0-RELEASE-20240306-GAPPS-OFFICIAL-husky-ota.zip/download",
+			"timestamp": 1709685731,
+			"md5": "6708842a0cefab1d641535c752e97950",
+			"sha256": "b9feb96ab1e78963e012072e21fc6fff4dd304c3a6716aa6b09fd99c4ee1a804",
+			"size": 2280976611,
+			"version": "2.0-Heraclea",
+			"buildtype": "RELEASE",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://sigmadroid.xyz/downloads/Home/Husky/Recovery/vendor_boot.img",
+			"paypal": "https://paypal.me/Albinoman887",
+			"telegram": "https://t.me/SigmaDroidRomChat",
+			"dt": "https://github.com/RisingOSS-devices/android_device_google_shusky",
+			"common-dt": "https://github.com/RisingOSS-devices/android_device_google_zuma",
+			"kernel": "https://android.googlesource.com/device/google/shusky-kernel"
+		}
+	]
+}
