@@ -1,334 +1,495 @@
-Highlights & Device Specific Changes:
-Build type: Weekly
-Device: Google Pixel 7A ( LYNX )
-Device maintainer: EliteBlackKaiser
-Release Version : v1.4 Elysium 2023-10-12
-
-
-====== android ======
-
-2023-09-28
-   - pixel: Track gpu module repository [minaripenguin]
-
-2023-09-26
-   - September 2023 Security update 2 [Michael Bestas]
-   - Track our own frameworks/opt/colorpicker [LuK1337]
-   - Revert "lineage: Sync external/dwarves from AOSP" [Bruno Martins]
-   - Track our own fork for CVE-2023-4863 [Luca Stefani]
-   - Track our own fork(s) for 2023-09 ASB patching [Kevin F. Haggerty]
-
-====== build/make ======
-
-2023-09-26
-   - Bump build ID to TQ3A.230901.001.B1 [minaripenguin]
-
-====== device/google/bluejay ======
-
-2023-09-25
-   - Update fingerprint/build description from TQ3A.230901.001 [Michael Bestas]
-
-2023-09-21
-   - Merge tag 'android-13.0.0_r75' into staging/lineage-20_merge-android-13.0.0_r75 [Michael Bestas]
-
-====== device/qcom/sepolicy-legacy-um ======
-
-2023-09-28
-   - sepolicy: Label QTI Thermal HAL 2.0 [Bharath]
-
-====== frameworks/base ======
-
-2023-09-26
-   - SystemUI: Less boring headsup enhancements and fixes [minaripenguin]
-   - GameManagerService: Set device_config property on behalf of GameSpace [Dhina17]
-   - PhoneWindowManager: Pass correct invocation type for assistant launch on home long press [Dhina17]
-   - SystemUI: Fix exception when retrieving signal strength drawable [minaripenguin]
-   - Ambient Display: Simplify always on charging enabled check [minaripenguin]
-   - services: Launch pulse during plug-in if aod is enabled [minaripenguin]
-   - KeyguardIndication: Improve charging current detection [minaripenguin]
-   - KeyguardIndication: Fix charging indication updates [minaripenguin]
-   - PIH: Spoof Pixel tablet to ASI related services [minaripenguin]
-
-2023-09-22
-   - SystemUI: Implement haptic feedback on doze tap to wake [minaripenguin]
-   - SystemUI: Cleanup back gesture affordance vibration methods [minaripenguin]
-
-====== hardware/lineage/compat ======
-
-2023-09-25
-   - compat: Add GNSS interface type shim [R0rt1z2]
-   - compat: Add libsensor -> libsensorndkbridge wrapper [Sebastiano Barezzi]
-   - compat: libc: Convert to Android.bp [me-cafebabe]
-   - compat: libc: Add pthread_mutex_destroy hack for camera [Nich]
-   - compat: libc: Trim down pthread_cond_timedwait hack [Nich]
-   - compat: libc: compile shim with GCC again.. [Nich]
-   - compat: libc: Specific naming of libc shim library [Nich]
-   - compat: libc: Bring libc hax inline with the latest sources [Nich]
-   - compat: libc: Transition to OSS libc shim [Arne Coucheron]
-
-====== hardware/qcom-caf/thermal ======
-
-2023-09-29
-   - thermal-hal: Add HAL v2 support for sdm632 [Ankit Siddhapura]
-
-====== kernel/google/gs201/private/gs-google ======
-
-2023-09-29
-   - sched: fair: Restrict iowait boost to important tasks [minaripenguin]
-   - vh: sched: cpufreq_gov: cap iowait boost by uclamp_max [Qais Yousef]
-   - vh: sched: Disable UCLAMP_STATS [Rick Yiu]
-   - [DNM] drivers: cpuidle: Replace EXPORT_SYMBOL_GPL with EXPORT_SYMBOL [minaripenguin]
-   - ANDROID: cpuidle: teo: Export a function that allows modifying util_threshold [Qais Yousef]
-   - ANDROID: teo: Extend ifdef protection for accessing sched_cpu_util [Qais Yousef]
-   - BACKPORT: cpuidle: teo: Introduce util-awareness [Kajetan Puchalski]
-   - UPSTREAM: cpuidle: teo: Optionally skip polling states in teo_find_shallower_state() [Kajetan Puchalski]
-   - UPSTREAM: cpuidle: teo: Rename two local variables in teo_select() [Rafael J. Wysocki]
-   - UPSTREAM: cpuidle: teo: Fix alternative idle state lookup [Rafael J. Wysocki]
-   - UPSTREAM: cpuidle: teo: remove unneeded semicolon in teo_select() [Wan Jiabing]
-   - UPSTREAM: cpuidle: teo: Use kerneldoc documentation in admin-guide [Rafael J. Wysocki]
-   - UPSTREAM: cpuidle: teo: Rework most recent idle duration values treatment [Rafael J. Wysocki]
-   - UPSTREAM: cpuidle: teo: Change the main idle state selection logic [Rafael J. Wysocki]
-   - UPSTREAM: cpuidle: teo: Cosmetic modification of teo_select() [Rafael J. Wysocki]
-   - UPSTREAM: cpuidle: teo: Cosmetic modifications of teo_update() [Rafael J. Wysocki]
-   - UPSTREAM: cpuidle: teo: Take negative "sleep length" values into account [Rafael J. Wysocki]
-   - UPSTREAM: cpuidle: teo: Adjust handling of very short idle times [Rafael J. Wysocki]
-   - sched: fair: Increase capacity margin ceiling for `fits_capacity` [minaripenguin]
-   - vh: sched: Skip pulling tasks on new idle balance if source task cannot migrate [minaripenguin]
-   - vh: sched: Don't pull task towards idle CPUs [minaripenguin]
-   - vh: sched: Treat unimportant tasks as fit if it is placed on min cap CPUs [minaripenguin]
-   - arm64: dts: gs101: Use second cpu frequency steps as min cpu frequencies [minaripenguin]
-   - vh: sched: Incorporate CPU capacity inversion to `rvh_util_fits_cpu` [minaripenguin]
-
-2023-09-28
-   - vh: sched: fair: Use `cpu_overutilized` when checking if utilization fits [minaripenguin]
-   - vh: sched: Port util_fits_cpu() from upstream [Qais Yousef]
-   - vh: sched: Make rt_task_fits_capacity() use util_fits_cpu() [Qais Yousef]
-   - vh: sched: Make cpu_overutilized_pixel_mod use util_fits_cpu like upstream [Qais Yousef]
-   - vh: sched: Port task_fits_cpu() from upstream [Qais Yousef]
-   - vh: sched: Pass the cpu with max util [Rick Yiu]
-   - vh: sched: Get correct util_est in cpu_util_next [Rick Yiu]
-   - vendor_hook: sched: Initialize tasks when loading vh_sched.ko [Rick Yiu]
-   - vh: sched: remove uclamp threshold [Chungkai Mei]
-   - sched/fair: Sanitize vruntime of entity being migrated [Vincent Guittot]
-   - sched/fair: sanitize vruntime of entity being placed [Zhang Qiao]
-   - sched/fair: Reduce cases for active balance [Vincent Guittot]
-   - sched/fair: Don't set LBF_ALL_PINNED unnecessarily [Vincent Guittot]
-   - sched/fair: Don't balance task to its current running CPU [Yicong Yang]
-   - sched/fair: Always update CPU capacity when load balancing [Sultan Alsawaf]
-   - cpufreq: acme: Set thermal pressure using the _new_ max frequency [Sultan Alsawaf]
-   - sched/fair: Return early from update_tg_cfs_load() if delta == 0 [Dietmar Eggemann]
-   - sched/pelt: Ensure that *_sum is always synced with *_avg [Vincent Guittot]
-   - sched/fair: Keep load_avg and load_sum synced [Vincent Guittot]
-   - sched/fair: Ensure that the CFS parent is added after unthrottling [Rik van Riel]
-   - sched/fair: Prevent dead task groups from regaining cfs_rq's [Mathias Krause]
-   - sched/fair: Correctly insert cfs_rq's to list on unthrottle [Odin Ugedal]
-
-2023-09-27
-   - sched/fair: Fix imbalance overflow [Vincent Guittot]
-   - sched/fair: Move calculate of avg_load to a better location [zgpeng]
-   - UPSTREAM: net/sched: sch_hfsc: Ensure inner classes have fsc curve [Budimir Markovic]
-   - UPSTREAM: net: sched: sch_qfq: Fix UAF in qfq_dequeue() [valis]
-   - Add GCC optimizaton flags [minaripenguin]
-   - vh: sched: Treat intensive uclamp tasks as important [minaripenguin]
-   - vh: sched: Fix `detach_important_task` heavy task check [minaripenguin]
-
-2023-09-23
-   - vh: sched: Don't treat rt task as fit if it is important and is placed on min CPU [minaripenguin]
-   - vh: sched: Separate capacity margin for high/mid utilization tasks [minaripenguin]
-   - vh: sched: Restrict iowait boost to important tasks [minaripenguin]
-   - vh: sched: Don't treat task as fit if it is important tasks and is placed on min CPU [minaripenguin]
-   - vh: sched: Don't pull tasks towards high energy CPUs during new idle balance [minaripenguin]
-   - vh: sched: Add audio-app to vendor task group [minaripenguin]
-   - vh: sched: Use min capacity cpu if cpu is not fit for the task [minaripenguin]
-   - Revert "vh: sched: Use the highest capacity CPU when no CPU fits a task" [minaripenguin]
-   - vh: sched: Place important tasks on mid capacity cpu [minaripenguin]
-   - drivers: Remove CPUFreq times driver [Sultan Alsawaf]
-   - kernel: Disable io_uring [Sultan Alsawaf]
-   - vh: sched: Treat intensive tasks as important [minaripenguin]
-   - vh: sched: Simplify `detach_important_task` struct [minaripenguin]
-
-2023-09-22
-   - vh: sched: Never migrate tasks upon execve() [Sultan Alsawaf]
-   - vh: sched: Don't affine sugov kthreads if DVFS is allowed from any CPU [Sultan Alsawaf]
-   - vh: sched: Don't select the previous CPU if it isn't allowed [Sultan Alsawaf]
-   - vh: sched: Run max RT-priority tasks as soon as possible [Sultan Alsawaf]
-   - vh: sched: Ignore empty cpumasks in rvh_cpumask_any_and_distribute() [Sultan Alsawaf]
-   - vh: sched: Ensure backup_mask is cleared in find_least_loaded_cpu() [Sultan Alsawaf]
-   - vh: sched: Remove redundant nr_cpus_allowed check in find_lowest_rq() [Sultan Alsawaf]
-   - vh: sched: Allow CPU frequency changes to be amended before they're set [Sultan Alsawaf]
-   - vh: sched: Elevate sugov kthreads to maximum RT priority [Sultan Alsawaf]
-   - vh: mm: Skip is_migrate_cma_page() when a TLB flush is already needed [Sultan Alsawaf]
-   - ANDROID: cgroup: Fix bad merge of "Fix threadgroup_rwsem <-> cpus_read_lock() deadlock" [John Stultz]
-   - rcu: Enable `RCU_LAZY` by default [minaripenguin]
-   - ANDROID: Provide a boot time parameter to enable lazy RCU [Qais Yousef]
-   - ANDROID: rcu: Add a minimum time for marking boot as completed [Joel Fernandes (Google)]
-   - ANDROID: rcu: Disable lazy if call_rcu() called when GPs expedited [Joel Fernandes (Google)]
-   - Revert "Revert "rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period"" [Qais Yousef]
-   - FROMGIT: rcu: Do not disable gp stall detection in rcu_cpu_stall_reset() [Sergey Senozhatsky]
-   - UPSTREAM: rcu/kvfree: Move need_offload_krc() out of krcp->lock [Uladzislau Rezki (Sony)]
-   - BACKPORT: FROMGIT: rcu: Make call_rcu() lazy to save power [Joel Fernandes (Google)]
-   - FROMLIST: net: Use call_rcu_flush() for dst_destroy_rcu [Joel Fernandes (Google)]
-   - FROMLIST: net: devinet: Reduce refcount before grace period [Eric Dumazet]
-   - FROMGIT: rxrpc: Use call_rcu_flush() instead of call_rcu() [Joel Fernandes (Google)]
-   - FROMGIT: scsi/scsi_error: Use call_rcu_flush() instead of call_rcu() [Uladzislau Rezki]
-   - FROMGIT: rcu/sync: Use call_rcu_flush() instead of call_rcu [Joel Fernandes (Google)]
-   - FROMGIT: percpu-refcount: Use call_rcu_flush() for atomic switch [Joel Fernandes (Google)]
-   - BACKPORT: FROMGIT: rcu: Shrinker for lazy rcu [Vineeth Pillai]
-   - BACKPORT: FROMGIT: rcu: Refactor code a bit in rcu_nocb_do_flush_bypass() [Joel Fernandes (Google)]
-   - BACKPORT: FROMGIT: rcu: Make call_rcu() lazy to save power [Joel Fernandes (Google)]
-   - BACKPORT: FROMGIT: rcu: Fix late wakeup when flush of bypass cblist happens [Joel Fernandes (Google)]
-   - BACKPORT: FROMGIT: rcu: Fix missing nocb gp wake on rcu_barrier() [Frederic Weisbecker]
-   - UPSTREAM: rcu/kvfree: Update KFREE_DRAIN_JIFFIES interval [Uladzislau Rezki (Sony)]
-   - UPSTREAM: rcu/kvfree: Remove useless monitor_todo flag [Joel Fernandes (Google)]
-   - UPSTREAM: kvfree_rcu: Refactor kfree_rcu_monitor() [Uladzislau Rezki (Sony)]
-   - UPSTREAM: kvfree_rcu: Fix comments according to current code [Uladzislau Rezki (Sony)]
-   - UPSTREAM: kvfree_rcu: Use kfree_rcu_monitor() instead of open-coded variant [Uladzislau Rezki (Sony)]
-   - UPSTREAM: kvfree_rcu: Update "monitor_todo" once a batch is started [Uladzislau Rezki (Sony)]
-   - UPSTREAM: kvfree_rcu: Add a bulk-list check when a scheduler is run [Uladzislau Rezki (Sony)]
-   - UPSTREAM: kvfree_rcu: Use [READ/WRITE]_ONCE() macros to access to nr_bkv_objs [Uladzislau Rezki (Sony)]
-   - Revert "rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period" [Qais Yousef]
-   - UPSTREAM: kvfree_rcu: Release a page cache under memory pressure [Zhang Qiang]
-   - BACKPORT: FROMLIST: rcu/nocb: Add an option to offload all CPUs on boot [Joel Fernandes]
-   - UPSTREAM: sched/fair: Fixes for capacity inversion detection [Qais Yousef]
-   - BACKPORT: sched/uclamp: Fix a uninitialized variable warnings [Qais Yousef]
-   - UPSTREAM: sched/fair: Consider capacity inversion in util_fits_cpu() [Qais Yousef]
-   - BACKPORT: sched/fair: Detect capacity inversion [Qais Yousef]
-   - sched/uclamp: Cater for uclamp in find_energy_efficient_cpu()'s early exit condition [Qais Yousef]
-   - sched/uclamp: Make cpu_overutilized() use util_fits_cpu() [Qais Yousef]
-   - sched/uclamp: Make asym_fits_capacity() use util_fits_cpu() [Qais Yousef]
-   - sched/uclamp: Make select_idle_capacity() use util_fits_cpu() [Qais Yousef]
-   - sched/uclamp: Fix fits_capacity() check in feec() [Qais Yousef]
-   - sched/uclamp: Make task_fits_capacity() use util_fits_cpu() [Qais Yousef]
-   - sched/uclamp: Fix relationship between uclamp and migration margin [Qais Yousef]
-   - sched/fair: Cleanup task_util and capacity type [Vincent Donnefort]
-   - kernel: Switch to 100 HZ Timer frequency [minaripenguin]
-   - treewide: use power efficient workingqueues [HolyAngel]
-   - kernel: power: Enable worqueue power-efficient mode by default [minaripenguin]
-   - mm: vmstat: use power efficient workingqueues [freak07]
-   - treewide: use power efficient workingqueues [freak07]
-   - sched/uclamp: Fix iowait boost escaping uclamp restriction [Qais Yousef]
-   - arm64: dts: Optimize minimum CPU frequencies [minaripenguin]
-   - sched: core: Prevent frequency lockups caused by uclamp utilization [minaripenguin]
-
-====== lineage/charter ======
-
-2023-09-25
-   - charter: Make LineageOS Recovery the defacto solution [Sebastiano Barezzi]
-
-2023-09-24
-   - exemptions: Generizie LGE FDE [Nolen Johnson]
-
-====== lineage/hudson ======
-
-2023-09-25
-   - Regenerate device dependency mappings [LineageOS Infra]
-
-2023-09-24
-   - hudson: Remove remaining `"lineage_recovery": true` [Sebastiano Barezzi]
-
-2023-09-23
-   - Nothing to be found here [x0x00044]
-
-2023-09-22
-   - Regenerate device dependency mappings [LineageOS Infra]
-
-2023-09-21
-   - Regenerate device dependency mappings [LineageOS Infra]
-
-====== lineage/mirror ======
-
-2023-09-27
-   - Updated aosp-minimal to 27-Sep-2023 12:02 UTC [Tim Schumacher]
-
-2023-09-22
-   - Updated aosp-minimal to 22-Sep-2023 12:01 UTC [Tim Schumacher]
-
-2023-09-21
-   - Updated to 21-Sep-2023 23:56 UTC [Kevin F. Haggerty]
-   - Updated to 21-Sep-2023 12:01 UTC [Tim Schumacher]
-
-====== lineage/scripts ======
-
-2023-09-21
-   - pixel: Update README [Michael Bestas]
-
-====== lineage/wiki ======
-
-2023-09-23
-   - wiki: Add Spacewar [x0x00044]
-   - wiki: Don't index quirks in the search engines [LuK1337]
-   - wiki: Exclude quirks from search [LuK1337]
-
-2023-09-21
-   - wiki: Fix quirks conditional on upgrade page [razorloves]
-
-====== packages/apps/Aperture ======
-
-2023-09-20
-   - Aperture: Update CameraX to 1.4.0-alpha01 [LuK1337]
-
-====== packages/apps/GameSpace ======
-
-2023-09-26
-   - GameSpace: Don't set device_config property directly [Dhina17]
-
-====== packages/apps/Settings ======
-
-2023-09-26
-   - settings: Handle fastcharge service gracefully if not supported [minaripenguin]
-   - [DNM] Fix security patch version [minaripenguin]
-
-====== packages/inputmethods/LatinIME ======
-
-2023-09-25
-   - fixup! LatinIME: Add option to always show the emoji key [LuK1337]
-   - fixup! LatinIME: Add number row option [LuK1337]
-
-====== vendor/google/bluejay ======
-
-2023-09-25
-   - Import blobs from TQ3A.230901.001 [Michael Bestas]
-
-====== vendor/google/lynx ======
-
-2023-09-25
-   - Import blobs from TQ3A.230901.001 [Michael Bestas]
-
-====== vendor/google/raven ======
-
-2023-09-25
-   - Import blobs from TQ3A.230901.001 [Michael Bestas]
-
-====== vendor/lineage ======
-
-2023-09-27
-   - qcom: Add parrot platform [HeroBuxx]
-   - apn: Add Mint Mobile [Arvind Mukund]
-   - vars: RIP sunfish [Michael Bestas]
-   - repopick: Fix regex related SyntaxWarning on Python 3.12 [LuK1337]
-   - kernel: Use pahole from Google prebuilts [Bruno Martins]
-   - kernel: Allow to limit the used .dtb files for the final DTB image [SGCMarkus]
-   - kernel: Include DTBOs from OEM/ODM folder in base DTB [Bruno Martins]
-   - kernel: Handle GKI modules [Bruno Martins]
-   - overlay: Move config_hspa_data_distinguishable to proper location [Tommaso Fonda]
-
-====== vendor/pixel-framework ======
-
-2023-09-27
-   - SystemUIGoogle: Adaptive charging fixes [minaripenguin]
-
-2023-09-26
-   - SettingsGoogle: Move spatial audio below media player preference [minaripenguin]
-
-2023-09-25
-   - SystemUIGoogle: Fix and update adaptive charging and battery defender calls [minaripenguin]
-   - SystemUIGoogle: Prevent adaptive charging from activating during daytime [minaripenguin]
-
-====== vendor/qcom/opensource/audio-hal/st-hal-ar ======
-
-2023-09-21
-   - st-hal-ar: Guard on oss sthal flag [Aaron Kling]
-
-====== vendor/qcom/opensource/data-ipa-cfg-mgr ======
-
-2023-09-29
-   - ipacm: Address ipacm start failure [dianlujitao]
+====================
+     03-07-2024
+====================
+
+
+   * device/qcom/sepolicy
+2024-03-07	Migrate cross device sepolicy rules to system/sepolicy [minaripenguin]
+
+   * external/boringssl
+2024-03-07	Enable AutoFDO for libcrypto [Yi Kong]
+
+   * lineage/wiki
+2024-03-07	wiki: Restore needs_specific_android_fw for rosemary [LuK1337]
+
+   * packages/modules/DeviceLock
+2024-03-07	DeviceLockController: Fix a crash caused by missing init constructor [minaripenguin]
+
+   * prebuilts/abi-dumps/ndk
+2024-03-07	Ignore zlib's internal ABI. [Elliott Hughes]
+
+   * system/linkerconfig
+2024-03-07	Re-enable LTO for linkerconfig [Yi Kong]
+
+   * system/server_configurable_flags
+2024-03-07	Enable AutoFDO for server_configurable_flags [Yi Kong]
+
+====================
+     03-06-2024
+====================
+
+
+   * art
+2024-03-06	Compile with full CLC [Santiago Aboy Solanes]
+2024-03-06	Allow to compile and verify with a full CLC [Santiago Aboy Solanes]
+
+   * build/make
+2024-03-06	ap: Add patch for CLC [minaripenguin]
+
+   * frameworks/av
+2024-03-06	libaudiohal: Publish AUX type in proxy effects [Jaideep Sharma]
+2024-03-06	Remove the volume flag if no volume support for any sub-effect in proxy [Shunkai Yao]
+2024-03-06	audio: optimize variable assignment method to reduce resource consumption [jiangyao]
+
+   * frameworks/base
+2024-03-06	services: Fix custom policy priority reset [minaripenguin]
+2024-03-06	SystemUI: Fix volume rows translation when non-expandable rows is/are visible [minaripenguin]
+2024-03-06	Apply deferred state correctly to newly replaced bcasts. [Sudheer Shanka]
+2024-03-06	SystemUI: Encapsulate `onLikelyDefaultLayoutChange` to main thread [minaripenguin]
+2024-03-06	HwParcel: Remove ambiguous nullability annotation. [Steven Moreland]
+2024-03-06	Catch IllegalArgumentException as it might indicate corrupted packages.xml [gang.huang]
+2024-03-06	Cherry pick the cl to aosp to unblock partner. Check light sensor is null for biometric logging [Wenhui Yang]
+
+   * hardware/interfaces
+2024-03-06	audio HAL: Support disabling binder thread pool [Aaron Kling]
+
+   * packages/apps/Settings
+2024-03-06	homepage: Fix settings search bar text color [minaripenguin]
+
+   * vendor/lineage
+2024-03-06	Hookup TARGET_AUDIO_BROKEN_THREADPOOL [Aaron Kling]
+
+   * vendor/risingOTA
+2024-03-06	03/06/2024: Husky Update [Matt Filetto]
+2024-03-05	pantah: OTA update [Alvin Francis]
+
+====================
+     03-05-2024
+====================
+
+
+   * art
+2024-03-05	Don't compile non-prejit a method marked as pre-compiled. [Nicolas Geoffray]
+
+   * frameworks/av
+2024-03-05	Codec2: Extend the queue empty work hack to MTK decoders too [bengris32]
+2024-03-05	audio: Fix clang warnings [Andy Hung]
+
+   * frameworks/base
+2024-03-05	services: Prevent system server crash when using live/3d effects wallpaper [minaripenguin]
+2024-03-05	SystemUI: Match systemui dialogs background with power menu [minaripenguin]
+2024-03-05	services: cleanup and scheduling policies corrections [minaripenguin]
+2024-03-05	Revert "AudioService: do not log sound effects in audio dumpsys" [jro1979oliver]
+
+   * lineage/hudson
+2024-03-05	sleep well, sweet prince [Nolen Johnson]
+2024-03-05	Regenerate device dependency mappings [LineageOS Infra]
+
+   * lineage/mirror
+2024-03-05	Updated aosp-minimal to 05-Mar-2024 13:01 UTC [Tim Schumacher]
+2024-03-05	Updated aosp-minimal to 05-Mar-2024 00:16 UTC [Tim Schumacher]
+
+   * lineage/website
+2024-03-05	Sunsetting LineageOS 18.1 [Nolen Johnson]
+
+   * lineage/wiki
+2024-03-04	wiki: Drop LineageOS 18.1 [Nolen Johnson]
+
+====================
+     03-04-2024
+====================
+
+
+   * art
+2024-03-04	Convert And+Sub into bic if possible [Santiago Aboy Solanes]
+2024-03-04	Revert "Convert And+Sub into bic if possible" [minaripenguin]
+
+   * bootable/recovery
+2024-03-04	recovery: Do not hardcode rising versions [Alvin Francis]
+
+   * frameworks/base
+2024-03-04	SystemUI: Per-app volume row improvements [minaripenguin]
+2024-03-04	services: scheduling: Boost and powersaving components [minaripenguin]
+2024-03-04	ApplicationPackageManager: Improve and fix checks [minaripenguin]
+2024-03-04	Revert "CachedAppOptimizer: Use correct types for get[up]id()" [minaripenguin]
+2024-03-04	Revert "Rename removeAllProcessGroups() into removeAllEmptyProcessGroups()" [minaripenguin]
+2024-03-04	Revert "Reapply "Adapt to libprocessgroup API changes for polling on cgro..."" [minaripenguin]
+
+   * frameworks/native
+2024-03-04	services: Pin surfaceflinger to display cpuset [minaripenguin]
+
+   * lineage/mirror
+2024-03-04	Updated to 04-Mar-2024 13:01 UTC [Tim Schumacher]
+
+   * packages/apps/Settings
+2024-03-04	Revert "Settings: Add toggle for advanced reboot [2/2]" [Alvin Francis]
+2024-03-04	Display: Remove new resolutions methods [Alvin Francis]
+
+   * vendor/risingOTA
+2024-03-03	Remove lynx duplicate [Alvin Francis]
+
+====================
+     03-03-2024
+====================
+
+
+   * external/chromium-webview/patches
+2024-03-03	Revert "Set android.ext.adservices as optionally used lib" [Chirayu Desai]
+2024-03-03	Begone, adservices [Kevin F. Haggerty]
+
+   * external/chromium-webview/prebuilt/arm
+2024-03-03	Rebuild arm Chromium Webview to remove adservices [Kevin F. Haggerty]
+
+   * external/chromium-webview/prebuilt/arm64
+2024-03-03	Rebuild arm64 Chromium Webview to remove adservices [Kevin F. Haggerty]
+
+   * external/chromium-webview/prebuilt/x86
+2024-03-03	Rebuild x86 Chromium Webview to remove adservices [Kevin F. Haggerty]
+
+   * external/chromium-webview/prebuilt/x86_64
+2024-03-03	Rebuild x86_64 Chromium Webview to remove adservices [Kevin F. Haggerty]
+
+   * frameworks/av
+2024-03-03	audio: Check MODIFY_AUDIO_ROUTING permission for per-app volume [Adithya R]
+
+   * frameworks/base
+2024-03-03	SystemUI: Rework per-app volume row [minaripenguin]
+2024-03-03	run full explicit GC in SystemUI and system_server after locking [Daniel Micay]
+2024-03-03	CEC: correct frameworks physicalAddress parsing [Thomas Makin]
+2024-03-03	Revert "Fix AlarmManager high CPU issue" [John Galt]
+2024-03-03	SystemUI: Add app rows to volume dialog [Adithya R]
+2024-03-03	Throw exception for negative UIDs/GIDs [T.J. Mercier]
+2024-03-03	services: scheduling: Increase accuracy for background states [minaripenguin]
+2024-03-03	services: scheduling: Increase foreground cpu bandwidth [minaripenguin]
+
+   * frameworks/native
+2024-03-03	Revert "Fix AIBinder_setMinSchedulerPolicy failed to set sched policy" [minaripenguin]
+
+   * lineage/mirror
+2024-03-03	Updated to 03-Mar-2024 13:01 UTC [Tim Schumacher]
+
+   * packages/apps/Personalizations
+2024-03-03	lockscreen: Hide Udfps preference if not supported [minaripenguin]
+
+   * system/sepolicy
+2024-03-03	add next_boot_prop SELinux context to store staged sys prop [Dennis Shen]
+
+   * vendor/rising
+2024-03-03	piHooks: Update Spoof fingerprint [Ionut Gherman]
+
+====================
+     03-02-2024
+====================
+
+
+   * android
+2024-03-02	manifest: Track development repositories [minaripenguin]
+
+   * art
+2024-03-02	add signal handler registration freeze [yaoping]
+
+   * build/make
+2024-03-02	envsetup.sh: Remove tracked repositories [minaripenguin]
+
+   * device/google/zuma
+2024-03-02	Unset PRODUCT_BROKEN_VERIFY_USES_LIBRARIES [Michael Bestas]
+
+   * external/arm-optimized-routines
+2024-03-02	Merge https://github.com/ARM-software/optimized-routines into HEAD [minaripenguin]
+
+   * external/chromium-webview/patches
+2024-03-02	Set android.ext.adservices as optionally used lib [Chirayu Desai]
+
+   * frameworks/base
+2024-03-02	PackageInstaller: limit max AppSnippet icon size [Dmitry Muhomor]
+2024-03-02	fixup! Implement edge long swipe gesture [OnlyTomInSecond]
+2024-03-02	Allow signature spoofing for microG Companion/Services [LuK1337]
+2024-03-02	Revert "Set FakeStore/PlayStore as Aurora Store installer package name" [minaripenguin]
+2024-03-02	Revert "Add support for app signature spoofing" [minaripenguin]
+2024-03-02	services: scheduling: Fixes and improvements [minaripenguin]
+2024-03-02	services: Improve interactive process checks [minaripenguin]
+
+   * hardware/google/graphics/common
+2024-03-02	hwc3: Pin hardware composer to display cpuset [minaripenguin]
+
+   * hardware/interfaces
+2024-03-02	graphics: Pin hwcomposer to display cpuset [minaripenguin]
+
+   * lineage/wiki
+2024-03-02	Revert "wiki: Rollback rosemary 20->21 changes temporarily" [Matsvei Niaverau]
+2024-03-02	wiki: Fix broken links on logcat page [razorloves]
+2024-03-02	devices: Ship caprip again, but on 21 [Michael Bestas]
+2024-03-01	wiki: Stop saying "Autogenerated" [Nolen Johnson]
+
+   * packages/apps/Aperture
+2024-03-02	Aperture: Use smooth zoom for logical camera switch button [Sebastiano Barezzi]
+2024-03-02	Aperture: QrImageAnalyzer: Fix views interaction on background thread [Sebastiano Barezzi]
+2024-03-02	Aperture: Reset zoom ratio on current cam click [Luca Stefani]
+
+   * packages/apps/Personalizations
+2024-03-02	Improve and fix system theme reloading [minaripenguin]
+
+   * packages/apps/SetupWizard
+2024-03-01	fixup! Remove unused colors [razorloves]
+2024-03-02	welcome: Use a separate string for work profile start [Chirayu Desai]
+2024-03-02	Remove unused View [Michael Bestas]
+2024-03-02	Remove unused colors [Michael Bestas]
+2024-03-02	Remove unused import [Michael Bestas]
+
+   * vendor/pixel-framework
+2024-03-02	SettingsGoogle: Import changes from husky [minaripenguin]
+
+   * vendor/rising
+2024-03-02	config: Do not disable scudo by default [minaripenguin]
+
+   * vendor/risingOTA
+2024-03-02	Yeet duplicates [not-ayan]
+
+====================
+     03-01-2024
+====================
+
+
+   * android
+2024-03-01	manifest: Remove gs101/raviole trees [minaripenguin]
+
+   * art
+2024-03-01	Convert And+Sub into bic if possible [Santiago Aboy Solanes]
+2024-03-01	Change the default background dexopt concurrency to 4. [Jiakai Zhang]
+2024-03-01	Add BCP dex file's BSS mappings to boot image extension compiles [Santiago Aboy Solanes]
+2024-03-01	Fold opposite values for OR and XOR into -1 [Santiago Aboy Solanes]
+
+   * bionic
+2024-03-01	Correct the nullability annotation in posix_spawnattr_init() [zijunzhao]
+
+   * build/make
+2024-03-01	build: Add phony package to build enforce RRO packages [Yumi Yukimura]
+
+   * build/soong
+2024-03-01	cc/config: do not generate additional debug info for AFDO [John Galt]
+2024-03-01	Change bp2build to switch to using custom fdo_profile macro [Vinh Tran]
+2024-03-01	allowlist: remove libbinder_ndk [John Galt]
+2024-03-01	Add option to emit ThinLTO indexes and imports for MLGO training [Yi Kong]
+2024-03-01	Disable shrink-wrap optimization for arm32 devices Bug: b/319464283 [AdityaK]
+2024-03-01	Reland compiler optimizaton flags [minaripenguin]
+2024-03-01	Add comment for afdo flag [Vinh Tran]
+2024-03-01	Remove unneeded MLGO cflag [Yi Kong]
+2024-03-01	cc: enable Polly globally [John Galt]
+2024-03-01	Remove Full LTO support [Yi Kong]
+2024-03-01	Only enable MLGO for ARM64 ThinLTO targets [Yi Kong]
+2024-03-01	Simplify LTO flags handling [Yi Kong]
+2024-03-01	cc: only enable O3 for modules which specify lto explicitly [John Galt]
+2024-03-01	cc/lto: only increase inline and unroll hints on explicit thinlto modules [John Galt]
+2024-03-01	Tune LTO inlining limit [Yi Kong]
+2024-03-01	cc/lto: without profiles, more aggressively inline [John Galt]
+2024-03-01	Revert "lto: Optimize compiler flags" [minaripenguin]
+2024-03-01	Revert "cc/lto: Limit ld flag tuning for modules without profiles" [minaripenguin]
+2024-03-01	Revert "LTO: Optimize for cflags for modules with profiles" [minaripenguin]
+2024-03-01	cc/lto: utilize lto-O3 on modules which specify thinlto [John Galt]
+2024-03-01	allowlist: remove some modules for AFDO [John Galt]
+2024-03-01	Add GLOBAL_THINLTO env fixture to lto_test [Yi Kong]
+2024-03-01	cc/config: Add ignore warnings for Global ThinLTO [John Galt]
+2024-03-01	arm64: Enable optional cpu features [minaripenguin]
+2024-03-01	config: Update cortex a75 flags [Ronalds]
+2024-03-01	config: do not force cortex-a76 as cortex-a75 [Ronalds]
+2024-03-01	Implement bp2build converter for fdo_profile [Vinh Tran]
+2024-03-01	cc: do not disable FMA [John Galt]
+2024-03-01	Export NewPrebuiltBuildTool [David Srbecky]
+2024-03-01	Enable MLGO for register allocation [Yi Kong]
+2024-03-01	Update clang version to clang-r498229b [Yi Kong]
+2024-03-01	Add additional flag required for Flow Sensitive AFDO [Yi Kong]
+2024-03-01	Enable Flow Sensitive AutoFDO [Yi Kong]
+2024-03-01	Do not enable AFDO if the option is off, even if there is a profile file [Yi Kong]
+2024-03-01	Allowlist toolchain/pgo-profiles [Vinh Tran]
+2024-03-01	UI: Add RisingOS banner variables [minaripenguin]
+2024-03-01	LTO: Optimize for cflags for modules with profiles [minaripenguin]
+2024-03-01	cc/lto: Limit ld flag tuning for modules without profiles [minaripenguin]
+2024-03-01	cc/lto: Use O3 LTO GC Opt Level when without profile [John Galt]
+2024-03-01	soong: cc: Enable global O3 [Andrzej Perczak]
+2024-03-01	soong: Add kryo300 variant support [Pranav Vashi]
+2024-03-01	arm_device: Change cortex-a76 mcpu from a55 to a75 [Pranav Vashi]
+2024-03-01	arm64_device: Change cortex-a76 mcpu from a55 to a75 [Jason Edson]
+2024-03-01	Use -march=armv9-a+nosve for Armv9-A arch variant [Jake Weinstein]
+2024-03-01	Introduce Cortex-A510 CPU variant [Jake Weinstein]
+2024-03-01	Shard srcjars when sharding javac compilation [Colin Cross]
+2024-03-01	Enable hot cold split [AdityaK]
+2024-03-01	soong: add kryo785 architecture variant for arm64. [Sungwook Jung]
+2024-03-01	Define AArch32 soong variable [Jake Weinstein]
+2024-03-01	Remove workaround for Qualcomm Kryo 385 [Raphiel Rollerscaperers]
+2024-03-01	Skip unknown check in bootclasspath_fragment (source version) if prebuilt version is in use. [Alyssa Ketpreechasawat]
+2024-03-01	allow setting SKIP_ABI_CHECKS from product makefiles [Jason Edson]
+2024-03-01	Move odexes of non-system apps into system_other [Anton Hansson]
+2024-03-01	soong: Whitelist yes [Alvin Francis]
+2024-03-01	fixup! soong: Add PathForSourceRelaxed [aswin7469]
+2024-03-01	build: whitelist repo [minaripenguin]
+2024-03-01	cc: Enable more features when using armv8.2-a+dotprod [Jason Edson]
+2024-03-01	Add deviceclean for minimal cleaning [Alberto97]
+2024-03-01	soong: Enforce absolute path if OUT_DIR is set [Adrian DC]
+2024-03-01	soong: Increase Java heap size for r8 [LeddaZ]
+2024-03-01	multiproduct_kati: Default jobs to NumCPU() [Luca Stefani]
+2024-03-01	soong: Remove HOST_* vars except HOST_OS from BannerVars [kubersharma001]
+2024-03-01	lto: Optimize compiler flags [minaripenguin]
+2024-03-01	ui: Pass the exact CPU thread count to -j [Park Ju Hyung]
+2024-03-01	soong: increase heap size for metalava [LeddaZ]
+2024-03-01	Revert "Use turbine instead of kapt for kotlin annotation processors" [Pranav]
+
+   * external/chromium-webview/prebuilt/arm
+2024-02-29	Update Chromium Webview arm prebuilt to 122.0.6261.90 [Kevin F. Haggerty]
+
+   * external/chromium-webview/prebuilt/arm64
+2024-02-29	Update Chromium Webview arm64 prebuilt to 122.0.6261.90 [Kevin F. Haggerty]
+
+   * external/chromium-webview/prebuilt/x86
+2024-02-29	Update Chromium Webview x86 prebuilt to 122.0.6261.90 [Kevin F. Haggerty]
+
+   * external/chromium-webview/prebuilt/x86_64
+2024-02-29	Update Chromium Webview x86_64 prebuilt to 122.0.6261.90 [Kevin F. Haggerty]
+
+   * external/sqlite
+2024-03-01	Fix parameter checking logic error in tokenize [Jinguang Dong]
+2024-02-29	Upgrade sqlite to release 3.44.2 [Lee Shombert]
+
+   * frameworks/av
+2024-03-01	C2SoftDav1dDec: Support LOW_LATENCY mode [Suyog Pawar]
+
+   * frameworks/base
+2024-03-01	Revert "[Stability][Bugfix] Fix system server OOM caused by too many UsageEvents ." [minaripenguin]
+2024-03-01	PropImitationHooks: Use resources for package exclusion list [minaripenguin]
+2024-03-01	Avoid string and varargs allocations for preconditions checks in hot methods [Charles Munger]
+2024-03-01	services: Enable CPU usage monitoring [minaripenguin]
+2024-03-01	Remove redundant broadcasts when adjusting volume on single volume devices [Ryan Shih]
+
+   * hardware/interfaces
+2024-03-01	Audio Effect : Add checks to validate the channel count [Shraddha Basantwani]
+2024-03-01	Effect AIDL: skip volume checking [David Li]
+2024-03-01	Effect AIDL: add AudioTrack metadata as a common parameter for effects [Shunkai Yao]
+2024-03-01	Effect AIDL: add IEffectCallback for effect instances to update FMQ [Shunkai Yao]
+2024-03-01	Audio AIDL : Pick PreProcessing library for 2 audio effects [Sneha Patil]
+
+   * hardware/qcom-caf/sdm845/audio
+2024-03-01	audio_amplifier: Change the enable amplifier function location [Luofan Chen]
+2024-03-01	hal: Support the audio amplifier hook [Daniel Hillenbrand]
+2024-03-01	hal: Use correct mixer element size when setting channel map [Ivan Vecera]
+
+   * lineage/scripts
+2024-02-29	build-webview: Update default webview to 122.0.6261.90 [Kevin F. Haggerty]
+
+   * packages/apps/Aperture
+2024-03-01	Aperture: Use the new ZoomGestureDetector [Luca Stefani]
+2024-03-01	Aperture: Import ZoomGestureDetector [Luca Stefani]
+2024-03-01	Aperture: Reformat code [Sebastiano Barezzi]
+2024-03-01	Aperture: Move camera manager to the view model [Sebastiano Barezzi]
+2024-03-01	Aperture: Extract overlay configuration into a new class [Sebastiano Barezzi]
+2024-03-01	Aperture: Move camera view model to .viewmodels [Sebastiano Barezzi]
+2024-03-01	Aperture: Use nonNullablePropertyDelegate for screen rotation LiveData [Sebastiano Barezzi]
+2024-03-01	Aperture: Rework gallery button handling [Tommy Webb]
+2024-03-01	Aperture: Initial captured media flow [Sebastiano Barezzi]
+2024-03-01	Aperture: Bump gradle-generatebp to v1.7 [LuK1337]
+
+   * packages/apps/Glimpse
+2024-03-01	Glimpse: Enable scrollbar for bottom sheet horizontal scroll view [LuK1337]
+2024-03-01	Glimpse: Bump gradle-generatebp to v1.7 [LuK1337]
+
+   * packages/apps/Settings
+2024-03-01	Fix app dashboard layout [minaripenguin]
+2024-03-01	fuelgauge: Fix screen on time usage report [minaripenguin]
+
+   * toolchain/pgo-profiles
+2024-03-01	Checkout afdo profiles to ZP1A.240209.x [minaripenguin]
+
+   * vendor/rising
+2024-03-01	overlays: Define piHooks package exclusion list [minaripenguin]
+
+====================
+     02-29-2024
+====================
+
+
+   * external/chromium-webview/patches
+2024-02-29	Update Chromium Webview to 122.0.6261.90 [Kevin F. Haggerty]
+
+   * frameworks/base
+2024-02-29	SharedMemory: mark fdsan ownership [Josh Gao]
+
+   * lineage/wiki
+2024-02-29	wiki: Rollback rosemary 20->21 changes temporarily [Łukasz Patron]
+
+   * packages/apps/PixelParts
+2024-02-28	PixelParts: Nuke BatteryInfo [AnierinB]
+
+   * packages/apps/TvSettings
+2024-02-28	fixup! Move openInEditMode from onViewCreated to onResume [Aaron Kling]
+2024-02-28	Revert "Putting device into pairing mode should time out after awhile" [Aaron Kling]
+2024-02-28	Add ethernet check to initial network setup [Andreas Sandblad]
+
+====================
+     02-28-2024
+====================
+
+
+   * art
+2024-02-28	Remove unverifiable assertions from VisitRefsForCompaction [Lokesh Gidra]
+
+   * frameworks/base
+2024-02-28	Fix the bug of system app failing to load rros [zhangshuai10]
+
+   * lineage/wiki
+2024-02-28	devices: miatoll: Add firmware update guide [Giovanni Ricca]
+2024-02-28	devices: Change Xiaomi firmware URLs [Giovanni Ricca]
+
+   * packages/apps/Aperture
+2024-02-28	Aperture: Reformat code [Sebastiano Barezzi]
+2024-02-28	Aperture: Update icons from Material Icons [Sebastiano Barezzi]
+2024-02-28	Aperture: Implement screen flash [Sebastiano Barezzi]
+2024-02-28	Aperture: Remove RED_EYE mentions [Sebastiano Barezzi]
+2024-02-28	Aperture: Use `onCaptureStarted()` for shutter sound and UI update [Sebastiano Barezzi]
+
+   * packages/apps/SetupWizard
+2024-02-28	Don't disable mobile data, AOSP has props for this [Tom Pratt]
+
+====================
+     02-27-2024
+====================
+
+
+   * art
+2024-02-27	Don't change Add/Xor into Ror for constant 0 [Santiago Aboy Solanes]
+2024-02-27	Define InstructionDataEquals for HBitwiseNegatedRight [Santiago Aboy Solanes]
+2024-02-27	art: Add support for Cortex-A510 [Jake Weinstein]
+
+   * device/google/shusky
+2024-02-27	husky: fixes battery from not reading in settings>about phone [Austin Young]
+
+   * device/qcom/sepolicy_vndr/legacy-um
+2024-02-27	qva: Label qcom,battery_charger extcon [Michael Bestas]
+2024-02-26	sepolicy_vndr: Update sepolicy for OTA AVC denials. [Siddeswar Aluganti]
+
+   * external/arm-optimized-routines
+2024-02-27	pl/math: Fix runulp for empty intervals file [Joe Ramsay]
+
+   * frameworks/base
+2024-02-27	Fix screen flickering when using one handed mode [timjosten]
+2024-02-27	SystemUI: Fix double unlock sound issue [timjosten]
+2024-02-27	HwAudioSource: auto reconnect feature on AudioServer crash [Francois Gaffie]
+2024-02-27	BrightnessUtils: Conditionally use low gamma implementation for brightness curve [provasish aka hunt3r]
+2024-02-27	Check for Location Feature and GNSS HAL Support [Ashok Mutyala]
+2024-02-27	services: Improve scheduling [minaripenguin]
+2024-02-27	Don't skip proess group creation for system_server [T.J. Mercier]
+2024-02-27	OverlayManagerService: add a new thread to handle user receiver [Jia Zekun]
+
+   * frameworks/native
+2024-02-27	Fix "Abnormal while playing netflix in PIP mode" [Eason Chiu]
+
+   * lineage/hudson
+2024-02-27	hudson: zangya: The awakening of the graveyard [jmpfbmx]
+2024-02-27	Regenerate device dependency mappings [LineageOS Infra]
+2024-02-27	hudson: devices: Bring Poco M5s to rosemary family [Matsvei Niaverau]
+
+   * lineage/wiki
+2024-02-27	wiki: zangya: The awakening of the graveyard [jmpfbmx]
+2024-02-27	wiki: devices: Bring Poco M5s to rosemary family [Matsvei Niaverau]
+2024-02-27	wiki: Hide RIL/IMS related warning on devices with broken IMS [Łukasz Patron]
+
+   * packages/apps/Personalizations
+2024-02-27	toolbox: Reflect default values assigned from piHooks [minaripenguin]
+
